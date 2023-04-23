@@ -1,5 +1,4 @@
 import asyncio
-import aiofiles
 from pathlib import Path
 from func.fetch_all import get_list
 from func.fetch_materials import fetch_materials, fetch_materials_infos, dump_materials
