@@ -25,7 +25,7 @@ all_materials_map: Dict[int, Material] = {}
 all_materials_name: Dict[str, Material] = {}
 
 
-async def fetch_materials(data: Children):
+async def fetch_materials(data: Children, default: str = "其他材料"):
     for content in data.list:
         quality: Quality = Quality.Three
         if result := re.search(r"(\d+)星", content.ext):
@@ -33,7 +33,7 @@ async def fetch_materials(data: Children):
         try:
             m_type = re.findall(r'用途/(.*?)\\', content.ext)[0]
         except IndexError:
-            m_type = "其他材料"
+            m_type = default
         if m_type == "角色晋阶":
             m_type = "角色晋阶材料"
         m_type = MaterialType(m_type)
