@@ -22,6 +22,7 @@ star_map = {
 }
 all_materials: List[Material] = []
 all_materials_map: Dict[int, Material] = {}
+all_materials_name: Dict[str, Material] = {}
 
 
 async def fetch_materials(data: Children):
@@ -46,6 +47,7 @@ async def fetch_materials(data: Children):
         )
         all_materials.append(material)
         all_materials_map[material.id] = material
+        all_materials_name[material.name] = material
 
 
 async def fetch_info(material: Material):
@@ -78,3 +80,13 @@ async def dump_materials(path: Path):
     data = [material.dict() for material in all_materials]
     async with aiofiles.open(path, "w", encoding="utf-8") as f:
         await f.write(ujson.dumps(data, indent=4, ensure_ascii=False))
+
+
+async def read_materials(path: Path):
+    async with aiofiles.open(path, "r", encoding="utf-8") as f:
+        data = ujson.loads(await f.read())
+    for material in data:
+        m = Material(**material)
+        all_materials.append(m)
+        all_materials_map[m.id] = m
+        all_materials_name[m.name] = m
