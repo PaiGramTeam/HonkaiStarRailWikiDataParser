@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "honkaistarrailwikidataparser"
+version = "0.0.1"
+description = "崩坏：星穹铁道 Wiki 数据解析库"
+authors = ["xtaodada <xtao@xtaolink.cn>"]
+license = "AGPL 3.0+"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.24.0"
+aiofiles = "^23.1.0"
+ujson = "^5.7.0"
+pydantic = "^1.10.7"
+beautifulsoup4 = "^4.12.2"
+aenum = "^3.1.12"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
