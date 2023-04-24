@@ -78,6 +78,7 @@ async def fetch_materials_infos():
 
 async def dump_materials(path: Path):
     data = [material.dict() for material in all_materials]
+    data.sort(key=lambda x: x["id"])
     async with aiofiles.open(path, "w", encoding="utf-8") as f:
         await f.write(ujson.dumps(data, indent=4, ensure_ascii=False))
 

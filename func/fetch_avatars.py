@@ -114,6 +114,7 @@ async def fetch_avatars_infos():
 
 async def dump_avatars(path: Path):
     data = [avatar.dict() for avatar in all_avatars]
+    data.sort(key=lambda x: x["id"])
     async with aiofiles.open(path, "w", encoding="utf-8") as f:
         await f.write(ujson.dumps(data, indent=4, ensure_ascii=False))
 

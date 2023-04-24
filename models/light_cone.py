@@ -1,23 +1,19 @@
 # 光锥
 from pydantic import BaseModel
 
-from typing import TYPE_CHECKING
-
 from models.enums import Quality, Destiny
-
-if TYPE_CHECKING:
-    from models.material import Material
+from models.material import Material
 
 
 class LightConeItem(BaseModel):
-    item: "Material"
+    item: Material
     """物品"""
     count: int
     """数量"""
 
 
 class LightConePromote(BaseModel):
-    required_level: int = 0
+    required_level: int
     """突破所需等级"""
     promote_level: int = 0
     """突破等级"""
