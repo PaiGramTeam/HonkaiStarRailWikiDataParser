@@ -15,6 +15,10 @@ class Content(BaseModel):
     """摘要"""
     title: str
     """标题"""
+    article_user_name: str = ""
+    """作者"""
+    bbs_url: str = ""
+    """BBS对应地址"""
 
     @property
     def data(self) -> Dict:

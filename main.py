@@ -6,12 +6,13 @@ from func.fetch_light_cones import fetch_light_cones, fetch_light_cones_infos, d
 from func.fetch_materials import fetch_materials, fetch_materials_infos, dump_materials, read_materials
 from func.fetch_monsters import fetch_monsters, fetch_monsters_infos, dump_monsters, read_monsters
 from func.fetch_relics import fetch_relics, fetch_relics_infos, dump_relics, read_relics
+from func.fetch_raiders import get_raiders
 
 data_path = Path("data")
 data_path.mkdir(exist_ok=True)
 
 
-async def main(
+async def wiki(
     override_materials: bool = True,
     override_avatars: bool = True,
     override_light_cones: bool = True,
@@ -55,16 +56,35 @@ async def main(
         await read_relics(data_path / "relics.json")
 
 
+async def bbs_photos():
+    await get_raiders()
+
+
+async def main(
+    override_materials: bool = True,
+    override_avatars: bool = True,
+    override_light_cones: bool = True,
+    override_monsters: bool = True,
+    override_relics: bool = True,
+    override_bbs_photos: bool = True,
+):
+    await wiki(override_materials, override_avatars, override_light_cones, override_monsters, override_relics)
+    if override_bbs_photos:
+        await bbs_photos()
+
+
 if __name__ == '__main__':
-    override_material = True
-    override_avatar = True
-    override_light_cone = True
-    override_monster = True
-    override_relic = True
+    override_material_ = True
+    override_avatar_ = True
+    override_light_cone_ = True
+    override_monster_ = True
+    override_relic_ = True
+    override_bbs_photo_ = True
     asyncio.run(main(
-        override_material,
-        override_avatar,
-        override_light_cone,
-        override_monster,
-        override_relic,
+        override_material_,
+        override_avatar_,
+        override_light_cone_,
+        override_monster_,
+        override_relic_,
+        override_bbs_photo_,
     ))
