@@ -4,6 +4,7 @@ from func.fetch_all import get_list
 from func.fetch_avatars import fetch_avatars, fetch_avatars_infos, dump_avatars, read_avatars
 from func.fetch_light_cones import fetch_light_cones, fetch_light_cones_infos, dump_light_cones, read_light_cones
 from func.fetch_materials import fetch_materials, fetch_materials_infos, dump_materials, read_materials
+from func.fetch_monsters import fetch_monsters, fetch_monsters_infos, dump_monsters, read_monsters
 
 data_path = Path("data")
 data_path.mkdir(exist_ok=True)
@@ -13,6 +14,7 @@ async def main(
     override_materials: bool = True,
     override_avatars: bool = True,
     override_light_cones: bool = True,
+    override_monsters: bool = True,
 ):
     main_data = await get_list()
     if override_materials:
@@ -37,10 +39,22 @@ async def main(
         await dump_light_cones(data_path / "light_cones.json")
     else:
         await read_light_cones(data_path / "light_cones.json")
+    if override_monsters:
+        await fetch_monsters(main_data[2])
+        await fetch_monsters_infos()
+        await dump_monsters(data_path / "monsters.json")
+    else:
+        await read_monsters(data_path / "monsters.json")
 
 
 if __name__ == '__main__':
-    override_materials = True
-    override_avatars = True
-    override_light_cones = True
-    asyncio.run(main(override_materials, override_avatars, override_light_cones))
+    override_material = True
+    override_avatar = True
+    override_light_cone = True
+    override_monster = True
+    asyncio.run(main(
+        override_material,
+        override_avatar,
+        override_light_cone,
+        override_monster
+    ))
