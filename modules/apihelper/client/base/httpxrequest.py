@@ -9,7 +9,7 @@ __all__ = ("HTTPXRequest",)
 
 class HTTPXRequest(AbstractAsyncContextManager):
     def __init__(self, *args, headers=None, **kwargs):
-        self._client = httpx.AsyncClient(headers=headers, *args, **kwargs)
+        self._client = httpx.AsyncClient(headers=headers, timeout=httpx.Timeout(120.0), *args, **kwargs)
 
     async def __aenter__(self):
         try:
