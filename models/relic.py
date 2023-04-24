@@ -7,5 +7,7 @@ class Relic(BaseModel):
     """遗器套装ID"""
     name: str
     """套装名称"""
+    icon: str
+    """套装图标"""
     affect: str
     """套装效果"""
