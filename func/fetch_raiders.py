@@ -9,7 +9,7 @@ from func.fetch_all import get_list
 from modules.apihelper.client.components.hyperion import Hyperion
 
 data_path = Path("data/raiders")
-data_path.mkdir(exist_ok=True)
+data_path.mkdir(exist_ok=True, parents=True)
 hyperion = Hyperion()
 
 
