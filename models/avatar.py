@@ -44,6 +44,8 @@ class Avatar(BaseModel):
     """角色ID"""
     name: str
     """名称"""
+    icon: str
+    """图标"""
     quality: Quality
     """品质"""
     destiny: Destiny
