@@ -5,11 +5,18 @@ from typing import Optional, Type
 import httpx
 
 __all__ = ("HTTPXRequest",)
+timeout = httpx.Timeout(
+    timeout=120.0,
+    read=120.0,
+    write=120.0,
+    connect=120.0,
+    pool=120.0,
+)
 
 
 class HTTPXRequest(AbstractAsyncContextManager):
     def __init__(self, *args, headers=None, **kwargs):
-        self._client = httpx.AsyncClient(headers=headers, timeout=httpx.Timeout(120.0), *args, **kwargs)
+        self._client = httpx.AsyncClient(headers=headers, timeout=timeout, *args, **kwargs)
 
     async def __aenter__(self):
         try:
@@ -20,13 +27,14 @@ class HTTPXRequest(AbstractAsyncContextManager):
             raise exc
 
     async def __aexit__(
-        self, exc_type: Optional[Type[BaseException]], exc_val: Optional[BaseException], exc_tb: Optional[TracebackType]
+            self, exc_type: Optional[Type[BaseException]], exc_val: Optional[BaseException],
+            exc_tb: Optional[TracebackType]
     ) -> None:
         await self.initialize()
 
     async def initialize(self):
         if self._client.is_closed:
-            self._client = httpx.AsyncClient()
+            self._client = httpx.AsyncClient(timeout=timeout)
 
     async def shutdown(self):
         if self._client.is_closed:
