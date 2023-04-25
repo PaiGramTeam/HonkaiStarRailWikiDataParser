@@ -7,6 +7,7 @@ from func.fetch_materials import fetch_materials, fetch_materials_infos, dump_ma
 from func.fetch_monsters import fetch_monsters, fetch_monsters_infos, dump_monsters, read_monsters
 from func.fetch_relics import fetch_relics, fetch_relics_infos, dump_relics, read_relics
 from func.fetch_raiders import get_raiders
+from func.fetch_src import move_files
 
 data_path = Path("data")
 data_path.mkdir(exist_ok=True)
@@ -58,6 +59,7 @@ async def wiki(
 
 async def bbs_photos():
     await get_raiders()
+    await move_files()
 
 
 async def main(
