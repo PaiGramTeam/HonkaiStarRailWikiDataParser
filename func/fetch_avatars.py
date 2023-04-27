@@ -27,7 +27,6 @@ async def fetch_avatars(data: Children):
         avatar = Avatar(
             id=content.content_id,
             name=content.title,
-            icon=content.icon,
             quality=m_quality,
             element=m_element,
             destiny=m_destiny,

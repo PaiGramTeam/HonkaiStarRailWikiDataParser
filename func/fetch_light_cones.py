@@ -1,7 +1,7 @@
 import asyncio
 import re
 from pathlib import Path
-from typing import List
+from typing import List, Dict
 
 import aiofiles
 import ujson
@@ -15,6 +15,7 @@ from models.light_cone import LightCone, LightConePromote, LightConeItem
 from models.wiki import Children
 
 all_light_cones: List[LightCone] = []
+all_light_cones_name: Dict[str, LightCone] = {}
 
 
 async def fetch_light_cones(data: Children):
@@ -32,6 +33,7 @@ async def fetch_light_cones(data: Children):
             promote=[],
         )
         all_light_cones.append(light_cone)
+        all_light_cones_name[light_cone.name] = light_cone
 
 
 def parse_promote(light_cone: LightCone, soup: BeautifulSoup) -> None:
@@ -109,6 +111,9 @@ async def dump_light_cones(path: Path):
 async def read_light_cones(path: Path):
     async with aiofiles.open(path, "r", encoding="utf-8") as f:
         data = ujson.loads(await f.read())
+    all_light_cones.clear()
+    all_light_cones_name.clear()
     for light_cone in data:
         m = LightCone(**light_cone)
         all_light_cones.append(m)
+        all_light_cones_name[m.name] = m

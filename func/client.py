@@ -16,4 +16,4 @@ headers = {
     'sec-fetch-site': 'same-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
 }
-client = AsyncClient(headers=headers, timeout=30)
+client = AsyncClient(headers=headers, timeout=120.0)

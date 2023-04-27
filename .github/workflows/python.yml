@@ -25,6 +25,7 @@ jobs:
       - name: Fetch Remote Files
         run: |
           python main.py
+          python fix_data.py
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
