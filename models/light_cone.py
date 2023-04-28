@@ -1,8 +1,8 @@
 # 光锥
 from pydantic import BaseModel
 
-from models.enums import Quality, Destiny
-from models.material import Material
+from .enums import Quality, Destiny
+from .material import Material
 
 
 class LightConeItem(BaseModel):

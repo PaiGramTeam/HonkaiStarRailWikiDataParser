@@ -10,3 +10,11 @@ class LightConeIcon(BaseModel):
     """名称"""
     icon: List[str]
     """图标（从小到大）"""
+
+    @property
+    def gacha(self) -> str:
+        return self.icon[1]
+
+    @property
+    def icon_(self) -> str:
+        return self.icon[0]

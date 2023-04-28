@@ -28,18 +28,21 @@ async def fetch_config(text_map: Dict[str, str]) -> List[AvatarConfig]:
     return datas
 
 
-async def parse_station(datas, tag: Tag, avatar: AvatarConfig):
-    second_pic = f'{base_station_url}{tag.find("img").get("src")}'
+async def parse_station(datas, name: str, tag: Tag, avatar: AvatarConfig):
+    second_pic = ""
+    if avatar_model := all_avatars_name.get(name):
+        second_pic = avatar_model.icon
+    third_pic = f'{base_station_url}{tag.find("img").get("src")}'
     html = await client.get(f'{base_station_url}{tag.get("href")}')
     soup = BeautifulSoup(html.text, "lxml")
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
-    third_pic = f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
+    four_pic = f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
     first_pic = f'{base_station_url}{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
     datas.append(
         AvatarIcon(
             id=avatar.AvatarID,
             name=avatar.name,
-            icon=[first_pic, second_pic, third_pic],
+            icon=[first_pic, second_pic, third_pic, four_pic],
         )
     )
 
@@ -64,7 +67,7 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
         if name == "开拓者" and ktz:
             continue
         if avatar_model := configs_map.get(name):
-            tasks.append(parse_station(datas, avatar, avatar_model))
+            tasks.append(parse_station(datas, name, avatar, avatar_model))
             if name == "开拓者":
                 ktz = True
         else:

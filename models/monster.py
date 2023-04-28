@@ -1,7 +1,7 @@
 # 敌对物种
 from pydantic import BaseModel
 
-from models.enums import MonsterType, Area
+from .enums import MonsterType, Area
 
 
 class Monster(BaseModel):

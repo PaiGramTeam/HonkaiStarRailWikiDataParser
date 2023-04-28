@@ -1,7 +1,7 @@
 from typing import List
 from pydantic import BaseModel
-from models.enums import Quality, Destiny, Element
-from models.material import Material
+from .enums import Quality, Destiny, Element
+from .material import Material
 
 
 class AvatarInfo(BaseModel):
@@ -44,6 +44,8 @@ class Avatar(BaseModel):
     """角色ID"""
     name: str
     """名称"""
+    icon: str
+    """图标"""
     quality: Quality
     """品质"""
     destiny: Destiny

@@ -1,7 +1,7 @@
 # 材料
 from pydantic import BaseModel
 
-from models.enums import Quality, MaterialType
+from .enums import Quality, MaterialType
 
 
 class Material(BaseModel):
