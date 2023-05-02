@@ -17,13 +17,13 @@ async def fetch_text_map() -> Dict[str, str]:
     return res.json()
 
 
-async def fetch_config(text_map: Dict[str, str]) -> List[AvatarConfig]:
+async def fetch_config(text_map_data: Dict[str, str]) -> List[AvatarConfig]:
     res = await client.get(avatar_config)
     data = res.json()
     datas = []
     for i in data.values():
         a = AvatarConfig(**i)
-        a.name = text_map[str(a.AvatarName.Hash)]
+        a.name = text_map_data[str(a.AvatarName.Hash)]
         datas.append(a)
     return datas
 
@@ -76,8 +76,7 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
     return datas
 
 
-async def fix_avatar_config():
-    text_map_data = await fetch_text_map()
+async def fix_avatar_config(text_map_data: Dict[str, str]):
     configs = await fetch_config(text_map_data)
     configs_map: Dict[str, AvatarConfig] = {config.name: config for config in configs}
     configs_map["开拓者"] = configs_map["{NICKNAME}"]

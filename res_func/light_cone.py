@@ -1,6 +1,6 @@
 import asyncio
 from pathlib import Path
-from typing import Dict, List
+from typing import List
 
 import aiofiles
 import ujson

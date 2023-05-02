@@ -5,7 +5,7 @@ from pathlib import Path
 
 src_dir = Path("src")
 data_dir = Path("data")
-pic_lists = ["avatar", "avatar_gacha", "destiny", "element"]
+pic_lists = ["avatar_gacha", "destiny", "element"]
 
 
 async def move_files():
