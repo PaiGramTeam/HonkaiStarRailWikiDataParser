@@ -52,6 +52,7 @@ async def dump_relics(path: Path):
 
 
 async def read_relics(path: Path):
+    all_relics.clear()
     async with aiofiles.open(path, "r", encoding="utf-8") as f:
         data = ujson.loads(await f.read())
     for monster in data:
