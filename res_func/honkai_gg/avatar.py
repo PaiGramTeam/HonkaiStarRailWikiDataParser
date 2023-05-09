@@ -46,5 +46,8 @@ async def get_all_avatars() -> None:
     for url in urls:
         tasks.append(get_single_avatar(url))
     await asyncio.gather(*tasks)
+    # 修复开拓者
+    avatar_data["8002"] = avatar_data["8001"]
+    avatar_data["8004"] = avatar_data["8003"]
     await dump_icons()
     print("获取星魂图片成功")
