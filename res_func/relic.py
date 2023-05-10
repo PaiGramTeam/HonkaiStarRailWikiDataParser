@@ -4,7 +4,7 @@ from typing import List, Dict
 import aiofiles
 import ujson
 
-from models.enums import RelicAffix
+from models.enums import RelicAffix, RelicPosition
 from func.fetch_relics import read_relics, dump_relics, all_relics
 from res_func.client import client
 from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config, relic_set_config
@@ -22,6 +22,8 @@ async def fetch_all_relic():
         relic_affix_all = RelicAffixAll(
             id=int(key),
             set_id=value["SetID"],
+            type=RelicPosition(value["Type"]),
+            rarity=int(value["Rarity"].replace("CombatPowerRelicRarity", "")),
             main_affix_group=value["MainAffixGroup"],
             sub_affix_group=value["SubAffixGroup"],
             max_level=value["MaxLevel"],

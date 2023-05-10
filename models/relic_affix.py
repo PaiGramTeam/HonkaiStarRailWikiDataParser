@@ -3,7 +3,7 @@ from typing import Optional, Dict
 
 from pydantic import BaseModel, root_validator
 
-from .enums import RelicAffix
+from .enums import RelicAffix, RelicPosition
 
 
 class SingleRelicAffix(BaseModel):
@@ -24,6 +24,10 @@ class RelicAffixAll(BaseModel):
     id: int
     set_id: int
     """ 套装ID """
+    type: RelicPosition
+    """ 遗器类型 """
+    rarity: int
+    """ 星级 """
     main_affix_group: int
     sub_affix_group: int
     max_level: int

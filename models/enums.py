@@ -127,3 +127,18 @@ class RelicAffix(str, Enum):
     """ 雷属性伤害提高 百分比 """
     WindAddedRatio: str = "WindAddedRatio"
     """ 风属性伤害提高 百分比 """
+
+
+class RelicPosition(str, Enum):
+    HEAD: str = "HEAD"
+    """ 头 """
+    HAND: str = "HAND"
+    """ 手 """
+    BODY: str = "BODY"
+    """ 躯干 """
+    FOOT: str = "FOOT"
+    """ 脚 """
+    NECK: str = "NECK"
+    """ 位面球 """
+    OBJECT: str = "OBJECT"
+    """ 连结绳 """
