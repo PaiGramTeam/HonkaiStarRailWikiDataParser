@@ -142,3 +142,15 @@ class RelicPosition(str, Enum):
     """ 位面球 """
     OBJECT: str = "OBJECT"
     """ 连结绳 """
+
+    @property
+    def num(self):
+        index_map = {
+            RelicPosition.HEAD: 0,
+            RelicPosition.HAND: 1,
+            RelicPosition.BODY: 2,
+            RelicPosition.FOOT: 3,
+            RelicPosition.NECK: 0,
+            RelicPosition.OBJECT: 1,
+        }
+        return index_map.get(self)
