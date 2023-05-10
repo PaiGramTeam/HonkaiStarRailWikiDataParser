@@ -21,6 +21,7 @@ async def fetch_all_relic():
     for key, value in relic_data.items():
         relic_affix_all = RelicAffixAll(
             id=int(key),
+            set_id=value["SetID"],
             main_affix_group=value["MainAffixGroup"],
             sub_affix_group=value["SubAffixGroup"],
             max_level=value["MaxLevel"],
