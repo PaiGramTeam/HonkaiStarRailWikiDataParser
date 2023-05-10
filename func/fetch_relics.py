@@ -18,9 +18,11 @@ async def fetch_relics(data: Children):
     for content in data.list:
         relic = Relic(
             id=content.content_id,
+            bbs_id=content.content_id,
             name=content.title,
             icon=content.icon,
             affect="",
+            image_list=[],
         )
         all_relics.append(relic)
 
@@ -55,6 +57,6 @@ async def read_relics(path: Path):
     all_relics.clear()
     async with aiofiles.open(path, "r", encoding="utf-8") as f:
         data = ujson.loads(await f.read())
-    for monster in data:
-        m = Relic(**monster)
+    for relic in data:
+        m = Relic(**relic)
         all_relics.append(m)

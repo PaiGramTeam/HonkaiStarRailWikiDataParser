@@ -33,6 +33,11 @@ class RelicAffixAll(BaseModel):
     sub_affix: Dict[str, SingleRelicAffix]
     """ 副词条 """
 
+    @property
+    def rarity(self) -> int:
+        rarity_map = {9: 3, 12: 4, 16: 5}
+        return rarity_map.get(self.max_level, 2)
+
     @root_validator(pre=True)
     def transform_dicts(cls, values):
         for data in ["main_affix", "sub_affix"]:
