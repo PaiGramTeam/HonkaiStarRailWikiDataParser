@@ -93,7 +93,7 @@ async def fetch_info(avatar: Avatar):
     avatar.information.occupation = items[3].find("div", {"class": "obc-tmp-character__value"}).text
     parse_promote(avatar, soup)
     # 星魂
-    table = soup.find_all("table")[-1]
+    table = soup.find("div", {"style": "order: 4;"})
     trs = table.find_all("tr")[1:]
     for tr in trs:
         ps = tr.find_all("p")

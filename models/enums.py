@@ -2,7 +2,8 @@ from enum import Enum
 
 
 class Quality(str, Enum):
-    """ 星级 """
+    """星级"""
+
     Five = "五星"
     Four = "四星"
     Three = "三星"
@@ -11,7 +12,8 @@ class Quality(str, Enum):
 
 
 class Destiny(str, Enum):
-    """ 命途 """
+    """命途"""
+
     HuiMie = "毁灭"
     ZhiShi = "智识"
     XunLie = "巡猎"
@@ -22,7 +24,8 @@ class Destiny(str, Enum):
 
 
 class Element(str, Enum):
-    """ 属性 """
+    """属性"""
+
     Physical = "物理"
     Pyro = "火"
     Anemo = "风"
@@ -35,7 +38,8 @@ class Element(str, Enum):
 
 
 class MonsterType(str, Enum):
-    """ 怪物种类 """
+    """怪物种类"""
+
     Normal = "普通"
     Elite = "精英"
     Leader = "首领"
@@ -43,7 +47,8 @@ class MonsterType(str, Enum):
 
 
 class Area(str, Enum):
-    """ 地区 """
+    """地区"""
+
     Herta = "空间站「黑塔」"
     YaLiLuo = "雅利洛-VI"
     LuoFu = "仙舟「罗浮」"
@@ -51,7 +56,8 @@ class Area(str, Enum):
 
 
 class MaterialType(str, Enum):
-    """ 材料类型 """
+    """材料类型"""
+
     AvatarUpdate = "角色晋阶材料"
     XingJi = "行迹材料"
     LightConeUpdate = "光锥晋阶材料"
@@ -66,7 +72,8 @@ class MaterialType(str, Enum):
 
 
 class PropType(str, Enum):
-    """ 遗器套装效果 """
+    """遗器套装效果"""
+
     HP = "基础-生命值"
     Defense = "基础-防御力"
     Attack = "基础-攻击力"

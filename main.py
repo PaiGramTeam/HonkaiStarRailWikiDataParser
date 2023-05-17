@@ -23,9 +23,9 @@ async def wiki(
     if override_materials:
         await fetch_materials(main_data[4])
         await fetch_materials(main_data[5], "消耗品")
-        await fetch_materials(main_data[8], "任务道具")
-        await fetch_materials(main_data[9], "贵重物")
-        await fetch_materials(main_data[10])
+        await fetch_materials(main_data[9], "任务道具")
+        await fetch_materials(main_data[10], "贵重物")
+        await fetch_materials(main_data[12])
         await fetch_materials_infos()
         await dump_materials(data_path / "materials.json")
     else:

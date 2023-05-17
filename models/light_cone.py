@@ -43,3 +43,7 @@ class LightCone(BaseModel):
     """命途"""
     promote: list[LightConePromote]
     """晋阶信息"""
+
+    @property
+    def rarity(self) -> int:
+        return 5 - list(Quality).index(self.quality)

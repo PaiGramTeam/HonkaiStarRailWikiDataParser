@@ -15,9 +15,10 @@ class SingleRelicAffix(BaseModel):
     is_main: bool
     max_step: Optional[int] = None
 
-    def get_value(self, level_or_step: int) -> float:
-        add_value = Decimal(self.level_value if self.is_main else self.base_value)
-        return float(Decimal(self.base_value) + add_value * Decimal(level_or_step))
+    def get_value(self, level_or_step: int, cnt: int = 1) -> float:
+        base_value = Decimal(self.base_value) * Decimal(cnt)
+        add_value = Decimal(self.level_value if self.is_main else self.step_value)
+        return float(base_value + add_value * Decimal(level_or_step))
 
 
 class RelicAffixAll(BaseModel):
