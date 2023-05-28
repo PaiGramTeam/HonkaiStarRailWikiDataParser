@@ -28,7 +28,7 @@ class AvatarPromote(BaseModel):
 
     coin: int = 0
     """信用点"""
-    items: list[AvatarItem]
+    items: List[AvatarItem]
     """突破所需材料"""
 
 
