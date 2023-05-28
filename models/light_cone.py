@@ -48,4 +48,4 @@ class LightCone(BaseModel):
 
     @property
     def rarity(self) -> int:
-        return 5 - list[Quality].index(self.quality)
+        return 5 - list(Quality).index(self.quality)
