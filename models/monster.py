@@ -23,4 +23,3 @@ class Monster(BaseModel):
     """抗性"""
     find_area: str
     """发现地点"""
-
