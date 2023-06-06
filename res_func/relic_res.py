@@ -17,7 +17,12 @@ async def fix_set_image():
     divs = soup.find_all("a", {"class": "aff5a"})
     data_map: Dict[int, Tuple[str, List[str]]] = {}
     for div in divs:
-        sid = int(div.get("href").split("/")[-1])
+        url = div.get("href")
+        if not url:
+            continue
+        if "relics/" not in url:
+            continue
+        sid = int(url.split("/")[-1])
         images = div.find_all("img")
         images = [f"{base_station_url}{i.get('src')}" for i in images]
         if len(images) not in {3, 5}:

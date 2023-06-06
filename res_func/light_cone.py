@@ -31,12 +31,16 @@ async def fetch_station() -> List[LightConeIcon]:
     print("开始获取光锥素材")
     html = await client.get(light_cone_url)
     soup = BeautifulSoup(html.text, "lxml")
-    light_cones = soup.find_all("a", {"class": "a4041 ae026 a5abc"})
+    light_cones = soup.find_all("a", {"class": "a4041"})
     tasks = []
     datas: List[LightConeIcon] = []
     for light_cone in light_cones:
         name = light_cone.find("span").get_text().strip()
         url = light_cone.get("href")
+        if not url:
+            continue
+        if "lightcone/" not in url:
+            continue
         nid = int(url.split("/")[-1])
         if light_cone_model := all_light_cones_name.get(name):
             light_cone_model.id = nid
