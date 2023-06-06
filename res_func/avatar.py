@@ -1,4 +1,5 @@
 import asyncio
+import re
 from pathlib import Path
 from typing import Dict, List
 
@@ -29,14 +30,17 @@ async def fetch_config(text_map_data: Dict[str, str]) -> List[AvatarConfig]:
 
 
 async def parse_station(datas, name: str, tag: Tag, cid: int):
+    html = await client.get(f'{base_station_url}{tag.get("href")}')
+    if not cid:
+        reg = r'skillTreePoints":\[{"id":(\d+),'
+        cid = int(re.findall(reg, html.text)[0][:-3])
+    soup = BeautifulSoup(html.text, "lxml")
     second_pic = ""
     if avatar_model := all_avatars_map.get(cid):
         second_pic = avatar_model.icon
     elif avatar_model := all_avatars_name.get(name):
         second_pic = avatar_model.icon
     third_pic = f'{base_station_url}{tag.find("img").get("src")}'
-    html = await client.get(f'{base_station_url}{tag.get("href")}')
-    soup = BeautifulSoup(html.text, "lxml")
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
     four_pic = f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
     first_pic = f'{base_station_url}{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
@@ -81,10 +85,8 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
         if name == "开拓者":
             player_avatars.append(avatar)
             continue
-        if avatar_model := configs_map.get(name):
-            tasks.append(parse_station(datas, name, avatar, avatar_model.AvatarID))
-        else:
-            print(f"未找到角色 {name} 的数据")
+        avatar_model = configs_map.get(name)
+        tasks.append(parse_station(datas, name, avatar, avatar_model.AvatarID if avatar_model else None))
     await fetch_station_ktz(tasks, datas, player_avatars)
     await asyncio.gather(*tasks)
     return datas

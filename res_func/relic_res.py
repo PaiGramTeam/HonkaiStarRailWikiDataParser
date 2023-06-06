@@ -14,7 +14,7 @@ async def fix_set_image():
     await read_relics(relics_path)
     req = await client.get(relic_url)
     soup = BeautifulSoup(req.text, "lxml")
-    divs = soup.find_all("a", {"class": "aff5a ae026 a2a45"})
+    divs = soup.find_all("a", {"class": "aff5a"})
     data_map: Dict[int, Tuple[str, List[str]]] = {}
     for div in divs:
         sid = int(div.get("href").split("/")[-1])
