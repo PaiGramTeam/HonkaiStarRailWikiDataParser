@@ -1,0 +1,246 @@
+[
+    {
+        "id": 101,
+        "bbs_id": 571,
+        "name": "云无留迹的过客",
+        "icon": "https:\/\/starrailstation.com\/assets\/897a480aec1c6cb9100283e8f83114fd5317dc82091e173701c7c4d2505558b2.webp",
+        "affect": "二件套：治疗量提高10%。四件套：在战斗开始时，立即为我方恢复1个战技点。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/d5e67bb31d32bfc148fe04c747128cdc3250983a1f6f7259883a85f63248c592.webp",
+            "https:\/\/starrailstation.com\/assets\/8a3b080e3d3b24761d15a3f41fdf6e4a7ced1e9db87f437d44c11cb5e683f876.webp",
+            "https:\/\/starrailstation.com\/assets\/19afab2e4510e199b56b1a383cfe81d36ed149c85bac756bab12be0e8988e764.webp",
+            "https:\/\/starrailstation.com\/assets\/1a44dece7019c509cf09433adc71e6d6c872f695cc4fd18e5f369a169bfb90e4.webp"
+        ]
+    },
+    {
+        "id": 102,
+        "bbs_id": 574,
+        "name": "野穗伴行的快枪手",
+        "icon": "https:\/\/starrailstation.com\/assets\/6fa0a65a5a67dd15920df35f67f5a69cf4412d25f49ca6f52290a24283496ed2.webp",
+        "affect": "二件套：攻击力提高12%。四件套：使装备者的速度提高6%，普攻造成的伤害提高10%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/1588b0126a96193943eaa9a08ee8e141a3c6ec98cf3b856eae3b72c4de1da59d.webp",
+            "https:\/\/starrailstation.com\/assets\/0cf76a86a4b9d29140f12f60924fe5184a6528ed1e32738072d3db94ea885ba5.webp",
+            "https:\/\/starrailstation.com\/assets\/58f55920fa16d86c56bb7269949d3c0ffa6fa55e02128ec4b0c4c6ba1013582e.webp",
+            "https:\/\/starrailstation.com\/assets\/2260511a91a66279a7819d4c892042f8ab1ed7bae88d3163b07df278584862ca.webp"
+        ]
+    },
+    {
+        "id": 103,
+        "bbs_id": 578,
+        "name": "净庭教宗的圣骑士",
+        "icon": "https:\/\/starrailstation.com\/assets\/ea5f863e8d952778da95e2b19a664df93b2a545f55dd4d467be14a207875350c.webp",
+        "affect": "二件套：防御力提高15%。四件套：使装备者提供的护盾量提高20%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/87dc9c6187c34b827308962a7627978d01682a46e346ee38b9f7d834391ff7b1.webp",
+            "https:\/\/starrailstation.com\/assets\/0b7b7246183e55256e238919cebd6e3de7bcf5cac4ed58bd99cd28c263068e8c.webp",
+            "https:\/\/starrailstation.com\/assets\/1d8c5bc372ea1a226f14060088746ed376ab304494915cc214cb30bbd8fe24de.webp",
+            "https:\/\/starrailstation.com\/assets\/e77ac080d3e312dcdc98b25967fe5596b9d227dfa05934f8f2638f1eaf2993d5.webp"
+        ]
+    },
+    {
+        "id": 104,
+        "bbs_id": 576,
+        "name": "密林卧雪的猎人",
+        "icon": "https:\/\/starrailstation.com\/assets\/1e7f472ef6e4e51c202673c57c479842d78c9e8e3c543a75858176ed1dad2919.webp",
+        "affect": "二件套：冰属性伤害提高10%。四件套：当装备者施放终结技时，暴击伤害提高25%，持续2回合。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/86e1fb9234e82b0cc68a712e1b1f3720ea6021ee26a857eb8a441ef2d49d8dcf.webp",
+            "https:\/\/starrailstation.com\/assets\/c3f4d0097f0a4d81e54ba98f597a6400ef1e938b486a461e9dd0836c86c62109.webp",
+            "https:\/\/starrailstation.com\/assets\/2b487e20ff8a9caecee51ef40b680b63f4ae203d009316433fcca3f17ad18cfa.webp",
+            "https:\/\/starrailstation.com\/assets\/0ed113676576958ef50437019b73827ea3cf1404d2a6a27f8d8c43bd17940380.webp"
+        ]
+    },
+    {
+        "id": 105,
+        "bbs_id": 575,
+        "name": "街头出身的拳王",
+        "icon": "https:\/\/starrailstation.com\/assets\/c48fc8d9d17d1cec6cceae5a96e66b75dd762101cf439edec1de4419ca56ebc5.webp",
+        "affect": "二件套：物理属性伤害提高10%。四件套：当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高5%，最多叠加5次。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/36203e2d2ff2c1f00dce58238f171df5c7c1822ad70ba60f1727429f0805616a.webp",
+            "https:\/\/starrailstation.com\/assets\/b28428f8da4842916af5acdab4928612e3cce35f0927249e13ef98c0c60d24db.webp",
+            "https:\/\/starrailstation.com\/assets\/6ce1794b4d406eb900857a3560fb7d841e4ada07875d798e8d70e26940a61c6d.webp",
+            "https:\/\/starrailstation.com\/assets\/fda5b5ab70ad3a973fd77f2b473f19589d21e7c2abbbaa752bb6c603cc39827e.webp"
+        ]
+    },
+    {
+        "id": 106,
+        "bbs_id": 579,
+        "name": "戍卫风雪的铁卫",
+        "icon": "https:\/\/starrailstation.com\/assets\/958e6807fb140ba1f453f39926b0d58891da8168d4621c668c4dd110adf3ad8a.webp",
+        "affect": "二件套：受到伤害降低8%。四件套：回合开始时，如果装备者当前生命值小于等于其生命上限的50%，则回复等同于自身生命上限8%的生命值，并恢复5点能量。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/79c5f3679cd3931751183349fc811a35ccab908524b7009369041e8608d43706.webp",
+            "https:\/\/starrailstation.com\/assets\/ca985fdcaa593fadda0a2dfe1464c4767bf19b7b08ee5e1f2912fa6688676012.webp",
+            "https:\/\/starrailstation.com\/assets\/40f55c3ef12dd5723ab994a31b239b8147d7415bc391c86fea875c38cf023d89.webp",
+            "https:\/\/starrailstation.com\/assets\/b926f82fd03be76eab4a37f96ff87913317be48ecd65a0ff060d0871399ef2ac.webp"
+        ]
+    },
+    {
+        "id": 107,
+        "bbs_id": 577,
+        "name": "熔岩锻铸的火匠",
+        "icon": "https:\/\/starrailstation.com\/assets\/b1a03c0861876febb6cec78ff12459c0c18e678c9f5eaa90e3164dcea58fab61.webp",
+        "affect": "二件套：火属性伤害提高10%。四件套：使装备者施放战技时造成的伤害提高12%，并在施放终结技后下次攻击造成的火属性伤害提高12%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/663aa82b56bd772db05ca0ff7e40f9c30d38a0e29884f08749c5bef08b57e967.webp",
+            "https:\/\/starrailstation.com\/assets\/6989e7265a092b2c88b4584a14ceed3092594790e79022ac606b58a05edbe53a.webp",
+            "https:\/\/starrailstation.com\/assets\/78fbe0a20c1ac910090219deb7118bea26021ad6825622d6b2cb1e4962ef511c.webp",
+            "https:\/\/starrailstation.com\/assets\/cab0e0b62ec5485d34ce0d77413b7aca9b91a299ac31880c891d2456ea42019c.webp"
+        ]
+    },
+    {
+        "id": 108,
+        "bbs_id": 568,
+        "name": "繁星璀璨的天才",
+        "icon": "https:\/\/starrailstation.com\/assets\/f56ef46e6e8eb865bca9d1f5f9b278894786c5ddf62dfde5e36e96b5faa836ff.webp",
+        "affect": "二件套：量子属性伤害提高10%。四件套：当装备者对敌方目标造成伤害时，无视其10%的防御力。若目标拥有量子属性弱点，额外无视其10%的防御力。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/a508391b9c6dd2e90eb8c377a6746da18b12bca11ad8b7a538cfca4acf7ecc65.webp",
+            "https:\/\/starrailstation.com\/assets\/e8ab4cd406c4cf8eebe73fe197b0fdb553df3dd27f2b81eba4b11628af3faf2e.webp",
+            "https:\/\/starrailstation.com\/assets\/076162ee3cd094b0539ff53fb4b93b2df90e43cfd8c3cd3926e4662ed6c7cc26.webp",
+            "https:\/\/starrailstation.com\/assets\/dcd2bf7a0719ff3113dc30207611fb24a483cb108d0955d0395ae4b51ca66ce7.webp"
+        ]
+    },
+    {
+        "id": 109,
+        "bbs_id": 573,
+        "name": "激奏雷电的乐队",
+        "icon": "https:\/\/starrailstation.com\/assets\/8a3ca7f8c5e5f3477bb141b32a27888d313f682d0b90132604123974f859f65d.webp",
+        "affect": "二件套：雷属性伤害提高10％四件套：当装备者施放战技时，使装备者的攻击力提高20%，持续1回合。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/de35a87c793cfbfcaffb0d3f995906f67f304cd6c2e7885490b44e4d857fe46e.webp",
+            "https:\/\/starrailstation.com\/assets\/8dbfbf710f9b8595d5f5eef2c3a3a6d9ff93a58656f73f8992e95c4cebdd3acc.webp",
+            "https:\/\/starrailstation.com\/assets\/bcaeb79928376074434d48386d03cc8984138d2ef7637903d945e51a6f787b41.webp",
+            "https:\/\/starrailstation.com\/assets\/33e259b895925c672de9d08235d3ddbf98bc85f573d8fdcb0e7fd988c9e06b30.webp"
+        ]
+    },
+    {
+        "id": 110,
+        "bbs_id": 570,
+        "name": "晨昏交界的翔鹰",
+        "icon": "https:\/\/starrailstation.com\/assets\/ef5d99ba9cf8ff3f96cf76d8c10be669032558241cff2b9256209c265ab9249c.webp",
+        "affect": "二件套：风属性伤害提高10%。四件套：当装备者施放终结技后，使其行动提前25%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/9923be8d687f5b225ce3b3f0910f4756023f9ecf062b25fb69bf6647820f8892.webp",
+            "https:\/\/starrailstation.com\/assets\/909ba62e619738bc195f2e745c7c0151ee3e336c506b8bf23dfc252a9413cc08.webp",
+            "https:\/\/starrailstation.com\/assets\/8308b5471092c445f1dd203fd7e73472c09cedd64ec6687a368f4449da2acaca.webp",
+            "https:\/\/starrailstation.com\/assets\/0bda8981918784fbfaa875bf0c8da2b118ccfa9412a94a95c02c438a09a20a9c.webp"
+        ]
+    },
+    {
+        "id": 111,
+        "bbs_id": 569,
+        "name": "流星追迹的怪盗",
+        "icon": "https:\/\/starrailstation.com\/assets\/a678a0c187da44c1ab473402422cb3489d90e9e3faf832301b66070e681d64b3.webp",
+        "affect": "二件套：击破特攻提高16%。四件套：使装备者的击破特攻提高16%。当装备者击破敌方目标弱点后，恢复3点能量。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/2a1287a65a9dd6547d92d22e41c973963729f2e03ba621d3395f1e74e0500bbb.webp",
+            "https:\/\/starrailstation.com\/assets\/c7af60c238cbbcc28673176945983125550706100683cd3d2c09c4c80f41c647.webp",
+            "https:\/\/starrailstation.com\/assets\/f20a8f2ada06588b33b0ffc8ac79980d6b054e1f3fc14729bcf1b2b4a02f88e5.webp",
+            "https:\/\/starrailstation.com\/assets\/d5dad23aee70972a12d5196d1b7d4e1d59e72f194119af99c6eab77bd3348bd3.webp"
+        ]
+    },
+    {
+        "id": 112,
+        "bbs_id": 572,
+        "name": "盗匪荒漠的废土客",
+        "icon": "https:\/\/starrailstation.com\/assets\/f6e11a822a35bb0a46d892b5e3fe7e156568a8a734edc118dcbb209a8606bce3.webp",
+        "affect": "二件套：虚数属性伤害提高10%。四件套：装备者对陷入负面效果的敌方目标造成的暴击率提高10%。如果敌方目标处于禁锢状态，暴击伤害提高20%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/ce2a1ab232c3a0e3231ff59222845b38401ba25e5bc25616b8e1326ec0531c99.webp",
+            "https:\/\/starrailstation.com\/assets\/ef6702157e57692775ff034dc70273bb7fdaf3ea257751563fe10054b49b265d.webp",
+            "https:\/\/starrailstation.com\/assets\/02f539281409eb9ab36ee809763e9808f5b3243b6301412984a0b8062b0a38cc.webp",
+            "https:\/\/starrailstation.com\/assets\/c4b5a59fbedba0c2ade23e60cbaf4541aba62c7952b378368cf3092aabac9a6b.webp"
+        ]
+    },
+    {
+        "id": 301,
+        "bbs_id": 586,
+        "name": "太空封印站",
+        "icon": "https:\/\/starrailstation.com\/assets\/8da8dc9b106d120eb36236b61ae936f0f5b855d78d4b535439312e6b94489026.webp",
+        "affect": "二件套：使装备者的攻击力提高12%。当装备者的速度大于等于120时，攻击力额外提高12%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/403554d4dcab5244d8129959011db766b1104929fd6ca5cc3f777452805ed566.webp",
+            "https:\/\/starrailstation.com\/assets\/57d78b8cc2171b21fc2c67a6963c6ee035054f90656b7c72a55993f6165d526b.webp"
+        ]
+    },
+    {
+        "id": 302,
+        "bbs_id": 587,
+        "name": "不老者的仙舟",
+        "icon": "https:\/\/starrailstation.com\/assets\/276d5e4c0ee26ea5fbfbed5f4fe0714c0df2e6c5ea8f7cbdc5773fdbf4ddeca6.webp",
+        "affect": "二件套：使装备者的生命上限提高12%。当装备者的速度大于等于120时，我方全体攻击力提高8%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/c8a3d199729886e27c259053e978468570fc445ac86b8a1bc6440e5fd65c0b65.webp",
+            "https:\/\/starrailstation.com\/assets\/a7e9e3b8d8327be81fb592d5e16cb72bc7e6e4f2a792630889a63a90a0846868.webp"
+        ]
+    },
+    {
+        "id": 303,
+        "bbs_id": 582,
+        "name": "泛银河商业公司",
+        "icon": "https:\/\/starrailstation.com\/assets\/1f4c014d60bbecaf5186cef63d8e44316b1a13e9dfe84362f69e7d98d525e1c9.webp",
+        "affect": "二件套：使装备者的效果命中提高10%。同时提高装备者等同于当前效果命中25%的攻击力，最多提高25%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/6552e608b375fbcb80132c6ea30d1b6550ccfdec6fc0c915705d9410e7450c96.webp",
+            "https:\/\/starrailstation.com\/assets\/406a6ca11ee1da36a555d7667868daec9ee9b677ea5317a791c58b4be41429de.webp"
+        ]
+    },
+    {
+        "id": 304,
+        "bbs_id": 580,
+        "name": "筑城者的贝洛伯格",
+        "icon": "https:\/\/starrailstation.com\/assets\/835f2c9c494d1308884b9a795ee803d1fd61575f0032342a84f0e3e79bc6c0e9.webp",
+        "affect": "二件套：使装备者的防御力提高15%。当装备者的效果命中大于等于50%时，防御力额外提高15%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/3e6b4c8ee8f8f0edd429f78d39814c60c84b97e381ef74641196e6ca4f2cae52.webp",
+            "https:\/\/starrailstation.com\/assets\/4510f5699684b635b41ead62de3fe68ef17f033c0ab893c68e83acfb15c66150.webp"
+        ]
+    },
+    {
+        "id": 305,
+        "bbs_id": 583,
+        "name": "星体差分机",
+        "icon": "https:\/\/starrailstation.com\/assets\/fab8d58670b1d377849cedae3a39cddebe40cfdf10b26659c26cf711fe993b20.webp",
+        "affect": "二件套：使装备者的暴击伤害提高16%。当装备者的暴击伤害大于等于120%时，进入战斗后装备者的暴击率提高60%，持续到施放首次攻击后结束。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/82579734a3703afa3eed52537033edfbd2d78221cfa94f3c3f10849d23d92a97.webp",
+            "https:\/\/starrailstation.com\/assets\/72562e1a0677f0b59018691749c5e9d5f633da393b06a3e2e2abcdb66823b047.webp"
+        ]
+    },
+    {
+        "id": 306,
+        "bbs_id": 581,
+        "name": "停转的萨尔索图",
+        "icon": "https:\/\/starrailstation.com\/assets\/66d634b848dd877a4e00799c123920497d335d5a87770c45facd6f712023f8ef.webp",
+        "affect": "二件套：使装备者的暴击率提高8%。当装备者当前暴击率大于等于50%时，其施放终结技和追加攻击造成的伤害提高15%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/7d57346f4dac2972202027be0261c640582717f4d4aeac8ba1471145e99cdc66.webp",
+            "https:\/\/starrailstation.com\/assets\/04ef76e67e9b9a6513dd2ee595a73fc8d42741e56a58dbe96f129784e98af541.webp"
+        ]
+    },
+    {
+        "id": 307,
+        "bbs_id": 584,
+        "name": "盗贼公国塔利亚",
+        "icon": "https:\/\/starrailstation.com\/assets\/d7ce1e9db4463d473ba472a803cfaa4f75f9873f056040587a7369c7aa146914.webp",
+        "affect": "二件套：使装备者的击破特攻提高16%。当装备者的速度大于等于145时，击破特攻额外提高20%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/e4e091edd382fd401fdc86c8379b5c4374a6f753addd6d5a2d1c310f5a1ac9eb.webp",
+            "https:\/\/starrailstation.com\/assets\/7af0926f7d60a11f3e380b9407f73fb2741974079e702e4f9100c0f01d2c5743.webp"
+        ]
+    },
+    {
+        "id": 308,
+        "bbs_id": 585,
+        "name": "生命的翁瓦克",
+        "icon": "https:\/\/starrailstation.com\/assets\/343cdac6046812c8af416e964ad845e38949127267be032d8b13c703b1927793.webp",
+        "affect": "二件套：使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。",
+        "image_list": [
+            "https:\/\/starrailstation.com\/assets\/fca70141496bc9fbdccee666a9dc9195af5e6d1a98ad453dde80e4b19b4a8d47.webp",
+            "https:\/\/starrailstation.com\/assets\/1ab3bd2e8408d9a7c0aa33e6796cdb8867153bcdd447a7e423f742742bbdfaa6.webp"
+        ]
+    }
+]
