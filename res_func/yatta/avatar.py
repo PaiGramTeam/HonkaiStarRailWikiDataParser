@@ -35,13 +35,27 @@ async def get_single_avatar(url: str) -> None:
     avatar_data[str(avatar.id)] = urls
 
 
+def retry(func):
+    async def wrapper(*args, **kwargs):
+        for i in range(3):
+            try:
+                await func(*args, **kwargs)
+                break
+            except Exception:
+                print(f"重试 {func.__name__} {i + 1} 次")
+                await asyncio.sleep(1)
+
+    return wrapper
+
+
+@retry
 async def get_single_avatar_skill_icon(url: str, real_path: str) -> None:
     req = await client.get(url)
     try:
         req.raise_for_status()
-    except Exception:
+    except Exception as e:
         print(f"{url} 获取技能图片失败")
-        return
+        raise e
     async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
         await f.write(req.content)
     if "8001" in real_path:
