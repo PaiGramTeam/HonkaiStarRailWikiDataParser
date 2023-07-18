@@ -40,7 +40,13 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
         second_pic = avatar_model.icon
     elif avatar_model := all_avatars_name.get(name):
         second_pic = avatar_model.icon
-    third_pic = f'{base_station_url}{tag.find("img").get("src")}'
+
+    def get_third_pic():
+        _tag = tag.find("div", {"class": "a69d1"})
+        style = _tag.get("style")
+        return f'{base_station_url}{style[style.find("(") + 2:style.find(")") - 1]}'
+
+    third_pic = get_third_pic()
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
     four_pic = f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
     first_pic = f'{base_station_url}{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
@@ -76,12 +82,12 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
     print("开始获取角色素材")
     html = await client.get(avatar_url)
     soup = BeautifulSoup(html.text, "lxml")
-    avatars = soup.find_all("a", {"class": "char-entry-select-option"})
+    avatars = soup.find_all("a", {"class": "a7916"})
     tasks = []
     datas: List[AvatarIcon] = []
     player_avatars = []
     for avatar in avatars:
-        name = avatar.find("span").get_text().strip()
+        name = avatar.find("div", {"class": "ellipsis"}).get_text().strip()
         if name == "开拓者":
             player_avatars.append(avatar)
             continue
