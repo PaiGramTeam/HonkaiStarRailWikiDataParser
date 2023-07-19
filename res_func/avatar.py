@@ -8,9 +8,9 @@ import ujson
 from bs4 import BeautifulSoup, Tag
 
 from func.fetch_avatars import read_avatars, all_avatars_name, dump_avatars, all_avatars, all_avatars_map
+from models.avatar_config import AvatarConfig, AvatarIcon
 from .client import client
 from .url import avatar_config, text_map, base_station_url, avatar_url
-from models.avatar_config import AvatarConfig, AvatarIcon
 
 
 async def fetch_text_map() -> Dict[str, str]:
@@ -44,7 +44,7 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
     def get_third_pic():
         _tag = tag.find("div", {"class": "a69d1"})
         style = _tag.get("style")
-        return f'{base_station_url}{style[style.find("(") + 2:style.find(")") - 1]}'
+        return f'{base_station_url}/{style[style.find("(") + 2:style.find(")") - 1]}'
 
     third_pic = get_third_pic()
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
