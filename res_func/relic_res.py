@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
 from pathlib import Path
 from typing import Dict, Tuple, List
+
+from bs4 import BeautifulSoup
 
 from func.fetch_relics import all_relics, read_relics, dump_relics
 from res_func.client import client

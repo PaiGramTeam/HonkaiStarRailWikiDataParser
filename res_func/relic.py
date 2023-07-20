@@ -4,11 +4,11 @@ from typing import List, Dict
 import aiofiles
 import ujson
 
-from models.enums import RelicAffix, RelicPosition
 from func.fetch_relics import read_relics, dump_relics, all_relics
+from models.enums import RelicAffix, RelicPosition
+from models.relic_affix import RelicAffixAll, SingleRelicAffix
 from res_func.client import client
 from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config, relic_set_config
-from models.relic_affix import RelicAffixAll, SingleRelicAffix
 
 final_datas: List[RelicAffixAll] = []
 final_datas_map: Dict[str, RelicAffixAll] = {}

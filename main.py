@@ -1,7 +1,7 @@
 import asyncio
 from pathlib import Path
 from func.fetch_all import get_list
-from func.fetch_avatars import fetch_avatars, fetch_avatars_infos, dump_avatars, read_avatars
+from func.fetch_avatars import fetch_avatars, dump_avatars, read_avatars
 from func.fetch_light_cones import fetch_light_cones, fetch_light_cones_infos, dump_light_cones, read_light_cones
 from func.fetch_materials import fetch_materials, fetch_materials_infos, dump_materials, read_materials
 from func.fetch_monsters import fetch_monsters, fetch_monsters_infos, dump_monsters, read_monsters
@@ -32,7 +32,6 @@ async def wiki(
         await read_materials(data_path / "materials.json")
     if override_avatars:
         await fetch_avatars(main_data[0])
-        await fetch_avatars_infos()
         await dump_avatars(data_path / "avatars.json")
     else:
         await read_avatars(data_path / "avatars.json")

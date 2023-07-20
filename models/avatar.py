@@ -1,60 +1,68 @@
-from typing import List
+from typing import List, Optional
+
 from pydantic import BaseModel
-from .enums import Quality, Destiny, Element
-from .material import Material
+
+from .enums import Destiny, Element
 
 
-class AvatarInfo(BaseModel):
-    occupation: str = ""
-    """所属"""
-    faction: str = ""
-    """派系"""
+class YattaAvatarPath(BaseModel):
+    id: str
+    name: str
 
 
-class AvatarItem(BaseModel):
-    item: Material
-    """物品"""
-    count: int
-    """数量"""
+class YattaAvatarTypes(BaseModel):
+    pathType: YattaAvatarPath
+    combatType: YattaAvatarPath
 
 
-class AvatarPromote(BaseModel):
-    required_level: int
-    """突破所需等级"""
-    promote_level: int = 0
-    """突破等级"""
-    max_level: int
-    """解锁的等级上限"""
-
-    coin: int = 0
-    """信用点"""
-    items: List[AvatarItem]
-    """突破所需材料"""
+class YattaAvatarCV(BaseModel):
+    CV_CN: str
+    CV_JP: str
+    CV_KR: str
+    CV_EN: str
 
 
-class AvatarSoul(BaseModel):
+class YattaAvatarFetter(BaseModel):
+    faction: Optional[str]
+    description: Optional[str]
+    cv: Optional[YattaAvatarCV]
+
+
+class YattaAvatarEidolon(BaseModel):
+    id: int
+    rank: int
+    name: Optional[str]
+    description: Optional[str]
+    icon: str
+
+    @property
+    def icon_url(self) -> str:
+        return f"https://api.yatta.top/hsr/assets/UI/skill/{self.icon}.png"
+
+
+class YattaAvatar(BaseModel):
+    id: int
+    """ 角色ID """
     name: str
     """ 名称 """
-    desc: str
-    """ 介绍 """
-
-
-class Avatar(BaseModel):
-    id: int
-    """角色ID"""
-    name: str
-    """名称"""
+    rank: int
+    """ 星级 """
+    types: YattaAvatarTypes
+    """ 角色类型 """
     icon: str
-    """图标"""
-    quality: Quality
-    """品质"""
-    destiny: Destiny
-    """命途"""
-    element: Element
-    """属性"""
-    information: AvatarInfo
-    """角色信息"""
-    promote: List[AvatarPromote]
-    """角色突破数据"""
-    soul: List[AvatarSoul]
-    """角色星魂数据"""
+    """ 图标 """
+    release: int
+    """ 上线时间 """
+    route: str
+    fetter: YattaAvatarFetter
+    eidolons: List[YattaAvatarEidolon]
+
+    @property
+    def destiny(self) -> Destiny:
+        """ 命途 """
+        return Destiny(self.types.pathType.name)
+
+    @property
+    def element(self) -> Element:
+        """ 属性 """
+        return Element(self.types.combatType.name)

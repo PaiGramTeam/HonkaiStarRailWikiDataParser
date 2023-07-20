@@ -7,7 +7,7 @@ import aiofiles
 import ujson
 from bs4 import BeautifulSoup, Tag
 
-from func.fetch_avatars import read_avatars, all_avatars_name, dump_avatars, all_avatars, all_avatars_map
+from func.fetch_avatars import read_avatars, all_avatars_name, dump_avatars, all_avatars_map
 from models.avatar_config import AvatarConfig, AvatarIcon
 from .client import client
 from .url import avatar_config, text_map, base_station_url, avatar_url
@@ -101,15 +101,8 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
 async def fix_avatar_config_ktz():
     data_map = {"开拓者·毁灭": (8001, 8002), "开拓者·存护": (8003, 8004)}
     for key, value in data_map.items():
-        one = all_avatars_name[key]
-        one.name = key
-        two = one.copy()
-        one.id = value[0]
-        two.id = value[1]
-        all_avatars.append(two)
-        all_avatars_map[value[0]] = one
-        all_avatars_map[value[1]] = two
-        all_avatars_name[one.name] = one
+        for i in value:
+            all_avatars_map[i].name = key
 
 
 async def fix_avatar_config(text_map_data: Dict[str, str]):
@@ -118,15 +111,6 @@ async def fix_avatar_config(text_map_data: Dict[str, str]):
     print(f"读取到原始数据：{list(configs_map.keys())}")
     data_path = Path("data")
     await read_avatars(data_path / "avatars.json")
-    for key, value in all_avatars_name.items():
-        if key.startswith("开拓者"):
-            continue
-        else:
-            config = configs_map.get(key)
-        if config is None:
-            print(f"错误：未找到角色 {key} 的配置")
-            continue
-        value.id = config.AvatarID
     await fix_avatar_config_ktz()
     icons = await fetch_station(configs_map)
     await dump_icons(data_path / "avatar_icons.json", icons)

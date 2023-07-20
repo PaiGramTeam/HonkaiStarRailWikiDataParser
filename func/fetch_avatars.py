@@ -1,119 +1,86 @@
 import asyncio
-import re
 from pathlib import Path
 from typing import List, Dict
 
 import aiofiles
 import ujson
-from bs4 import BeautifulSoup
+from httpx import TimeoutException
+from pydantic import ValidationError
 
 from func.client import client
-from func.url import info_url
-from func.fetch_materials import all_materials_map, all_materials_name
-from models.enums import Quality, Element, Destiny
-from models.avatar import Avatar, AvatarInfo, AvatarSoul, AvatarItem, AvatarPromote
-from models.wiki import Children
+from models.avatar import YattaAvatar
+from models.wiki import Content, Children
+from res_func.url import avatar_yatta_url
 
-all_avatars: List[Avatar] = []
-all_avatars_map: Dict[int, Avatar] = {}
-all_avatars_name: Dict[str, Avatar] = {}
+all_avatars: List[YattaAvatar] = []
+all_avatars_map: Dict[int, YattaAvatar] = {}
+all_avatars_name: Dict[str, YattaAvatar] = {}
 
 
-async def fetch_avatars(data: Children):
-    for content in data.list:
+def retry(func):
+    async def wrapper(*args, **kwargs):
+        for i in range(3):
+            try:
+                return await func(*args, **kwargs)
+            except TimeoutException:
+                print(f"重试 {func.__name__} {i + 1} 次")
+                await asyncio.sleep(1)
+
+    return wrapper
+
+
+def fix_avatar_eidolons(values: Dict) -> Dict:
+    if values.get("eidolons") is None:
+        values["eidolons"] = []
+    else:
+        eidolons = []
+        for eidolon in values["eidolons"].values():
+            eidolons.append(eidolon)
+        values["eidolons"] = eidolons
+    return values
+
+
+@retry
+async def get_single_avatar(url: str) -> None:
+    req = await client.get(url)
+    try:
+        avatar = YattaAvatar(**fix_avatar_eidolons(req.json()["data"]))
+    except Exception as e:
+        print(f"{url} 获取角色数据失败")
+        raise e
+    all_avatars.append(avatar)
+    all_avatars_map[avatar.id] = avatar
+    all_avatars_name[avatar.name] = avatar
+
+
+@retry
+async def get_all_avatar() -> List[str]:
+    req = await client.get(avatar_yatta_url)
+    return list(req.json()["data"]["items"].keys())
+
+
+async def fix_avatar_icon(content: Content):
+    avatar = all_avatars_name.get(content.title)
+    if not avatar:
+        return
+    avatar.icon = content.icon
+
+
+async def fetch_avatars(child: Children):
+    print("获取角色数据")
+    avatars = await get_all_avatar()
+    for avatar_id in avatars:
         try:
-            m_element = Element(re.findall(r'属性/(.*?)\\', content.ext)[0])
-            m_destiny = Destiny(re.findall(r'命途/(.*?)\\', content.ext)[0])
-            m_quality = Quality(re.findall(r'星级/(.*?)\\', content.ext)[0])
-        except IndexError:
-            continue
-        avatar = Avatar(
-            id=content.content_id,
-            name=content.title,
-            icon=content.icon,
-            quality=m_quality,
-            element=m_element,
-            destiny=m_destiny,
-            information=AvatarInfo(),
-            promote=[],
-            soul=[],
-        )
-        all_avatars.append(avatar)
-        all_avatars_map[avatar.id] = avatar
-        all_avatars_name[avatar.name] = avatar
-
-
-def parse_promote(avatar: Avatar, soup: BeautifulSoup) -> None:
-    """解析角色突破数据"""
-    lis = soup.find_all("li", {"class": "obc-tmpl__switch-item"})
-    required_levels = [0, 20, 30, 40, 50, 60, 70, 80]
-    max_level = [0, 30, 40, 50, 60, 70, 80, 90]
-    for i in range(1, 8):
-        promote = AvatarPromote(
-            required_level=required_levels[i],
-            max_level=max_level[i],
-            items=[],
-        )
-        materials = lis[i].find_all("li", {"data-target": "breach.attr.material"})
-        for material in materials:
-            try:
-                mid = int(re.findall(r"content/(\d+)/detail", material.find("a").get("href"))[0])
-            except AttributeError:
-                continue
-            name = material.find("span", {"class": "obc-tmpl__icon-text"}).text
-            item = all_materials_map.get(mid)
-            if not item:
-                item = all_materials_name.get(name)
-            try:
-                count = int(material.find("span", {"class": "obc-tmpl__icon-num"}).text.replace("*", ""))
-            except AttributeError:
-                count = 1
-            if name == "信用点":
-                promote.coin = count
-            elif item:
-                promote.items.append(
-                    AvatarItem(
-                        item=item,
-                        count=count,
-                    )
-                )
-            else:
-                print(f"unknown material: {mid}: {name}")
-        avatar.promote.append(promote)
-
-
-async def fetch_info(avatar: Avatar):
-    print(f"Fetch avatar info: {avatar.id}: {avatar.name}")
-    params = {
-        'app_sn': 'sr_wiki',
-        'content_id': str(avatar.id),
-    }
-    resp = await client.get(info_url, params=params)
-    data = resp.json()["data"]["content"]["contents"][0]["text"]
-    soup = BeautifulSoup(data, "lxml")
-    items = soup.find_all("div", {"class": "obc-tmp-character__item"})
-    avatar.information.faction = items[2].find("div", {"class": "obc-tmp-character__value"}).text
-    avatar.information.occupation = items[3].find("div", {"class": "obc-tmp-character__value"}).text
-    parse_promote(avatar, soup)
-    # 星魂
-    table = soup.find("div", {"style": "order: 4;"})
-    trs = table.find_all("tr")[1:]
-    for tr in trs:
-        ps = tr.find_all("p")
-        desc = ps[2].text.strip() if len(ps) > 2 else ps[1].text.strip()
-        avatar.soul.append(
-            AvatarSoul(
-                name=ps[0].text.strip(),
-                desc=desc,
-            )
-        )
-
-
-async def fetch_avatars_infos():
-    tasks = []
+            await get_single_avatar(f"{avatar_yatta_url}/{avatar_id}")
+        except ValidationError:
+            print(f"{avatar_yatta_url}/{avatar_id} 获取角色数据失败，角色格式异常")
+    print("修复角色图标")
+    for content in child.list:
+        await fix_avatar_icon(content)
     for avatar in all_avatars:
-        tasks.append(fetch_info(avatar))
-    await asyncio.gather(*tasks)
+        if not avatar.icon.startswith("http"):
+            avatar.icon = ""
+    print("获取角色数据完成")
 
 
 async def dump_avatars(path: Path):
@@ -124,10 +91,13 @@ async def dump_avatars(path: Path):
 
 
 async def read_avatars(path: Path):
+    all_avatars.clear()
+    all_avatars_map.clear()
+    all_avatars_name.clear()
     async with aiofiles.open(path, "r", encoding="utf-8") as f:
         data = ujson.loads(await f.read())
     for avatar in data:
-        m = Avatar(**avatar)
+        m = YattaAvatar(**avatar)
         all_avatars.append(m)
         all_avatars_map[m.id] = m
         all_avatars_name[m.name] = m

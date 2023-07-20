@@ -2,7 +2,6 @@ from typing import List
 
 from func.client import client
 from func.url import list_url
-
 from models.wiki import Children
 
 

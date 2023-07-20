@@ -1,7 +1,8 @@
 import shutil
+from pathlib import Path
+
 import aiofiles
 import ujson as jsonlib
-from pathlib import Path
 
 src_dir = Path("src")
 data_dir = Path("data")

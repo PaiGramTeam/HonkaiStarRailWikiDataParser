@@ -7,9 +7,9 @@ import ujson
 from bs4 import BeautifulSoup, Tag
 
 from func.fetch_light_cones import read_light_cones, all_light_cones_name, dump_light_cones
+from models.light_cone_config import LightConeIcon
 from .client import client
 from .url import base_station_url, light_cone_url
-from models.light_cone_config import LightConeIcon
 
 
 async def parse_station(icon: LightConeIcon, tag: Tag):

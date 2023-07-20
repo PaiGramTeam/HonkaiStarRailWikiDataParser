@@ -1,5 +1,5 @@
-import re
 import asyncio
+import re
 from pathlib import Path
 from typing import List, Dict
 
@@ -9,9 +9,9 @@ from bs4 import BeautifulSoup
 
 from func.client import client
 from func.url import info_url
-from models.wiki import Children
 from models.enums import Quality, MaterialType
 from models.material import Material
+from models.wiki import Children
 
 star_map = {
     1: Quality.One,
