@@ -12,7 +12,6 @@ class AvatarConfig(BaseModel):
     AvatarID: int
     AvatarName: AvatarName
     AvatarVOTag: str
-    Release: bool
 
 
 class AvatarIcon(BaseModel):
