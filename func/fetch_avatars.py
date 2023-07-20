@@ -21,9 +21,12 @@ all_avatars_name: Dict[str, Avatar] = {}
 
 async def fetch_avatars(data: Children):
     for content in data.list:
-        m_element = Element(re.findall(r'属性/(.*?)\\', content.ext)[0])
-        m_destiny = Destiny(re.findall(r'命途/(.*?)\\', content.ext)[0])
-        m_quality = Quality(re.findall(r'星级/(.*?)\\', content.ext)[0])
+        try:
+            m_element = Element(re.findall(r'属性/(.*?)\\', content.ext)[0])
+            m_destiny = Destiny(re.findall(r'命途/(.*?)\\', content.ext)[0])
+            m_quality = Quality(re.findall(r'星级/(.*?)\\', content.ext)[0])
+        except IndexError:
+            continue
         avatar = Avatar(
             id=content.content_id,
             name=content.title,
