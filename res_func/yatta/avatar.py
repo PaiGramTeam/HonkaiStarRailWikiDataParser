@@ -21,20 +21,6 @@ async def get_all_avatar() -> List[str]:
     return list(req.json()["data"]["items"].keys())
 
 
-async def get_single_avatar(url: str) -> None:
-    req = await client.get(url)
-    try:
-        avatar = YattaAvatar(**req.json()["data"])
-    except Exception:
-        print(f"{url} 获取星魂数据失败")
-        return
-    if len(avatar.eidolons) != 6:
-        print(f"{url} 获取星魂图片失败")
-        return
-    urls = [i.icon_url for i in avatar.eidolons]
-    avatar_data[str(avatar.id)] = urls
-
-
 def retry(func):
     async def wrapper(*args, **kwargs):
         for i in range(3):
@@ -46,6 +32,21 @@ def retry(func):
                 await asyncio.sleep(1)
 
     return wrapper
+
+
+@retry
+async def get_single_avatar(url: str) -> None:
+    req = await client.get(url)
+    try:
+        avatar = YattaAvatar(**req.json()["data"])
+    except Exception as e:
+        print(f"{url} 获取星魂数据失败")
+        raise e
+    if len(avatar.eidolons) != 6:
+        print(f"{url} 获取星魂图片失败")
+        return
+    urls = [i.icon_url for i in avatar.eidolons]
+    avatar_data[str(avatar.id)] = urls
 
 
 @retry
