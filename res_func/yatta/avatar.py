@@ -72,7 +72,7 @@ async def get_all_avatars_skills_icons(avatars: List[YattaAvatar]):
     local_path = ["basic_atk", "skill", "talent", "technique", "ultimate"]
     tasks = []
     for avatar in avatars:
-        if avatar.id in ["8002", "8004"]:
+        if avatar.id in [8002, 8004]:
             continue
         for i in range(len(remote_path)):
             tasks.append(

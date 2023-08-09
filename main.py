@@ -22,10 +22,10 @@ async def wiki(
     main_data = await get_list()
     if override_materials:
         await fetch_materials(main_data[4])
-        await fetch_materials(main_data[5], "消耗品")
-        await fetch_materials(main_data[9], "任务道具")
-        await fetch_materials(main_data[10], "贵重物")
-        await fetch_materials(main_data[12])
+        await fetch_materials(main_data[5])
+        await fetch_materials(main_data[12], "消耗品")
+        await fetch_materials(main_data[10], "任务道具")
+        await fetch_materials(main_data[13], "贵重物")
         await fetch_materials_infos()
         await dump_materials(data_path / "materials.json")
     else:
@@ -42,13 +42,13 @@ async def wiki(
     else:
         await read_light_cones(data_path / "light_cones.json")
     if override_monsters:
-        await fetch_monsters(main_data[2])
+        await fetch_monsters(main_data[3])
         await fetch_monsters_infos()
         await dump_monsters(data_path / "monsters.json")
     else:
         await read_monsters(data_path / "monsters.json")
     if override_relics:
-        await fetch_relics(main_data[3])
+        await fetch_relics(main_data[2])
         await fetch_relics_infos()
         await dump_relics(data_path / "relics.json")
     else:
