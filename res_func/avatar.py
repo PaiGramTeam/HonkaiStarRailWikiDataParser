@@ -7,7 +7,7 @@ import aiofiles
 import ujson
 from bs4 import BeautifulSoup, Tag
 
-from func.fetch_avatars import read_avatars, all_avatars_name, dump_avatars, all_avatars_map
+from func.data import all_avatars_map, all_avatars_name, read_avatars, dump_avatars
 from models.avatar_config import AvatarConfig, AvatarIcon
 from .client import client
 from .url import avatar_config, text_map, base_station_url, avatar_url
@@ -48,8 +48,14 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
 
     third_pic = get_third_pic()
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
-    four_pic = f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
-    first_pic = f'{base_station_url}{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
+    four_pic = (
+        f'{base_station_url}{text[text.find("(") + 2:text.find(")") - 1]}'
+        if text
+        else ""
+    )
+    first_pic = (
+        f'{base_station_url}{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
+    )
     datas.append(
         AvatarIcon(
             id=cid,
@@ -67,10 +73,7 @@ async def dump_icons(path: Path, datas: List[AvatarIcon]):
 
 
 async def fetch_station_ktz(tasks, datas, player_avatars: List[Tag]):
-    data_map = {
-        "开拓者·毁灭": (8001, 8002),
-        "开拓者·存护": (8003, 8004)
-    }
+    data_map = {"开拓者·毁灭": (8001, 8002), "开拓者·存护": (8003, 8004)}
     idx = 0
     for key, value in data_map.items():
         tasks.append(parse_station(datas, key, player_avatars[idx], value[0]))
@@ -92,7 +95,11 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
             player_avatars.append(avatar)
             continue
         avatar_model = configs_map.get(name)
-        tasks.append(parse_station(datas, name, avatar, avatar_model.AvatarID if avatar_model else None))
+        tasks.append(
+            parse_station(
+                datas, name, avatar, avatar_model.AvatarID if avatar_model else None
+            )
+        )
     await fetch_station_ktz(tasks, datas, player_avatars)
     await asyncio.gather(*tasks)
     return datas
@@ -110,8 +117,8 @@ async def fix_avatar_config(text_map_data: Dict[str, str]):
     configs_map: Dict[str, AvatarConfig] = {config.name: config for config in configs}
     print(f"读取到原始数据：{list(configs_map.keys())}")
     data_path = Path("data")
-    await read_avatars(data_path / "avatars.json")
+    await read_avatars()
     await fix_avatar_config_ktz()
     icons = await fetch_station(configs_map)
     await dump_icons(data_path / "avatar_icons.json", icons)
-    await dump_avatars(data_path / "avatars.json")
+    await dump_avatars()

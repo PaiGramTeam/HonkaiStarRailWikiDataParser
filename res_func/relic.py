@@ -4,11 +4,10 @@ from typing import List, Dict
 import aiofiles
 import ujson
 
-from func.fetch_relics import read_relics, dump_relics, all_relics
 from models.enums import RelicAffix, RelicPosition
 from models.relic_affix import RelicAffixAll, SingleRelicAffix
 from res_func.client import client
-from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config, relic_set_config
+from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config
 
 final_datas: List[RelicAffixAll] = []
 final_datas_map: Dict[str, RelicAffixAll] = {}
@@ -78,23 +77,6 @@ async def fetch_sub_affix():
     print("遗器副词条配置获取完毕")
 
 
-async def fix_set_id(text_map_data: Dict[str, str]):
-    print("开始修复遗器套装ID")
-    set_req = await client.get(relic_set_config)
-    set_data = set_req.json()
-    set_data_map: Dict[str, int] = {}
-    for key, value in set_data.items():
-        set_data_map[text_map_data[str(value["SetName"]["Hash"])]] = value["SetID"]
-    await read_relics(Path("data") / "relics.json")
-    for relic_set in all_relics:
-        if set_id := set_data_map.get(relic_set.name):
-            relic_set.id = set_id
-        else:
-            print(f"套装{relic_set.name}没有找到对应的ID")
-    await dump_relics(Path("data") / "relics.json")
-    print("遗器套装ID修复完毕")
-
-
 async def dump_relic_config(path: Path):
     final_data = [data.dict() for data in final_datas]
     final_data.sort(key=lambda x: x["id"])
@@ -102,10 +84,9 @@ async def dump_relic_config(path: Path):
         await f.write(ujson.dumps(final_data, indent=4, ensure_ascii=False))
 
 
-async def fetch_relic_config(text_map_data: Dict[str, str]):
+async def fetch_relic_config():
     await fetch_all_relic()
     await fetch_main_affix()
     await fetch_sub_affix()
     data_path = Path("data")
     await dump_relic_config(data_path / "relic_config.json")
-    await fix_set_id(text_map_data)

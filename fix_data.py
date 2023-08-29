@@ -11,10 +11,10 @@ async def main():
     text_map_data = await fetch_text_map()
     await fix_avatar_config(text_map_data)
     await fix_light_cone_config()
-    await fetch_relic_config(text_map_data)
+    await fetch_relic_config()
     await fix_set_image()
     await get_all_avatars()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())

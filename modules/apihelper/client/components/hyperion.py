@@ -17,9 +17,13 @@ class Hyperion:
     """
 
     POST_FULL_URL = "https://bbs-api.miyoushe.com/post/wapi/getPostFull"
-    POST_FULL_IN_COLLECTION_URL = "https://bbs-api.miyoushe.com/post/wapi/getPostFullInCollection"
+    POST_FULL_IN_COLLECTION_URL = (
+        "https://bbs-api.miyoushe.com/post/wapi/getPostFullInCollection"
+    )
     GET_NEW_LIST_URL = "https://bbs-api.miyoushe.com/post/wapi/getNewsList"
-    GET_OFFICIAL_RECOMMENDED_POSTS_URL = "https://bbs-api.miyoushe.com/post/wapi/getOfficialRecommendedPosts"
+    GET_OFFICIAL_RECOMMENDED_POSTS_URL = (
+        "https://bbs-api.miyoushe.com/post/wapi/getOfficialRecommendedPosts"
+    )
 
     USER_AGENT = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -39,7 +43,9 @@ class Hyperion:
             # https://m.miyoushe.com/ys/#/article/32497914
         :return: post_id
         """
-        rgx = re.compile(r"(?:bbs|www\.)?(?:miyoushe|mihoyo)\.com/[^.]+/article/(?P<article_id>\d+)")
+        rgx = re.compile(
+            r"(?:bbs|www\.)?(?:miyoushe|mihoyo)\.com/[^.]+/article/(?P<article_id>\d+)"
+        )
         matches = rgx.search(text)
         if matches is None:
             return -1
@@ -56,7 +62,9 @@ class Hyperion:
         return {"User-Agent": self.USER_AGENT, "Referer": referer}
 
     @staticmethod
-    def get_list_url_params(forum_id: int, is_good: bool = False, is_hot: bool = False, page_size: int = 20) -> dict:
+    def get_list_url_params(
+        forum_id: int, is_good: bool = False, is_hot: bool = False, page_size: int = 20
+    ) -> dict:
         return {
             "forum_id": forum_id,
             "gids": 2,
@@ -68,7 +76,11 @@ class Hyperion:
 
     @staticmethod
     def get_images_params(
-        resize: int = 600, quality: int = 80, auto_orient: int = 0, interlace: int = 1, images_format: str = "jpg"
+        resize: int = 600,
+        quality: int = 80,
+        auto_orient: int = 0,
+        interlace: int = 1,
+        images_format: str = "jpg",
     ):
         """
         image/resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg
@@ -87,12 +99,22 @@ class Hyperion:
 
     async def get_official_recommended_posts(self, gids: int) -> JSON_DATA:
         params = {"gids": gids}
-        response = await self.client.get(url=self.GET_OFFICIAL_RECOMMENDED_POSTS_URL, params=params)
+        response = await self.client.get(
+            url=self.GET_OFFICIAL_RECOMMENDED_POSTS_URL, params=params
+        )
         return response
 
-    async def get_post_full_in_collection(self, collection_id: int, gids: int = 2, order_type=1) -> JSON_DATA:
-        params = {"collection_id": collection_id, "gids": gids, "order_type": order_type}
-        response = await self.client.get(url=self.POST_FULL_IN_COLLECTION_URL, params=params)
+    async def get_post_full_in_collection(
+        self, collection_id: int, gids: int = 2, order_type=1
+    ) -> JSON_DATA:
+        params = {
+            "collection_id": collection_id,
+            "gids": gids,
+            "order_type": order_type,
+        }
+        response = await self.client.get(
+            url=self.POST_FULL_IN_COLLECTION_URL, params=params
+        )
         return response
 
     async def get_post_info(self, gids: int, post_id: int, read: int = 1) -> PostInfo:
@@ -100,7 +122,9 @@ class Hyperion:
         response = await self.client.get(self.POST_FULL_URL, params=params)
         return PostInfo.paste_data(response)
 
-    async def get_images_by_post_id(self, gids: int, post_id: int) -> List[ArtworkImage]:
+    async def get_images_by_post_id(
+        self, gids: int, post_id: int
+    ) -> List[ArtworkImage]:
         post_info = await self.get_post_info(gids, post_id)
         art_list = []
         task_list = [
@@ -118,15 +142,23 @@ class Hyperion:
         art_list.sort(key=take_page)
         return art_list
 
-    async def download_image(self, art_id: int, url: str, page: int = 0) -> ArtworkImage:
+    async def download_image(
+        self, art_id: int, url: str, page: int = 0
+    ) -> ArtworkImage:
         filename = os.path.basename(url)
         _, file_extension = os.path.splitext(filename)
         is_image = bool(file_extension in ".jpg" or file_extension in ".png")
         response = await self.client.get(
-            url, params=self.get_images_params(resize=2000) if is_image else None, de_json=False
+            url,
+            params=self.get_images_params(resize=2000) if is_image else None,
+            de_json=False,
         )
         return ArtworkImage(
-            art_id=art_id, page=page, file_name=filename, file_extension=url.split(".")[-1], data=response.content
+            art_id=art_id,
+            page=page,
+            file_name=filename,
+            file_extension=url.split(".")[-1],
+            data=response.content,
         )
 
     async def get_new_list(self, gids: int, type_id: int, page_size: int = 20):

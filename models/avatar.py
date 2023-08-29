@@ -59,10 +59,10 @@ class YattaAvatar(BaseModel):
 
     @property
     def destiny(self) -> Destiny:
-        """ 命途 """
+        """命途"""
         return Destiny(self.types.pathType.name)
 
     @property
     def element(self) -> Element:
-        """ 属性 """
+        """属性"""
         return Element(self.types.combatType.name)

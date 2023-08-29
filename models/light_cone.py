@@ -1,51 +1,29 @@
 # 光锥
-from typing import List
-
 from pydantic import BaseModel
 
-from .enums import Quality, Destiny
-from .material import Material
+
+class YattaLightConePath(BaseModel):
+    id: str
+    name: str
 
 
-class LightConeItem(BaseModel):
-    item: Material
-    """物品"""
-    count: int
-    """数量"""
+class YattaLightConeTypes(BaseModel):
+    pathType: YattaLightConePath
 
 
-class LightConePromote(BaseModel):
-    required_level: int
-    """突破所需等级"""
-    promote_level: int = 0
-    """突破等级"""
-    max_level: int
-    """解锁的等级上限"""
-
-    coin: int = 0
-    """信用点"""
-    items: List[LightConeItem]
-    """突破所需材料"""
-
-
-class LightCone(BaseModel):
+class YattaLightCone(BaseModel):
     id: int
     """"光锥ID"""
     name: str
     """名称"""
-    desc: str
+    description: str
     """描述"""
-    icon: str
+    icon: str = ""
     """图标"""
-    big_pic: str
+    big_pic: str = ""
     """大图"""
-    quality: Quality
+    rank: int
     """稀有度"""
-    destiny: Destiny
+    types: YattaLightConeTypes
     """命途"""
-    promote: List[LightConePromote]
-    """晋阶信息"""
-
-    @property
-    def rarity(self) -> int:
-        return 5 - list(Quality).index(self.quality)
+    route: str

@@ -6,7 +6,7 @@ import aiofiles
 import ujson
 from bs4 import BeautifulSoup, Tag
 
-from func.fetch_light_cones import read_light_cones, all_light_cones_name, dump_light_cones
+from func.data import all_light_cones_map, read_light_cones, dump_light_cones
 from models.light_cone_config import LightConeIcon
 from .client import client
 from .url import base_station_url, light_cone_url
@@ -18,6 +18,11 @@ async def parse_station(icon: LightConeIcon, tag: Tag):
     first_pic = f'{base_station_url}{soup.find("img", {"class": "standard-icon a6602"}).get("src")}'
     second_pic = f'{base_station_url}{soup.find("img", {"class": "a2b16 mobile-only-elem ab8c3"}).get("src")}'
     icon.icon = [first_pic, second_pic]
+    if light_cone_model := all_light_cones_map.get(icon.id):
+        light_cone_model.icon = first_pic
+        light_cone_model.big_pic = second_pic
+    else:
+        print(f"yatta 未找到光锥数据 {icon.name} ，修复 图标 失败")
 
 
 async def dump_icons(path: Path, datas: List[LightConeIcon]):
@@ -42,15 +47,7 @@ async def fetch_station() -> List[LightConeIcon]:
         if "lightcone/" not in url:
             continue
         nid = int(url.split("/")[-1])
-        if light_cone_model := all_light_cones_name.get(name):
-            light_cone_model.id = nid
-        else:
-            print(f"wiki 未找到光锥数据 {name} ，修复 id 失败")
-        icon = LightConeIcon(
-            id=nid,
-            name=name,
-            icon=[]
-        )
+        icon = LightConeIcon(id=nid, name=name, icon=[])
         datas.append(icon)
         tasks.append(parse_station(icon, light_cone))
     await asyncio.gather(*tasks)
@@ -59,7 +56,7 @@ async def fetch_station() -> List[LightConeIcon]:
 
 async def fix_light_cone_config():
     data_path = Path("data")
-    await read_light_cones(data_path / "light_cones.json")
+    await read_light_cones()
     icons = await fetch_station()
     await dump_icons(data_path / "light_cone_icons.json", icons)
-    await dump_light_cones(data_path / "light_cones.json")
+    await dump_light_cones()

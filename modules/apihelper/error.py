@@ -17,7 +17,11 @@ class ResponseException(APIHelperException):
     code: int = 0
     message: str = ""
 
-    def __init__(self, response: Optional[Mapping[str, Any]] = None, message: Optional[str] = None) -> None:
+    def __init__(
+        self,
+        response: Optional[Mapping[str, Any]] = None,
+        message: Optional[str] = None,
+    ) -> None:
         if response is None:
             self.message = message
             _message = message

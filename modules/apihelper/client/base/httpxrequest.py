@@ -16,7 +16,9 @@ timeout = httpx.Timeout(
 
 class HTTPXRequest(AbstractAsyncContextManager):
     def __init__(self, *args, headers=None, **kwargs):
-        self._client = httpx.AsyncClient(headers=headers, timeout=timeout, *args, **kwargs)
+        self._client = httpx.AsyncClient(
+            headers=headers, timeout=timeout, *args, **kwargs
+        )
 
     async def __aenter__(self):
         try:
@@ -27,8 +29,10 @@ class HTTPXRequest(AbstractAsyncContextManager):
             raise exc
 
     async def __aexit__(
-            self, exc_type: Optional[Type[BaseException]], exc_val: Optional[BaseException],
-            exc_tb: Optional[TracebackType]
+        self,
+        exc_type: Optional[Type[BaseException]],
+        exc_val: Optional[BaseException],
+        exc_tb: Optional[TracebackType],
     ) -> None:
         await self.initialize()
 

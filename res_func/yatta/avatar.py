@@ -6,7 +6,8 @@ from typing import List
 import aiofiles
 import ujson
 
-from func.fetch_avatars import all_avatars
+from func.client import retry
+from func.data import all_avatars
 from models.avatar import YattaAvatar
 from res_func.client import client
 from res_func.url import avatar_skill_url
@@ -15,18 +16,6 @@ avatar_data = {}
 avatars_skills_icons = {}
 avatars_skills_path = Path("data/skill")
 avatars_skills_path.mkdir(exist_ok=True, parents=True)
-
-
-def retry(func):
-    async def wrapper(*args, **kwargs):
-        for i in range(3):
-            try:
-                return await func(*args, **kwargs)
-            except Exception:
-                print(f"重试 {func.__name__} {i + 1} 次")
-                await asyncio.sleep(1)
-
-    return wrapper
 
 
 @retry
@@ -51,7 +40,9 @@ async def get_single_avatar_skill_icon(url: str, real_path: str) -> None:
 
 async def dump_icons():
     final_data = dict(sorted(avatar_data.items(), key=lambda x: x[0]))
-    async with aiofiles.open("data/avatar_eidolon_icons.json", "w", encoding="utf-8") as f:
+    async with aiofiles.open(
+        "data/avatar_eidolon_icons.json", "w", encoding="utf-8"
+    ) as f:
         await f.write(ujson.dumps(final_data, indent=4, ensure_ascii=False))
 
 
@@ -78,11 +69,13 @@ async def get_all_avatars_skills_icons(avatars: List[YattaAvatar]):
             tasks.append(
                 get_single_avatar_skill_icon(
                     f"{avatar_skill_url}SkillIcon_{avatar.id}_{remote_path[i]}.png",
-                    f"{avatar.id}_{local_path[i]}.png"
+                    f"{avatar.id}_{local_path[i]}.png",
                 )
             )
         await asyncio.gather(*tasks)
         tasks.clear()
     datas = [file.name.split(".")[0] for file in avatars_skills_path.glob("*")]
-    async with aiofiles.open(avatars_skills_path / "info.json", "w", encoding="utf-8") as f:
+    async with aiofiles.open(
+        avatars_skills_path / "info.json", "w", encoding="utf-8"
+    ) as f:
         await f.write(json.dumps(datas, indent=4, ensure_ascii=False))
