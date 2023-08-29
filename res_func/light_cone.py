@@ -19,6 +19,7 @@ async def parse_station(icon: LightConeIcon, tag: Tag):
     second_pic = f'{base_station_url}{soup.find("img", {"class": "a2b16 mobile-only-elem ab8c3"}).get("src")}'
     icon.icon = [first_pic, second_pic]
     if light_cone_model := all_light_cones_map.get(icon.id):
+        icon.name = light_cone_model.name
         light_cone_model.icon = first_pic
         light_cone_model.big_pic = second_pic
     else:
