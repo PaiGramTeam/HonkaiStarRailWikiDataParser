@@ -40,7 +40,7 @@ async def get_all_avatar() -> List[str]:
 
 
 async def fix_avatar_icon(content: Content):
-    avatar = all_avatars_name.get(content.title)
+    avatar = all_avatars_name.get(content.title.replace("·", "•"))
     if not avatar:
         return
     avatar.icon = content.icon
