@@ -44,7 +44,7 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
     def get_third_pic():
         _tag = tag.find("div", {"class": "a69d1"})
         style = _tag.get("style")
-        return f'{base_station_url}/{style[style.find("(") + 2:style.find(")") - 1]}'
+        return f'{base_station_url}/{style[style.find("(") + 2:style.find(")")]}'
 
     third_pic = get_third_pic()
     text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
