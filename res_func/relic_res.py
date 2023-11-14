@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 from func.data import read_relics, all_relics, dump_relics
 from res_func.client import client
-from res_func.url import relic_url, base_station_url
+from res_func.url import relic_url
 
 
 async def fix_set_image():
@@ -22,7 +22,7 @@ async def fix_set_image():
             continue
         sid = int(url.split("/")[-1])
         images = div.find_all("img")
-        images = [f"{base_station_url}{i.get('src')}" for i in images]
+        images = [f"{i.get('src')}" for i in images]
         if len(images) not in {3, 5}:
             print(f"套装 {sid} 图片数量异常")
             continue
