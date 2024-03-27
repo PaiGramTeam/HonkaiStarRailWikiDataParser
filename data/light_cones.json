@@ -1,0 +1,1442 @@
+[
+    {
+        "id": 20000,
+        "name": "锋镝",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「飞矢在弦、挽弓逐鹿的那一刻，猎人的双眸最为清澈。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/687d10929ea9e00744b5f1658c4b33595a74993bd88af6d6ba428466cb58fd49.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/40dd109fd21e3db516ea2463399bc9d0cf47336cb3dc03e4606df568bdc6cb3e.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Arrows"
+    },
+    {
+        "id": 20001,
+        "name": "物穰",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「生命就是有序度超越了某个阈值的存在。它的诞生便是对死寂宇宙的最终解答，宣告着古老混沌的时代一去不返。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/adf6fedfff4d7a55466fbffff9256a02619d8e8b7d264a04112147ba424412a6.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/1ac5748fef600fbc58e048a4bc10c4876a460bac6433acbfb90208012aacb447.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Cornucopia"
+    },
+    {
+        "id": 20002,
+        "name": "天倾",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「万物的消逝就像其诞生一样自然，时间冲刷之下，一切有形之物都将焚为劫灰。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/cf3cc18f78d9f4057598aa543a8e54b38776bcda4a17b61ae59949ed56a0958d.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/9f222f7b1665e8ccb65159627c631422f6d3115befabda6cfbc67a2d7f3b8d6e.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Collapsing Sky"
+    },
+    {
+        "id": 20003,
+        "name": "琥珀",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「只有不受时光局限的事物，才能在时光中长生久传。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/38a97777acef7084d67b224086ea1f69abd4cb7cf34935aa31d4cb4d8340e05a.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d6fbbe49c43da80e069c371a21ce8cf7051bd1b67e53ba007f043c278110e9ba.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Amber"
+    },
+    {
+        "id": 20004,
+        "name": "幽邃",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「他凝视着那轮空洞，它犹如在万物终末时高悬的漆黑太阳，又像是一张解答一切疑问的口——那张口说道：███ █ ███ ██ 这答案无法以任何人类的语言诠释，却能被所有人听懂。 」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/4eea4998e4537aff3e3bacc061dcd88963d92876a18ce5eb9fff1c2b5707e02b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/dac0d0bca52d04a428e2ed87157cf818be76215e29e9a407c566c59cf2def123.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Void"
+    },
+    {
+        "id": 20005,
+        "name": "齐颂",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「合指为拳，众志成城。我献出自我，而后收获更高之物——我们。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/0750e9c86f09c217e788e47585655a33e24fc3d1d1f763f53b1ddb5c656c4767.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/acac7f24d07757be6929d0cebaf5ca9e42b00b74d212f70e470420ad5ee13b7d.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Chorus"
+    },
+    {
+        "id": 20006,
+        "name": "智库",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「人类行将灭绝。而图书馆会存在下去：青灯孤照，无限无动，藏有珍本，默默无闻，无用而不败坏。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/4a22d2c3147118eaa981d42f4af8a38b53d727993b28571210baa50b38564e07.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/54ebfaa5dc2cb574d97dbb846ae7b368d32cc2c5783492751ba24bd02f36ea70.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Data Bank"
+    },
+    {
+        "id": 20007,
+        "name": "离弦",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「战事已经开始，必须给箭矢找到下一个目标。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/5193aae2636a0ee321ff42597c4cb88a758e1d71f42753d60ec240f9745efc27.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/f4647b7cf8c709a86e92cd2a497ffc1db6a71a66a5e202925ebf005b7c46337c.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Darting Arrow"
+    },
+    {
+        "id": 20008,
+        "name": "嘉果",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「口渴时，万物总是甜的。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/9f4a5bafd61ba5f1c410fc75f7ac4b38583cf2609dbb22f05aef6fe1c9fa8808.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/6aadb67428947b72e4f7163edd15da1e3a75134534d279396cf96bffab3696cb.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Fine Fruit"
+    },
+    {
+        "id": 20009,
+        "name": "乐圮",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「有能力摧毁某样事物的人，才是它真正的掌控者。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c53387e4a3058b48760d663d7703b3446d1726b807e410b072adc8e48f9482da.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/51401cd3d922f0aec4d60a1eeb8c39d11309d841cb27dde3b474f73a79b8dd80.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Shattered Home"
+    },
+    {
+        "id": 20010,
+        "name": "戍御",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「城墙后坚强的民众，证明了防御也是一种取胜手段。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/f06220a72a44617c296771d6cb58afbaca49c2ccad6af93e6e7a07e0ed0e3a60.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/1e332772e5a6b8ba92f8ea147966f99115834d84c9f911d4376fa991f278c5b0.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Defense"
+    },
+    {
+        "id": 20011,
+        "name": "渊环",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「逃亡者试图摆脱过去的幻影，他以为这痛苦无人能懂。直到他抬起头，未来的自己正睁着可怖的双眼。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c5fb5f3171aaf153b005feda112cb95d604f902769b1b72c8c144f9e5d142094.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/6b21b38e012e8dd1e433e996d3e7809ebdecaa908e2d8de53d2c89783b0acc21.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Loop"
+    },
+    {
+        "id": 20012,
+        "name": "轮契",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「没有比这更和谐的声响，人人各就其位，庞大的机器应声而动。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/b3a6f7f2f27090a12d9a309d9cf4a5c860c51f8758905dc232d4170288228de0.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d328288857d900899d7ea56b827c8b6c5da052ecc2b0be6cfe0d71ce238dd755.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Meshing Cogs"
+    },
+    {
+        "id": 20013,
+        "name": "灵钥",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「知识永远在那门后，而大门的钥匙也不由谁赏赐。谁最想要它，谁就能拥有。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/9b44dac81bf42213e0d303ce527aaac9697fc4c12d8d5c0be1159656864d75f4.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/e3dcbc184da00e17529e6a672da1b11f8b6a1704fbf4ac1425334bb4b5609dc4.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Passkey"
+    },
+    {
+        "id": 20014,
+        "name": "相抗",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「为自由而战的人不会死，他的故事将被永远传唱。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/6b9bc847cd8d91bba3fee6ca98e2cebded5edb77b0cb3629f123e535bad197bc.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/189816d74814b2208df2b15167b171e838177d3e67920dba936d6f6f09d22745.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Adversarial"
+    },
+    {
+        "id": 20015,
+        "name": "蕃息",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「当生命失却意蕴时，请继续赐以生命。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/b7a2fabb5eab561d632dce479cd04f281b97558c7b2bb8fd67a5c887580ab73e.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/56c89767a07bce917d205f8777752f3277edccb0b5244141c868735b824fffb1.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Multiplication"
+    },
+    {
+        "id": 20016,
+        "name": "俱殁",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「如何使星球的过往更完美？现在，立刻，撕碎它。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/122ed362cce4eb5bb8d5b9f512962052e90fd2079f9f0892859454e498b77268.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/f3eff4713ac394ebf66c63ce492e561ac5075085bf20b97d1c88ed09ab8c0d6c.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Mutual Demise"
+    },
+    {
+        "id": 20017,
+        "name": "开疆",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「无靠无依的时日已落场，公司将与诸位携手相助。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/3066e53234d0ab4f4731906b4e6727abf869b063ce7695aaeca162a8d0e411f4.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d68a79a685d0c66cbc8dd7e2e3c6a076583f315f4e76b2eb284502fd8aef1602.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Pioneering"
+    },
+    {
+        "id": 20018,
+        "name": "匿影",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「虚无也许会找到我们，但它很可能不会。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/087e0e8696ba1a55d4fae0b30b77536ed5f19fa56454bb1bb8e61bae35638443.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/24537ec9a55aaa9ddbd805b8006c695fbc8fb0b6662f495810147294a2f6d0b1.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Hidden Shadow"
+    },
+    {
+        "id": 20019,
+        "name": "调和",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「还有什么比消除不谐音律更愉快的事么？」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/fad7807963ca63da18d0249ea9e7b9793dea81300e49f8a1ce79080460900225.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/229846551f385494ee7e666879ca13069d060ee78d010ba02fc5fb6dd161d2a0.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Mediation"
+    },
+    {
+        "id": 20020,
+        "name": "睿见",
+        "description": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\\n\\n<i>「智慧之人如果无法抛弃人的身份，则会被智慧抛弃。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c01503a01736d7b50e9177a25fe73127f22d3bc8376e5dce922dc2dd67b82666.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/874c33f92688ffbcf4b19448d3420d8bb01e36c5a19e40afb538425481b39d7b.webp",
+        "rank": 3,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Sagacity"
+    },
+    {
+        "id": 21000,
+        "name": "一场术后对话",
+        "description": "<i>「你醒了…谢谢。」\\n「你…救了我…娜塔莎。该说谢谢的人…是我。」\\n「不，是我要感谢你……坚持到我完成手术。」<\/i>\\n\\n医生与病人疲惫地相视一笑，再也没有说话。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/3ac5f88feb07abca2938a85567aa13b1286f34606118bd759e45a80373accb5f.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/e72b74d77b7fb66ce3e7f217a8c7eb3f2515ada5bfb34b6367d262e82028a87d.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Post-Op Conversation"
+    },
+    {
+        "id": 21001,
+        "name": "晚安与睡颜",
+        "description": "静谧的灯光勾勒出尘埃的轨迹，\\n平稳的呼吸里有少女香甜的梦呓。\\n一个人影出现在她身后，悄无声息。\\n<i>「啧啧啧，果然还是摘掉眼镜比较可爱嘛。」<\/i>\\n吉他手端详着她的睡颜喃喃自语：\\n<i>「晚安，爱操心的天才少女。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/feff2b51dfe1843ca3a65db1e61da36046c855277444f747ec35b929a7b1ff02.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/2216e9d1737b5c3a6655e354c103ee9a153f9a917b2a7b35689c08dd4b08ad84.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Good Night and Sleep Well"
+    },
+    {
+        "id": 21002,
+        "name": "余生的第一天",
+        "description": "<i>「今天帕姆换上了新衣服，开心~喜欢~」\\n「今天过生日啦，今年的我依旧可爱。」\\n「今天我终于终于终于也有后辈啦！是不是，{NICKNAME}？」<\/i>\\n\\n一次次不假思索地按下快门。\\n是为了抓住当时的快乐？\\n还是抓住当时的自己？",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/93640a3e5e402dfa7873be215e02cab8cbef058d9f276a996163bc58032dfca9.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/7895f540dab6b5ecc5fca97883c2da9421de8f227c9cd6817722af3d549ee58a.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Day One of My New Life"
+    },
+    {
+        "id": 21003,
+        "name": "唯有沉默",
+        "description": "<i>「已经到站了，不下车吗？」<\/i>\\n头顶传来一声轻笑。他的眼睛动了动，没有抬头。\\n\\n<i>「事先说明，小三月总说你面无表情，我可不这么觉得。」\\n「列车智库的数据有更新输入的痕迹，但是却没保存结果。」\\n「所以…哪个条目还能难住你？」<\/i>\\n\\n他捏紧了笔，看着笔记本上那个仅凭印象复写而成的惨烈之景。\\n\\n<i>「原来如此，是关于你自己的事……」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a484e467911f5a52ce30b632a46d7660ac07b63aa5d0c54a006ba337d8b856f5.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/43aa269a8c9a982286b179e8ee3d218b865073547c6fce942e339bdbd291c2f6.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Only Silence Remains"
+    },
+    {
+        "id": 21004,
+        "name": "记忆中的模样",
+        "description": "官邸的桌上摆放着一张老相片，在远远的一角。\\n偶尔目光落在上面，她总会不自觉地错开视线。\\n记忆中的模样虽已远去，但今天的梦仍自萦绕。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e43503f3b6a52ffce818d3bc36d5b608b0d462f89e2686253c247ff07cf91cc7.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d502e2178479bd57ac2e020af07c2a9a4829b2530f3eae5f290792aafe896e26.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Memories of the Past"
+    },
+    {
+        "id": 21005,
+        "name": "鼹鼠党欢迎你",
+        "description": "<i>「鼹鼠党，鼹鼠党」\\n「我们马上出发」\\n「机智鼹鼠不怕不怕」\\n「鼹鼠党，鼹鼠党」\\n「鼹鼠党开始冒险！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/929a86bc3ce9708a5416ce07f8e6aa18e0b653bf95af4efca11aef7dbefee761.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/37eab4a9c2ce50f95a7b82c0e449a74f8a3f6aba5853d7a336181caf113d6360.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "The Moles Welcome You"
+    },
+    {
+        "id": 21006,
+        "name": "「我」的诞生",
+        "description": "刚开始，它和上一幅画像中的姿势完全一致。\\n她看着这张和自己一模一样的脸，认定这还不是她。\\n\\n<i>「世上怎么可能会有两幅相同的画像呢？」<\/i>\\n\\n她摆弄着它的关节，教它睁开眼，教它的手指变得更柔软。\\n她满意地住了手。\\n\\n<i>「和昨天截然不同，这才是今天的我。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/505f6ddb55f4931be3eebb484ce40664a82d0fa9c3884932e2f40fad291019ae.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/e9e9d09bda90449eb412ac7e8bbe890b831db167063d9a21cc1782480d75160d.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "The Birth of the Self"
+    },
+    {
+        "id": 21007,
+        "name": "同一种心情",
+        "description": "医生找到女孩时，她受了伤，却仍紧紧抱着停止运转的机器，口袋里装满了翻找来的各种零件。\\n她赶紧把女孩带回了诊所，给伤口上好药。\\n汗珠从脸颊旁滑落，女孩虽然一言不发，手却一刻不停。\\n医生知道，此时女孩的眼中只有那台机器，就像自己面对着等待救治的病人。\\n因此她没有出声安慰，也没有提醒她往后要小心一些，只是坐在女孩身边，静静陪伴着她。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/4004138ebc9a06f3388081b27d1abd10018912a9269939e00bd1a938aecb2237.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/76c24126287b9cdaa4e60add26270ae8dbabc059d242d2b4203c37e518822d39.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Shared Feeling"
+    },
+    {
+        "id": 21008,
+        "name": "猎物的视线",
+        "description": "事实上，猎物多半不会意识到自己的处境。\\n眼前的这个猎物也是如此。 \\n瞄准镜缓缓转动，男人仍自顾自地抛洒着一叠又一叠的纸钞。\\n<i>「看他那贪婪的样子，这点钱够我做几单生意了…怪不得有人要干掉他。」<\/i>\\n\\n像是听到了他心中的感慨，男人转过头来。\\n<i>「等你好久了，这些钱够不够让你听听我的条件再做决定？」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/d247b26dc5413acae19646bf90a6bf04d5184d05f6708afdacb66ecf2168ed2b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d413f70f97eceba24ad6cf04502f033ff3ae2bff04866a5273a036d2b00ba98c.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Eyes of the Prey"
+    },
+    {
+        "id": 21009,
+        "name": "朗道的选择",
+        "description": "<i>「听见没，明天不许去了！和几个平民混在一起能学些什么好的！」\\n「但他们说的那些贝洛伯格故事，我都没听过…」<\/i>\\n\\n她拉过还想辩解的弟弟，把他挡在身后。\\n<i>「你们是朗道的一员。特别是你，希露瓦，总有一天你也要做出选择。」<\/i>\\n\\n她知道弟弟什么都没做错，但她不知道该怎么反驳。\\n生了一天的闷气后，她暗自下定决心。\\n<i>「我会长大，总有一天我也能选择……」\\n「我自己的选择。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1ec04ab28a9a38d56c37d8a2fe5fb1996c1d43bd6a37f0f38ac99a56c16f85b0.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/fbb218b0f7e719252cf41cc128ecfb80de028a35b86962823598735ea23767ee.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Landau's Choice"
+    },
+    {
+        "id": 21010,
+        "name": "论剑",
+        "description": "少女不解地比划着手中的细剑。\\n自己的剑要双手才能挥舞，这样的剑也能算剑？这样的剑也能杀敌？\\n\\n剑的主人倒是对此毫不在意，毕竟——\\n杀不杀敌又不在剑，全在心。\\n用的重剑还是细剑，又有什么区别。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e95119de6ef1fc07f6135baf0343b2cb9f0060bc54d77ed120362558d44704a7.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/4310143b61d3101f215f8c371091d47d05d87fe255d415a0cd50cdbcd9e6aaf2.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Swordplay"
+    },
+    {
+        "id": 21011,
+        "name": "与行星相会",
+        "description": "上路时，她仍然对这趟远行一无所知。\\n只知道终于能告别家中的百舌之声，躲避无处不在的明枪暗箭。\\n直到她望向窗外时，她终于明白了那首诗的意味。\\n<i>「在某个时刻之后，我们不再行走，而是飞翔。」<\/i>\\n\\n而她眼中闪动的亮光，正是行星的倒影。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/38c4f384cb051f2b88ea3ca46517838b4440e012aae848dd36561db06666ca8b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/1f022e279e5e327f7a9409a9aa9dbd93c8227f80ae1d2e19f6389d92a0e41551.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Planetary Rendezvous"
+    },
+    {
+        "id": 21012,
+        "name": "秘密誓心",
+        "description": "每次出发前，男孩都要仔细地检查护肘和手套。\\n那是他最钟爱的手套，它足够严实，可以藏起很多秘密。\\n如此一来，没有人可以看见他手上的绷带，以及绷带下的伤口。\\n大家把他当作一个普通人，普通地和他打着招呼。\\n\\n这就够了。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ce783c2dd367f2b8f2d2f5c939bd54da806a8f09425a799937cbe68d80268755.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/fad104fc6aec321b9a02d9eaae519b9144968c7ad58aaf0ab9e6e589ec846f33.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "A Secret Vow"
+    },
+    {
+        "id": 21013,
+        "name": "别让世界静下来",
+        "description": "她在台上挥着手，希望每个人跟着她一起发出自己的声音。\\n不管是歌唱、呐喊、哀叹，以任何形式。\\n发出自己的声音，直到有人听见，才会有人加入。\\n\\n<i>「别让心冷了，变得和这个城市一样冷。」<\/i>\\n\\n——别让世界静下来。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/42131af601e4eb0520ead795ec9cff31f444e306dc4fbbd6ec89ded052db2847.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/b3e3d54eba4ea560dd24a34f5cccbe87f27bec388e432d59d33d068825f5edb1.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Make the World Clamor"
+    },
+    {
+        "id": 21014,
+        "name": "此时恰好",
+        "description": "街道熙攘，他走着，阳光跟着。\\n他停了脚步，挑了纸伞，乘了阴凉\\n——也遮了那一道目光。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/bd3bc8b83c1813a62fb01d4dedac762b6cf555c4d5e9dbfbcb27d25a87fa533a.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/8ec619bd49a91a8cb27d84a4732ab950f5ba601c440ef151cdb3781e0f87387f.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Perfect Timing"
+    },
+    {
+        "id": 21015,
+        "name": "决心如汗珠般闪耀",
+        "description": "拳台灯光闪耀，\\n却闪耀不过从背脊间滑落的汗珠。\\n\\n他早已决心用自己的双拳守护重要的人们。\\n而给予他决心的，也正是他们\\n——不管是台上台下，都站在他的背后。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e34e19f632522a8effd15ccd5ea784afed71fef9e7bfab2106d4de8e0504cfb7.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/64933796ab1bd0f2d536ab2ecf165e46fdf31f5c5b5c1571f988d367da979aaa.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Resolution Shines As Pearls of Sweat"
+    },
+    {
+        "id": 21016,
+        "name": "宇宙市场趋势",
+        "description": "星球的价值正在被重新计算……\\n\\n<i>「这个项目是否会说明，追回债务的益处是相互的？」\\n「但我们只需传达一个信息，就是宣告我们的存在。」<\/i>\\n\\n「它若是要有自己的价值，就得为公司增添价值。」",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1ef540065155b7b21d6a8d54cd5e5c5f2ffaaf2d5aac70f25f49f5b78ce3cbdb.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/516d0ef908d27ed2fb87de6b622c1799bdbceacfcc2f7fc90a85fca8ec8d8e37.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Trend of the Universal Market"
+    },
+    {
+        "id": 21017,
+        "name": "点个关注吧！",
+        "description": "<i>「嗨——嗨——！观众老爷们，这里的信号畅通吗？」<\/i>\\n\\n橙发少女兴奋地喊着，对着镜头笃悠悠举起锤子。\\n<i>「大家——见过少女胸口碎大石吗！」<\/i>\\n\\n<i>「我当云骑军可不是为了做这种事啊！」<\/i>\\n褐发少女眼冒金星，橙发少女狡黠一笑。\\n<i>「拜托啦——这也是助人为乐啊！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/b6eed1ff79b06a5ccb5475059c19474011eb95e3ffdeaa6152168dbf3fc6b1c5.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/cfa34d8332f0951817e18eac52b6665d752968223d699db08a34038790ef70ec.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Subscribe for More!"
+    },
+    {
+        "id": 21018,
+        "name": "舞！舞！舞！",
+        "description": "<i>「为什么虎克不能像克拉拉一样跳舞转圈圈呢…」<\/i>\\n她握紧拳头，嘟囔起嘴，圆乎乎的面颊被毛毡帽烘得红润。\\n<i>「史瓦罗先生，可以帮帮虎克么？」<\/i>\\n不苟言笑的大机器人，一言不发地伸出机械手。\\n\\n<i>「要、要转晕啦！！可恶…快放我下来！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ca4d22792ed08963f9c2b4f685999953ba5b55c793a0796dcc54bbfa4c77fc4c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/001b2b92d7cb99d73d5d51ab54dd63209ab129cf7701602780984e7fc9c4f6bb.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Dance! Dance! Dance!"
+    },
+    {
+        "id": 21019,
+        "name": "在蓝天下",
+        "description": "蓝天下的麦浪阵阵摇荡，\\n少女精心编织着花环，\\n戴在最亲爱的妹妹的额头上。\\n\\n那时的她们还一般高，\\n那时的她们仍那样笑。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/dd99274eb2ebe79cc0e60b466d3a394515a4101a45fd892dee304e95bffd7765.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/3ca8583b0d674334719194f8a6e03cac2bd16b7734f522ca4cfea7b612d5572e.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Under the Blue Sky"
+    },
+    {
+        "id": 21020,
+        "name": "天才们的休憩",
+        "description": "她点了点那碧绿色的团子。\\n<i>「实验结束，该休息了。我不能错过刚出炉的时令点心。」<\/i>\\n\\n她看到人偶少女皱起眉头沉思。\\n<i>「你先用这具身体看看便好，回头给你捎上一盒。」<\/i>\\n\\n她看到机械贵族面露难色，端起杯子。\\n<i>「放心吧，那是机油。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/27ff6f93edcd30531f2b2d1a1ddae026e422b3cd6b03fe3e4f94ae2af27dedae.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/89db81ceb96a4b8973bd72c39c78fb9ef5ed840998d2a2cedcd5773a5a962d5b.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Geniuses' Repose"
+    },
+    {
+        "id": 21021,
+        "name": "等价交换",
+        "description": "在享受完龙女使出一身雷劲的按摩后，\\n狐人少女伸出手，捏了捏她的脸蛋。\\n看着小人儿气鼓鼓地嘟起嘴，她媚然一笑。\\n\\n<i>「等价交换嘛。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/53c7d4b53d302bc431a3781283aa4549c539c7b9eac5ecd41120871d507a8b7a.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/960c7994ccc42cb6a3e43032f771ec8c4286a6df5cb6dba149518278a0663d2b.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Quid Pro Quo"
+    },
+    {
+        "id": 21022,
+        "name": "延长记号",
+        "description": "唱片转呀转呀，嘶哑的叫喊被热气浸润。\\n她看似毫无防备，沉醉在迷人的旋律中：\\n\\n先由恳求与期待引入，\\n再是激烈真挚的倾诉，\\n跃过一个又一个高潮…\\n\\n直到唱片停转，嘶哑的叫喊也失了声息。\\n<i>「任务结束。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ac62b25ca235430f33305231a9cfee9ca0319762e889b57d889946962be7a7d2.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/72c715983edd31f15b92b3f2a3d98bbc369c61e94b0d8f344b8ddd21a8928911.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Fermata"
+    },
+    {
+        "id": 21023,
+        "name": "我们是地火",
+        "description": "她习惯了人们失去家园，\\n也习惯了人们失去生命，\\n但一个人时，哭泣也无用。\\n\\n<i>「系上这条红丝巾，分担彼此痛苦。」\\n「我们是一家人…我们是地火。」<\/i>\\n\\n当宽阔的手掌抚上她的脑袋，她终于忍不住掉下眼泪。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/cf32b693993c5bbbdd9daf5538d80b2e8fe4a0c648484b54adc1bd7e103b2421.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/4dc7b85adfda121ffc0b9e8687137e4c5d3203f869eb90d97edd191bb1e1af0a.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "We Are Wildfire"
+    },
+    {
+        "id": 21024,
+        "name": "春水初生",
+        "description": "练剑的少年稍事歇息。\\n阳光烘着他微热的脖颈，缓缓入水，\\n没过脚边时，虽是凉的，\\n但铃铛叮铃，飞鸟啁啾，\\n远方的人们知是春天到了。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a0fcd6f1c7710f28f8697230cedfcadce0b7546ab09881ea0093265c71a8c37a.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/18577c1fde3855accbd19af29697388ea98728575cb49b3977c56dba0a152530.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "River Flows in Spring"
+    },
+    {
+        "id": 21025,
+        "name": "过往未来",
+        "description": "手中的纸鸢双翼折断，就如那最珍贵之人的陨落。\\n她跪坐在战火里，眼里满是悲伤。\\n\\n<i>「如果只能被你所救，那我们的牺牲…」<\/i>\\n\\n炮火染红天际，苍穹依然宏伟。\\n她抬头望向天空，眼里满是愤怒。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/f08e57d0c24817f6381023c15f76da956ea0ac8d4a2771a8afcf155cd3847203.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/a0ea4979c2d4b0989b61f600970bec8ee6566bcd2d02403e6a4bbe0bb21eaa56.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Past and Future"
+    },
+    {
+        "id": 21026,
+        "name": "汪！散步时间！",
+        "description": "可惜还没人看到…\\n看到它抽抽鼻子，四处嗅嗅，钻入无人的小路。\\n\\n可惜还没人看到…\\n看到它收起爪子，按下密码，投入自由的怀抱。\\n\\n还没有人看到么…\\n一只成熟的小狗，早就学会自己去太空散步了！",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/dc39ac98f5603bbe60f8ce44151fb9edba7473a5b398151f9284e80203c646a9.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/31a06bf62127a65eaedd30d144d9fd8dad9391f821b0bbd156339395342cd21c.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Woof! Walk Time!"
+    },
+    {
+        "id": 21027,
+        "name": "早餐的仪式感",
+        "description": "虽然餐桌已经摆好…\\n有人要先喝一杯红茶；\\n有人要先拍一张照片；\\n有人要先读一份报纸；\\n有人要先记一页笔记；\\n有人要先玩一会手机。\\n\\n<i>「都给我趁热吃帕！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1e71f6faf43757e717c3b34a33f080bce4073dc62a8626fcbe67b85a6da20f3c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d632f88d897084c1d3faa957ea7931165902b9d399b0d72426b9fe542e588af8.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "The Seriousness of Breakfast"
+    },
+    {
+        "id": 21028,
+        "name": "暖夜不会漫长",
+        "description": "点一盏灯，捧一杯暖呼呼的巧克力，看着身旁的朋友。\\n看着她阅读自己送的书和笔记。\\n看着她露出平时见不到的笑容。\\n\\n在寒冷的夜晚，一点小小的幸福便能驱散寒意。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/8bceed432d266034e620bb311b21f6a1ca8ab759707888eccb6a0d051a8684b2.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/7d7597c91ae0ae194b127ed317f0fe6276790844e11d5ddf86d6e3103e785670.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Warmth Shortens Cold Nights"
+    },
+    {
+        "id": 21029,
+        "name": "后会有期",
+        "description": "她曾怀疑那是某种程式，不然怎会不知疲倦。\\n但程式不会主动舍弃最优方案，绕过她布下的陷阱。\\n\\n<i>「看来我们要打一场持久战。」<\/i>\\n她打了个哈欠。\\n\\n<i>「早点睡吧，有机生命应当珍惜梦境。」<\/i>\\n周围暗了下去。\\n\\n她突然惊醒，但数据的残渣已被扫去，烧毁，好像一场梦\\n——除了那初尝失败的滋味是如此真实。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/63e5088111365d42eb00fadbd49911ad568a4f6ef1a258d8b0ced8feb7079714.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/1afa42b70cb744423e6e719b31a0f2ea68e767773277011d1dbdbc0a3ae607a7.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "We Will Meet Again"
+    },
+    {
+        "id": 21030,
+        "name": "这就是我啦！",
+        "description": "少女穿什么都很可人，但她似乎仍不满意，身后堆叠的衣服不下十几套。\\n\\n<i>「今天会是最后一次么？」<\/i>\\n\\n她默默地想着，抬头看向镜中的少女，今天的她好像格外开心。\\n\\n<i>「好啦！这就是我啦！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c01ad0632f2a5c334690e5dc3b25fc247dac9f1ab145cee37caa16ef6aacf8d2.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/02610cfc46833ce27cbfe06f4e47d187678897498bc6ee4fbc54cc50eb549643.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "This Is Me!"
+    },
+    {
+        "id": 21031,
+        "name": "重返幽冥",
+        "description": "虽然在姐姐身边，她却什么都听不见。\\n只有心底的声音越来越响。\\n\\n<i>「姐姐的身体冷冷的。」\\n「姐姐的身体不会动。」<\/i>\\n\\n愤怒的潮水将她淹没，义无反顾。她已来不及想起——\\n\\n<i>「姐姐的身体，很早以前就是冷的了。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/76ab003a9c92bc992e29233781457d8d6e88ce017549ec6c2de336678fa6343b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/f42641ebde76701b92930a2d18a1fbb1a7707c1ced786f88168fd9d9b5f386ab.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Return to Darkness"
+    },
+    {
+        "id": 21032,
+        "name": "镂月裁云之意",
+        "description": "他一眼便相中了那件金器，正要买下，\\n狐人少女却将他拉入一隅，悄声说道：\\n<i>「请恩公晚上再光临本铺，到时再做决定不迟。」<\/i>\\n\\n夜晚，他如约而至。\\n开门的又是那狐人少女，盈盈一笑。\\n<i>「请恩公随我来。」<\/i>\\n\\n只见一线月光刻入錾花盘底。\\n工匠以线条之深浅勾勒花瓣的深浅，若非在月光之下，便看不真切这一毫一厘。\\n\\n他这才想起，这件器物为何名为「镂月裁云」。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/40a479c25dac62b9b47d4eea71d4e104fec1c4a4d517ad7b2810fe0fabf9cf9a.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/3e55e1c9c2852df224ba6f6938905f2a5efcd4670a2a661b8ffaa23a77767755.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Carve the Moon, Weave the Clouds"
+    },
+    {
+        "id": 21033,
+        "name": "无处可逃",
+        "description": "他并非第一次见到这个男人。\\n不知从何时起，男人就像他身下的一道阴影。\\n无论以长枪贯穿多少次，总会再次出现。\\n\\n他不会输，但也赢不了。\\n他想逃，但也无处可逃。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1c25d550fecf451d749782873bb3fd02bdc971f552aac5ea68bad924eecb3682.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/54297fd23b0082b6da6396c56349899595d1fd4613c5018f7df626398bde599c.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Nowhere to Run"
+    },
+    {
+        "id": 21034,
+        "name": "今日亦是和平的一日",
+        "description": "牌戏的新玩法刚有了眉头，午休又借了闲书。\\n掐指一算，余下的工作慢慢做，正好能做到下班。\\n她不慌不忙，躲入一隅。\\n\\n美好的闲散时光，绝不能被任何人打扰\\n——就算是符太卜也不能。\\n只是万一，要是有个万一……\\n\\n<i>「就把这奶糖团子给符太卜。吃了甜食，总该消气罢！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/9187a45dbfa7460e170eeb1261145ef33ea4dd66fe60fca913603a4a123f63af.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/373e99d7fe4003f00901e94302c69004d0be11700b03bdeb1885c0330c875f3c.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Today Is Another Peaceful Day"
+    },
+    {
+        "id": 21035,
+        "name": "何物为真",
+        "description": "<i>「倘若所有的钟表都在指示错误的时刻……」<\/i>\\n<i>「倘若许下承诺的人以背誓完成诺言……」<\/i>\\n<i>「倘若沉入幻梦之人从未真正睡着……」<\/i>\\n<i>「倘若死者活着归来，发现姓名已被剥夺……」<\/i>\\n\\n<i>「倘若…倘若……」<\/i>\\n他吹灭火焰，黑暗中只余时钟永不停歇地滴答作响。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/566858d358a60d491030b249a017bd0dbbfe74b849615c9029fd76f0b153fe1b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/ecf2fed64846a503c7ee14904e1499278e2f1d8562c0c2201992825905c20372.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "What Is Real?"
+    },
+    {
+        "id": 21036,
+        "name": "美梦小镇大冒险",
+        "description": "<i>「亲爱的观众朋友们，钟表小子和他的伙伴们又要和大家见面啦！」<\/i>\\n\\n<i>「在上一集中，石头老板发现了美梦小镇藏有丰富的资源，开始抢夺美梦小镇的统治权。钟表小子联合哈努兄弟与折纸小鸟，将石头老板和他的可恶下属赶出了美梦小镇。」<\/i>\\n\\n<i>「石头老板心有不甘，聚集一帮打手誓要踏平美梦小镇。钟表小子将在这一集中面临史上最大危机！」<\/i>\\n\\n<i>「钟表小子会用怎样的计谋突出重围？又会有什么新伙伴加入他的队伍？敬请欣赏最新一集『美梦小镇历险记』！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/eb377578f2a10c7427bf93be5edea1cc49b0ba72f3e212625d363bc9bdd50038.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/97cbc7b410267cdbba566f2b66538620f6bfd8069a017f13cb7bdccb65f9af8d.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Dreamville Adventure"
+    },
+    {
+        "id": 21037,
+        "name": "最后的赢家",
+        "description": "<i>「你信不过我？」<\/i>\\n他挑衅地看着面前的男人，拿出一把手枪，清空子弹，只余一颗。\\n\\n<i>「看来，要想合作愉快，还得向你解释一下我的做事风格。」<\/i>\\n他将手枪塞到对方手中，转动转轮，将枪口对准自己。\\n\\n他连续扣动扳机，三声空响之后笑容无异。\\n<i>「生命是一场盛大的豪赌，而我总是最后的赢家。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c2e8458bbdc6862164941324b67010d441eb06928cc97414cdca04fee0f4876e.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/35b24424db8c352f74968e4dfb30d543ad8707aa8cfc3238226b32131d4bb363.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Final Victor"
+    },
+    {
+        "id": 21038,
+        "name": "在火的远处",
+        "description": "<i>「东西到手了，交给你断后咯。」<\/i>\\n通讯器里传来同伴的声音。\\n\\n他看向周围，废弃的巨型建筑内，残存的敌人仍在复杂的结构中穿行，向他逼近。\\n<i>「稍等片刻。」<\/i>\\n\\n一瞬寂静之后，宛如末日灾难的剧烈爆炸冲天而起。气浪吹起尘埃，烟云四散，致人目盲的强光令夜空亮如白昼。\\n<i>「你知道那里面都是他们故意设置的火药吧？」<\/i>\\n\\n斗篷猎猎张开，他如同完成了一场悠闲散步。\\n<i>「当然。」<\/i>\\n<i>「所以点燃他们，我只需当那根火柴就好。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/eb711d5332f5fbefdecdf5c7b603507487a67dd967e837c262bc4a46a5693385.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/eda3dadde293313d702bf21772aa2924241e9dc69f10928e969b4bb0f55d4585.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Flames Afar"
+    },
+    {
+        "id": 21039,
+        "name": "织造命运之线",
+        "description": "命运总是无端将众人牵引，而她隐于暗处铭刻最为关键的瞬间。\\n\\n排序，组合，洗牌，抽牌…她模拟命运之手操纵众人的种种可能，寻找纷乱表象之下的真实轨迹。\\n\\n终于，所有人物各安其位，她拂过凝固的牌面，拼凑出那幽邃的真相。\\n<i>「还缺了一张…那么，我来补上吧。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/2df7b2c38e7dfc39bd427d00ead857d1ce83822add0792548747b07a48d04cbb.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/425a7fefa851c7d2382aa3a9a2bf54109ad4b6276a63ce83d11833637e8d77c1.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Destiny's Threads Forewoven"
+    },
+    {
+        "id": 21040,
+        "name": "银河沦陷日",
+        "description": "<i>「芝士流心！你负责迷晕星球的守卫！」<\/i>\\n<i>「豆沙灰灰！你负责攻陷星球的士兵！」<\/i>\\n<i>「盐渍冬梅！你负责拿下星球的首脑！」<\/i>\\n<i>「大王，您要去做什么！」<\/i>\\n<i>「我负责扮演可爱猫猫迷惑这些蠢笨的人类！」<\/i>\\n\\n那一天，银河众文明终于回想起了，被它们支配的恐惧……",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/2233d6e774659b5f8751e21c200b000171488535e020293f33e206ff9cefaeb4.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/c023b67317b1628e33f662ccb5f01efe8cd7287da9a2b24cfb0043e461b77450.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "The Day The Cosmos Fell"
+    },
+    {
+        "id": 21041,
+        "name": "好戏开演",
+        "description": "——是谁看见他死去？\\n——是我，用我的小眼睛！\\n——是谁取走他的血？\\n——是我，用我的小碟子！\\n——是谁为他挖坟墓？\\n——是我，用我的凿子和铲子！\\n\\n看智者机关算尽，王者权欲熏心，英雄自以为是，而愚者欢笑不止——\\n「现在，有请花火小姐给我们带来年度大戏——『匹诺康尼惊魂夜』！」",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/db16ff176ccb0cb662d20f80b0a4d0ea9fdbd93b000e660056bbf562183a48b1.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/0f7b35b50e465945ee32829e105dba2adc30c6854ee5a10b8eebad67c4a07cd0.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "It's Showtime"
+    },
+    {
+        "id": 21042,
+        "name": "铭记于心的约定",
+        "description": "风尘仆仆的过去，守护家园的责任，开拓世界的梦想——\\n一双粗糙的大手，将这些递给了不谙世事的少年。\\n\\n<i>「不久之后，我们就能去往更广阔的世界了吧。」 <\/i>\\n男孩欣喜地接过传承的信物。年幼的他，尚未感受到那信物有多沉重。\\n\\n<i>「一定会的。在那之前，米沙，守护好这里。」 <\/i>\\n\\n他将那约定铭记于心，直到——直到永远。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/6e2911dcc90e759ac38fb18af9d4e1e999ab1c9f6ccd2e821bd136f9f3694900.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/4c6a6ade71600cdcb159046610e0547d8f63f958037be45f4cb8cc2648e73a4b.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Indelible Promise"
+    },
+    {
+        "id": 21043,
+        "name": "两个人的演唱会",
+        "description": "「哥哥，这是……」 \\n「好久没有快乐地唱过歌了吧…我为你搭了一座舞台，就是…有点简陋。」 \\n「可老师觉得我不适合……」 \\n「不，我觉得很好听！以后你一定会实现自己的梦想，站在更大的舞台上歌唱……」 \\n……\\n\\n许多年之后，她站在璀璨的舞台上，望着底下汹涌的粉丝，却失神了片刻——\\n在漫长的追梦路上，她总会想起那道信任的目光，和自己的第一场「演唱会」。\\n没有绚丽的灯光，没有华美的妆造，有的只是一个孩子为了鼓励另一个孩子追求梦想而搭建起的舞台。\\n\\n「如今，我们的梦都实现了。但…那还是属于『我们』的梦吗……」 \\n她握紧了话筒。在下一首歌开始之前，她甚至来不及感到悲伤。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/0eb5b2e7c3c90bdc0bd71294aa34f7e9670070aa86ce8b06d930e5df884b5c14.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/2105fa207135c58cd48f45dc52813cb0f313b8da65d96f6962b8143331670ecf.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Concert for Two"
+    },
+    {
+        "id": 22000,
+        "name": "新手任务开始前",
+        "description": "<i>「还有多久开始行动？」\\n「你居然会问我这个…是新人出什么事了？」\\n「没有。」\\n「虽然艾利欧招揽她是因为别的原因，但她至少得活得过新手任务。」\\n「她很轻松。」\\n「那我放心了。看来阿刃也已经是非常靠谱的前辈了。」\\n「……」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/fe5544037b8f343fceb4ad25e6289e303e2581075cdc326b4898a5fd9915d110.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d93fb10710bcafcb4f2c3f02a504466bd52bbb0102e6bb07bc4c3a6f787b4e50.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Before the Tutorial Mission Starts"
+    },
+    {
+        "id": 22001,
+        "name": "嘿，我在这儿",
+        "description": "三位少女行走于黑夜之中，周遭的景物在此刻增加了几分鬼魅的气息。\\n「藿藿你动作快点，不然我们不等你啦！」\\n她举着手机往前大步迈进，似乎并未被灵异的氛围所影响。\\n「我…我在这里！」\\n站在前方的少女怯生生地回应着。\\n「诶？原来你在前面啊，那我和裳裳背后的是……」\\n\\n此情此景最圆满的句号，一定就是少女的尖叫。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/35462034d93f08c39dbf9280cc71fdfc53c35cda77fd82c6c674b9a3b91679d6.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/77c983513ab0f538d3a3d2b4ca14d528f38395ed1ad6766ab385b1b6addf72ea.webp",
+        "rank": 4,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Hey, Over Here"
+    },
+    {
+        "id": 23000,
+        "name": "银河铁道之夜",
+        "description": "若是担心脚下，只需再度抬头凝望，\\n当繁星温柔地注视，心已乘风而上。\\n每一个念想，每一声低语，\\n都化作生命中的承载，再不会失去。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/d400033b9f560a447d46a818be54187cf5a93291f6b979200cf1c732b1cb6db8.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/c13caada0da9aa415ef0318db7758df931155128b0f995f3f9d309d3d54637c1.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Night on the Milky Way"
+    },
+    {
+        "id": 23001,
+        "name": "于夜色中",
+        "description": "少女露出一丝不易察觉的微笑。\\n<i>「为什么呢？」\\n「此时此刻此地，明明只有我一个人……」\\n「却感觉…很热闹呢。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/dbfbe474a08c8eb337d5dca4815c05cbd4cda38bd5bab5429daf18dde642fa2c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/20023d49530f62821d6e826e229581e1471815385597e7d15c67561451907dbd.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "In the Night"
+    },
+    {
+        "id": 23002,
+        "name": "无可取代的东西",
+        "description": "<i>「史瓦罗，如果有一天我也不在了，这个数据库就拜托你了。」<\/i>\\n（是谁…为什么我的记录里会有这样的留声……）\\n<i>「史瓦罗，你有什么觉得无可取代的东西么？」<\/i>\\n（无可取代…坏掉的零件…只要替换掉就好……）\\n<i>「史瓦罗，总有一天你会找到的。」<\/i>\\n（那种东西…只会是个麻烦……）\\n\\n<i>「到了那个时候…你就离开这里吧。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/411ddecea8cc453f89841cc225922c6e367cf1719508251b96b38ae6b29a7d19.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/292c767bbdd8fff4d2a5f90519d04dbfd4e7bd16332b26af1d44aaa5a99daef4.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Something Irreplaceable"
+    },
+    {
+        "id": 23003,
+        "name": "但战斗还未结束",
+        "description": "<i>「记住，和那些怪物的战争，是不能靠撤退打赢的。」\\n「我们的身后就是贝洛伯格，我们就是最后一道钢铁防线，……」\\n「只有我们，绝不能退！」<\/i>\\n\\n她抬起头，前方是寒天，是冻土，是一望无际的风雪。\\n一切如常。\\n唯独那个她一直注视着的背影，不在了。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ddd03105ae31385bfbc9a6ec8d84fe751d50e10cf90230d77c4d64b8d6ef4145.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/c8f9ba53ef11e8ac594d5a34642ec0b8c5663bd00ffe4720b11f1d4fdd31a11f.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "But the Battle Isn't Over"
+    },
+    {
+        "id": 23004,
+        "name": "以世界之名",
+        "description": "<i>「瓦尔特…吗……」\\n「这个名字…很棒吧？」\\n「那么……」\\n「从现在开始，你就是瓦尔特了。」\\n「律者的核心…还有守护这个世界的使命……」\\n「就拜托你了，瓦尔特。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/afb0667ea37714d994191afaf11aaf2ac7bec2a571c3b8bcb602112244a6e534.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/6c9a1637244cd6680dc3ca82b9982df1805a32ee77e62a9c21b4a6456920b40f.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "In the Name of the World"
+    },
+    {
+        "id": 23005,
+        "name": "制胜的瞬间",
+        "description": "<i>「输了想哭就哭吧，杰帕德。」\\n「但哭着也要站起来，直到你能赢过我…无论需要五年还是十年。」<\/i>\\n几年后，小男孩不再哭鼻子，也不再输给姐姐。\\n\\n如今在战场上，无论以何种姿态，骁勇无畏的银鬃铁卫戍卫官总会坚守至最后\\n——只为找到彻底摧毁敌人的一瞬。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/cef9f7b64ed987580efcc2083744b5d55b53d279a471dbcd3de85ef4626bf99d.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/4db7702f66e28b6ac3f000d7601ff53460d4515038c4a389e4086eb946099249.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Moment of Victory"
+    },
+    {
+        "id": 23006,
+        "name": "只需等待",
+        "description": "<i>「莫非你还有事没告诉我？」\\n\\n<\/i>她看到对方僵着脖子，喉咙响起口水的吞咽声。\\n这个人怕她，所以她根本不需要使用能力。\\n事实上，她说什么都无所谓。\\n只要任由话语出口，带来的惧意自由发酵……\\n对方马上就会慌不择路，说出她想听的一切。\\n\\n而她只需等待，就像早已布下网的蜘蛛。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a5ea81aa907574cd8931e09a88e902006aaaa85c064085cc1fe8a90c7fafc296.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/1702bfa1909fbfe345f8cb4a8c0e3a928f243128fa33afe84d31945ea17fd4a5.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Patience Is All You Need"
+    },
+    {
+        "id": 23007,
+        "name": "雨一直下",
+        "description": "她走出屋檐下，打着伞哼着歌钻进小巷的角落。\\n不多一会儿，雨声停了。\\n\\n她挠挠头，滑动屏幕，头上的一小片空间内，雨丝再次滑落。\\n听着淅淅沥沥的雨声打落在伞面上，配合游戏的音效，她心情格外的好。\\n<i>「还是下雨天打游戏最痛快。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/2b08debf3b890b0132b9577ee66a4ff8e503c22c806461bedc7b6679ddc9f5da.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/7d4088bcc6b860f56f883915e6ec641311884d7ab3ca048a90bf75de89a65a9d.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Incessant Rain"
+    },
+    {
+        "id": 23008,
+        "name": "棺的回响",
+        "description": "白色鸢尾旁，他叩打着棺材。\\n<i>「有时我觉得，和你做这个交易，是我看轻你了。」<\/i>\\n无人回应，只有棘刺毫不犹豫地穿透他的掌心。\\n但他也笑着，抓住了棘刺。\\n\\n<i>「就是这样，我们都想利用彼此，然而我们都看轻了对方。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/da03cc6b97a6f461734586ba55a7e80a14abd5cae960557812056970726f925b.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/845317b72407202c1a177dae60f7cbebd3762f01e419de95d7bc3903a9b0a9fe.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Echoes of the Coffin"
+    },
+    {
+        "id": 23009,
+        "name": "到不了的彼岸",
+        "description": "他每年都会来这里，带来几把新的剑。\\n所有剑的主人，他都见过他们的最后一面。\\n每当他离开，都会不无遗憾地想……\\n\\n自己的剑，何时才会被人带来此处。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/da1b247f26459b4748098f3545b775730a55723eb30b29dc01fccb68c5b21d63.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/9b3226dfcad789e505887e9138b44bcc065c2f44a03691bdcbdd975971f6221c.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "The Unreachable Side"
+    },
+    {
+        "id": 23010,
+        "name": "拂晓之前",
+        "description": "<i>「将军，此事请务必慎重…往后历史会怎么评论将军您……」<\/i>\\n云骑将军双目半阖，听取手下来报。\\n<i>「历史自然会有判断，但我对历史的结论无甚兴趣。」\\n「事成，我此时便是胸有成竹，神闲气定。」\\n「事败，我此时便是逸乐无度，爱雀失众。」<\/i>\\n\\n一只雀儿跳下他的肩膀，他顺势抬手接住。\\n<i>「我只是做了我的判断罢了。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/74222d551e0b8cf4d79f82e8f3f12a308720e7d24404eec5ead32eba3833db93.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/95d7726c284d6d53c31cb91a3c71c3323cdf1121fce9d40c88e9b8ae75ba6b02.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "Before Dawn"
+    },
+    {
+        "id": 23011,
+        "name": "她已闭上双眼",
+        "description": "额间的痛楚将伴随余生，但仍不及过去的万分之一。\\n她自以为神机妙算，直到故人离去。\\n如今她「看见」万象更迭，时移世变…\\n但她已闭上双眼，因为未来已经落定\\n——在「第三眼」中。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ecd00a24c6ca02c2a866ce0a67b5d321b86c71c67a7715c5ad3892f5fdfd119d.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/44b7d48c2d877b5c8e664e7b32b1daac587bdfd3bfb4a9d9d2a44916edc3dcf7.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "She Already Shut Her Eyes"
+    },
+    {
+        "id": 23012,
+        "name": "如泥酣眠",
+        "description": "即使已在将军的肩头酣然睡去，男孩的手中仍紧紧握着剑。\\n他轻轻拍了拍男孩的脸颊，只听到他嘟囔着。\\n<i>「将军…终于…我赢了……」<\/i>\\n\\n他愣了愣，突然意识到相比起每天都在努力成长的男孩，\\n自己早已度过了漫长的岁月，也早已习惯「不变」。\\n\\n<i>「很快，你就会赢过所有人。在那之后，才是开始……」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1d80458374c4ffa48dc1587a857b4287aa6161fd3f8dcb074c061f38f94c22df.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/73939037f6b392eb8c7e7e39cc80917666a9f39bfb1002fa77c2df5a57aa0c09.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Sleep Like the Dead"
+    },
+    {
+        "id": 23013,
+        "name": "时节不居",
+        "description": "她曾在窗边度过许多时光。\\n\\n配制薄荷、荆芥等辛温之药时，窗外就开花了。\\n配制香薷、生姜等辛热之药时，窗外就下雨了。\\n配制芍药、乌梅等酸温之药时，窗外就落叶了。\\n配制黄芩、知母等苦寒之药时，窗外就飘雪了。\\n\\n时节不居，岁月如流，但这扇窗，坐在窗边的人，依旧未变。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a19c2441ee6d0bc7bd2747d82a81a46cfd798d89ae0dda5d4e59daad0d11a320.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/069ed70fc8da105a80ecab26bb053bd0344659fd6b65e68f58592c54a5fe55f9.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Time Waits for No One"
+    },
+    {
+        "id": 23014,
+        "name": "此身为剑",
+        "description": "剑身碎裂，落入彻骨的寒冷中。\\n凡铁俗器皆是无用之物，它们的上限，望一眼就看得到尽头。\\n<i>「我还要剑何用？」<\/i>\\n她没有眷恋，眼中亦没有容纳任何一物。\\n\\n<i>「从此刻起，此身为剑。」<\/i>\\n要想跨越所谓的极限，要想得到无人涉足的突破\\n——唯有将自己也视作一份「薪柴」了。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/59510f8daa7b670628ef72a10ac8b290de9c07244c22a0a3a8f0fffe41dab5a8.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/190225a61123ac128256792d3ffae81bf4c5865238f883b2b1245e2b5390163d.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "I Shall Be My Own Sword"
+    },
+    {
+        "id": 23015,
+        "name": "比阳光更明亮的",
+        "description": "自他生时，眼前便只有无光的地牢，\\n无关的罪孽将他缚于此地，无关的记忆将他浸没。\\n他挣扎着，尽其所能地呼吸，\\n试图在无边的海洋中抓住一束光的缝隙。\\n\\n直到将军进入这不见天日的牢时，\\n他看到比阳光更明亮的，是少年的眼神。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/846001d3da13a9c464b0f3fc3e1ec67a136e0ab1e5f175543d7cf5577d20da2c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/e01b35fda86c2337dd53ae93b188470d413e2ec027368361efcc184b0403fb73.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "Brighter Than the Sun"
+    },
+    {
+        "id": 23016,
+        "name": "烦恼着，幸福着",
+        "description": "对于一名合格的公司职场人来说，「被压垮」是绝对不容许发生的事情。\\n无论是面对压力还是疲劳，都应该挺直腰杆，迎难而上！\\n除非…是被「它们」压倒在地。\\n\\n<i>「哎呀，不要着急！我只有两只手嘛！」<\/i>\\n刚结束加班回到家中的少女，被一众毛茸茸的生物压倒在地。\\n它们或许并不能完全听懂她的话语，只顾着将圆圆的脑袋凑近她的手掌。\\n疲惫感从身体中逐渐消失，取而代之的是抚顺毛发带来的温暖舒展。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/0e365cd8558ee488cbab12679e90a461e16a13e200d1a0496fef341ea80cb64f.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/abc5d27bbf9462445091059ae6aae841ab1d97d63bf06fcec92e8022f9d9158a.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Worrisome, Blissful"
+    },
+    {
+        "id": 23017,
+        "name": "惊魂夜",
+        "description": "少女躲在门后，不敢再靠前一步。\\n或许是因为今夜的目标就在眼前，她反而有些心跳加速。\\n「不怕不怕，我不怕……」\\n黑暗中，沉默放声尖叫。\\n\\n少女颤抖着，捏紧了手里的「武器」，却依然不敢靠近「目标」。\\n「没什么好害怕…好…好害怕！」\\n\\n身后的尾巴终于忍受不住，骤然亮起。\\n「快点啊，你就是拿个快递而已！」",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/01c3a8e14eff86d05cf79652d462c16ac7347a7987be8996019e7aed080ab2c8.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/9b6e941e01cd6d0d4e62cbc3ed303d24ca4cf9753c1e3b9b1985509493a1dc19.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Priest",
+                "name": "丰饶"
+            }
+        },
+        "route": "Night of Fright"
+    },
+    {
+        "id": 23018,
+        "name": "片刻，留在眼底",
+        "description": "他曾听闻歌谣，传唱那道光芒：\\n玫瑰盛放，定是为了回应祂的笑容；\\n晨光烁耀，定是为了照亮祂的脸庞；\\n音律奏鸣，定是为了唤醒祂的倦眸。\\n\\n但那光芒一去不复返，他仍奔向远方\\n——只须等待，只须信仰，只须将纯美的一切播撒于寰宇。\\n即使一切都只是留在眼底的片刻，他却已收获想要的答案。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1bad292412940ad2a248ace1963fb1c55d419e393dfeb08fb2eb8fff9f197b2c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/0ecea51f000ff7bbc7b80c15b19150d26d18756482b6197c9560a8016661aa60.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Mage",
+                "name": "智识"
+            }
+        },
+        "route": "An Instant Before A Gaze"
+    },
+    {
+        "id": 23019,
+        "name": "镜中故我",
+        "description": "梅花将谢未谢时，她曾喜欢将这时刻封存，留于身边。\\n许多年过去，聒噪的、甜美的、各式各样的生命诞生于她的手下，但梅花依旧如期凋落。\\n许多年过去，镜中容颜未变，但于宇宙的尺度间，她是否也只能于短短的一瞬保持鲜活?\\n\\n<i>「既然一切难逃逝去，创造还有何意义？」<\/i>\\n不知沉默了多久，风吹花落，镜中人的回答一如旧时。\\n<i>「为了有一天，不再留住梅花。」<\/i>\\n她轻抚冰冷的镜面，如这样的自语，已不知发生过多少次了。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/6ccc4a04b8112e4be199e5c857df83025e459578cef664b5e92a7b32345f6a74.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d50932a2642c0386cce0e550ba30a2e17f2d2557369ae0e2559e0d0c4440e34b.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Past Self in Mirror"
+    },
+    {
+        "id": 23020,
+        "name": "纯粹思维的洗礼",
+        "description": "午后阳光恰好，花叶芬芳。\\n他虽已时时注意洁净，思维难免会因滞涩而生尘。\\n\\n<i>「疗愈思想与保持健康同样重要。」<\/i>\\n愚人的喧嚣随疲惫一同远去，他沉入水中，任思绪漂浮，心神循序澄明。\\n\\n<i>「真理会躲开不洁，唯有纯粹方可接近。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/deeba335d5776548f4e02ba1311edd967fc82280479901d604dde36bfe5f3386.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/279928ae8cd2756ced85b5ce4e6b939f866a2d5af8ac77574e868ee8a8ce7c91.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Baptism of Pure Thought"
+    },
+    {
+        "id": 23021,
+        "name": "游戏尘寰",
+        "description": "如同瞬变的烟火，一分钟她也能变幻数十种颜色。\\n\\n烟花表演即将结束之时，她坐在高处，无聊地俯视着脚下熙熙攘攘的人群。\\n一个个念头游动又消失，狡黠的光在万花筒般的眼眸中流转。\\n<i>「想好了，今天就这样玩！」<\/i>\\n\\n她蹦蹦跳跳，在人群中穿梭，金红的尾摆忽隐忽现。\\n<i> 「别跟丢啦，最美的烟花，才刚刚开始！」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/0c2e20c23cf12e8893e0ef5288b676c8397e714a44ebfd9354249a3cfcd31702.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/34eb5a1e8dc9541b6b476ced5dc88ba3c789f0c6a22cf15e9194472e45cc367e.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Shaman",
+                "name": "同谐"
+            }
+        },
+        "route": "Earthly Escapade"
+    },
+    {
+        "id": 23022,
+        "name": "重塑时光之忆",
+        "description": "点燃蜡烛，摊开纸牌，嗅闻芬芳——\\n那些残破的回忆，化作摇荡光影中的面容。\\n从火中钻出的幽灵，向她诉说着令人留恋的过去。\\n剪切时光，凝固片刻，她将最为珍贵的瞬间化为一个个水晶般的永恒。\\n\\n<i>「失去的太多，留下的太少…我们培育记忆，以对抗残酷的时间。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/fe8c783c8fb3c3a32a6ba6da978f8015d86c06981edf97f5e221b9d318c5d9c7.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/d7068246f2a2d7e681b03658a4a7ed41f978ef15aba62ad14553ee567bec667d.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Reforged Remembrance"
+    },
+    {
+        "id": 23023,
+        "name": "命运从未公平",
+        "description": "最后一张牌摊开，沮丧，愤怒，无奈，镇静，百千种情绪瞬间浮现于对手们的脸。\\n「来都来了，何不再刺激一点？」 \\n他押上所有筹码，自认倒霉者咒骂着退出，暗自期待他的大败。\\n\\n输赢、声名、运气…他并不在意，他只是痴迷于那令生命颤抖的时刻——\\n在深渊与天堂之间，只有一个选择的距离。\\n\\n筹码掷下，哀叹声起，如这般虚幻的满足在尘埃落定后转瞬即逝。\\n「所有，或一无所有，但我并无选择的自由……」",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/bace4881e374fbb73f92584e6b9d50194d3edfeb1174a754ecdb4bdff9d73f03.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/2f2afd373e02252f884e2eb338f91adf9f6990c4e07b7a90b4050e6e3a0697d4.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Inherently Unjust Destiny"
+    },
+    {
+        "id": 23024,
+        "name": "行于流逝的岸",
+        "description": "流淌于「有」与「无」的狭间，冰冷的潮水永世冲刷着两岸，将一切带向最终的归宿。\\n\\n溺水者于此间呼救，哀歌、欢乐、甜蜜、痛苦倒影其中…她无法经受，却可体会——\\n在抵达尽头之前，仍有许多路要走，许多声音要倾听，许多事情可去改变。\\n\\n她伸出手，将溺水者从虚无的诱惑中救出，一个又一个幻影在她身后破碎。\\n她继续行着，在这无垠的世间，为了一个不存在的终点。\\n\\n——而这里永远下着雨。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/cf55ed1fff64802cc29f62bd2f58d516e362a7e6fb4faa2b6fc266c26633e1fe.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/48fba474105fd0e1339ba798e7af0d5860e9eb42ce68dfe40f4f9419963f35d5.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Along the Passing Shore"
+    },
+    {
+        "id": 24000,
+        "name": "记一位星神的陨落",
+        "description": "从一道光开始。\\n祂们坠落，陨灭的威胁居高临下。\\n祂们不得不停止自我复制，争先恐后拥抱彼此，\\n试图用繁殖的权利为代价，换取生存的可能。\\n祂们携手，从未如此团结\\n——但命途戛然而止，\\n祂们趋向真正的死亡。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/2a93e9971a3097c76bfe976778a75ae75b87a397cf4fd2bc5862bca361190d20.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/f67b2fd21014f9bbdbb7690719f1f11a01c32074d4255f0ed26771ea9e6db363.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warrior",
+                "name": "毁灭"
+            }
+        },
+        "route": "On the Fall of an Aeon"
+    },
+    {
+        "id": 24001,
+        "name": "星海巡航",
+        "description": "来往于星海之间，\\n祂的速度有如虹霓闪光的一瞬。\\n围追不死孽物，\\n揽寻幻宝解药，\\n寻求解脱之途。\\n祂的航程将犹如永不被打破的誓言般，\\n永无尽头。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/10c7110a7bd6e70839077d1b15e93a61ffa884eb2e3dcaa400c689e827e5bf3c.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/7dd2a7d3b25c51a03411550532a3b453beaa20155861c352badc8a1d2765954a.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Rogue",
+                "name": "巡猎"
+            }
+        },
+        "route": "Cruising in the Stellar Sea"
+    },
+    {
+        "id": 24002,
+        "name": "记忆的质料",
+        "description": "宇宙像一片堆满垃圾的生荒地。\\n偶有琳琅，无人捡拾。\\n祂翻阅往日的罅隙，拣选记忆的种子\\n——新的生命要是萌芽，它的种子须是死的。\\n粉色、蓝色、白色的宝石被带了来，\\n在祂的苗圃中轻盈闪烁，\\n但宇宙依旧寂静如谜。",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/6b8c5673ed163ef3225659161e6a20e8e0e8c05447fdc3147d3246727d89c768.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/3cb63e0f8066b0918a6edd0520ad8f9df1dc693fd7740ff24691878a7c2f5f1e.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Knight",
+                "name": "存护"
+            }
+        },
+        "route": "Texture of Memories"
+    },
+    {
+        "id": 24003,
+        "name": "孤独的疗愈",
+        "description": "诡秘天成，无相无形。\\n万有皆虚，倏忽一梦。\\n自灭者灭，欲生者生。\\n将熄还熠，将涸而盈。\\n悲悯混沌之救济，灵药滋长虚影。\\n背向星辰之暗面，徒然封装于瓶。\\n\\n<i>「如此悖论，而我等以为荣。」<\/i>",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e72f222bce4b7adb6a0f59c2483325db53fb27e4a6c6c23bc1b55d70e11477a8.webp",
+        "big_pic": "https:\/\/cdn.starrailstation.com\/assets\/314435f9ecf17421fb3b03bd51a7824b63d74beb3d685f88dbec26ba1321c9d5.webp",
+        "rank": 5,
+        "types": {
+            "pathType": {
+                "id": "Warlock",
+                "name": "虚无"
+            }
+        },
+        "route": "Solitary Healing"
+    }
+]
