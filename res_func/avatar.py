@@ -47,7 +47,7 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
         return f'{style[style.find("(") + 1:style.find(")")]}'
 
     third_pic = get_third_pic()
-    text = soup.find("div", {"class": "a6678 a4af5"}).get("style")
+    text = soup.find_all("div", {"class": "a4af5"})[1].get("style")
     four_pic = f'{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
     first_pic = f'{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
     datas.append(

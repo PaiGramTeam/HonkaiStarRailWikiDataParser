@@ -20,7 +20,7 @@ class YattaMaterial(BaseModel):
     """名称"""
     description: str
     """描述"""
-    story: str
+    story: Optional[str] = None
     """故事"""
     rank: int
     """稀有度"""
