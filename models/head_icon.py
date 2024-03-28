@@ -12,13 +12,16 @@ class HeadIcon(BaseModel):
     icons: List[str]
 
     @property
-    def icon(self) -> str:
-        for icon in self.icons:
-            if icon:
-                return icon
+    def webp(self) -> str:
+        return self.icons[0]
+
+    @property
+    def png(self) -> str:
+        return self.icons[1]
 
 
 # 原始数据
+
 
 class ForHash(BaseModel):
     Hash: str
