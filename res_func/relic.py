@@ -6,6 +6,7 @@ import ujson
 
 from models.enums import RelicAffix, RelicPosition
 from models.relic_affix import RelicAffixAll, SingleRelicAffix
+from res_func.base_data import get_base_data
 from res_func.client import client
 from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config
 
@@ -15,8 +16,7 @@ final_datas_map: Dict[str, RelicAffixAll] = {}
 
 async def fetch_all_relic():
     print("开始获取遗器配置")
-    relic_data_req = await client.get(relic_config)
-    relic_data = relic_data_req.json()
+    relic_data = await get_base_data(relic_config)
     for key, value in relic_data.items():
         relic_affix_all = RelicAffixAll(
             id=int(key),
@@ -36,8 +36,7 @@ async def fetch_all_relic():
 
 async def fetch_main_affix():
     print("开始获取遗器主词条配置")
-    main_affix_req = await client.get(relic_main_affix_config)
-    main_affix_data = main_affix_req.json()
+    main_affix_data = await get_base_data(relic_main_affix_config)
     main_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
     for key, value in main_affix_data.items():
         data: Dict[str, SingleRelicAffix] = {}
@@ -57,8 +56,7 @@ async def fetch_main_affix():
 
 async def fetch_sub_affix():
     print("开始获取遗器副词条配置")
-    sub_affix_req = await client.get(relic_sub_affix_config)
-    sub_affix_data = sub_affix_req.json()
+    sub_affix_data = await get_base_data(relic_sub_affix_config)
     sub_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
     for key, value in sub_affix_data.items():
         data: Dict[str, SingleRelicAffix] = {}

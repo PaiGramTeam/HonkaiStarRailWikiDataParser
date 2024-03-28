@@ -9,18 +9,17 @@ from bs4 import BeautifulSoup, Tag
 
 from func.data import all_avatars_map, all_avatars_name, read_avatars, dump_avatars
 from models.avatar_config import AvatarConfig, AvatarIcon
+from .base_data import get_base_data
 from .client import client
 from .url import avatar_config, text_map, base_station_url, avatar_url
 
 
 async def fetch_text_map() -> Dict[str, str]:
-    res = await client.get(text_map)
-    return res.json()
+    return await get_base_data(text_map)
 
 
 async def fetch_config(text_map_data: Dict[str, str]) -> List[AvatarConfig]:
-    res = await client.get(avatar_config)
-    data = res.json()
+    data = await get_base_data(avatar_config)
     datas = []
     for i in data.values():
         a = AvatarConfig(**i)
