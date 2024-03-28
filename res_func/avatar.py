@@ -18,7 +18,8 @@ async def fetch_text_map() -> Dict[str, str]:
     return await get_base_data(text_map)
 
 
-async def fetch_config(text_map_data: Dict[str, str]) -> List[AvatarConfig]:
+async def fetch_config() -> List[AvatarConfig]:
+    text_map_data = await get_base_data(text_map)
     data = await get_base_data(avatar_config)
     datas = []
     for i in data.values():
@@ -65,6 +66,12 @@ async def dump_icons(path: Path, datas: List[AvatarIcon]):
         await f.write(ujson.dumps(data, indent=4, ensure_ascii=False))
 
 
+async def load_icons(path: Path) -> List[AvatarIcon]:
+    async with aiofiles.open(path, "r", encoding="utf-8") as f:
+        data = await f.read()
+    return [AvatarIcon(**i) for i in ujson.loads(data)]
+
+
 async def fetch_station_ktz(tasks, datas, player_avatars: List[Tag]):
     data_map = {"开拓者·毁灭": (8001, 8002), "开拓者·存护": (8003, 8004)}
     idx = 0
@@ -105,8 +112,8 @@ async def fix_avatar_config_ktz():
             all_avatars_map[i].name = key
 
 
-async def fix_avatar_config(text_map_data: Dict[str, str]):
-    configs = await fetch_config(text_map_data)
+async def fix_avatar_config():
+    configs = await fetch_config()
     configs_map: Dict[str, AvatarConfig] = {config.name: config for config in configs}
     print(f"读取到原始数据：{list(configs_map.keys())}")
     data_path = Path("data")
