@@ -33,6 +33,8 @@ async def fetch_light_cones():
         try:
             await get_single_light_cone(f"{light_cone_yatta_url}/{light_cone_id}")
         except ValidationError:
-            print(f"{light_cone_yatta_url}/{light_cone_id} 获取光锥数据失败，数据格式异常")
+            print(
+                f"{light_cone_yatta_url}/{light_cone_id} 获取光锥数据失败，数据格式异常"
+            )
     print("获取光锥数据完成")
     await dump_light_cones()

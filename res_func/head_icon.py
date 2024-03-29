@@ -10,7 +10,14 @@ from models.head_icon import HeadIcon, ItemPlayerCard, PlayerIcon, AvatarPlayerI
 from .avatar import load_icons
 from .base_data import get_base_data
 from .client import client
-from .url import avatar_player_icon_url, player_icon_url, item_player_card_url, text_map, icons_url, base_enka_url
+from .url import (
+    avatar_player_icon_url,
+    player_icon_url,
+    item_player_card_url,
+    text_map,
+    icons_url,
+    base_enka_url,
+)
 
 data_path = Path("data")
 
@@ -63,7 +70,9 @@ async def test_enka_url(path: str) -> str:
     return url
 
 
-async def extra_head_icons(item_player_card: List[ItemPlayerCard], player_icon: List[PlayerIcon]) -> List[HeadIcon]:
+async def extra_head_icons(
+    item_player_card: List[ItemPlayerCard], player_icon: List[PlayerIcon]
+) -> List[HeadIcon]:
     player_icon_map: Dict[int, PlayerIcon] = {i.ID: i for i in player_icon}
     text_map_ = await get_text_map()
     station_urls = await parse_station_urls()
@@ -79,7 +88,9 @@ async def extra_head_icons(item_player_card: List[ItemPlayerCard], player_icon: 
         station_url = station_urls.get(name, "")
         enka_url = await test_enka_url(icon)
         icons = [station_url, enka_url]
-        datas.append(HeadIcon(id=id_, name=name, desc=desc, bg_desc=bg_desc, icons=icons))
+        datas.append(
+            HeadIcon(id=id_, name=name, desc=desc, bg_desc=bg_desc, icons=icons)
+        )
     return datas
 
 
@@ -100,7 +111,16 @@ async def avatar_head_icons(avatar_player_icon: List[AvatarPlayerIcon]):
         station_url = avatar.icon_ or ""
         enka_url = await test_enka_url(i.ImagePath)
         icons = [station_url, enka_url]
-        datas.append(HeadIcon(id=i.ID, name=name, desc="", bg_desc="", avatar_id=i.AvatarID, icons=icons))
+        datas.append(
+            HeadIcon(
+                id=i.ID,
+                name=name,
+                desc="",
+                bg_desc="",
+                avatar_id=i.AvatarID,
+                icons=icons,
+            )
+        )
     return datas
 
 
