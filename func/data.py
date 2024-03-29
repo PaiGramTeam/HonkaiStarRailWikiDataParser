@@ -79,6 +79,8 @@ async def dump_materials():
 
 
 async def read_materials():
+    if all_materials:
+        return
     async with aiofiles.open(materials_path, "r", encoding="utf-8") as f:
         data = ujson.loads(await f.read())
     for material in data:

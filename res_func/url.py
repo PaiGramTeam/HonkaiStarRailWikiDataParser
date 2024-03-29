@@ -11,6 +11,7 @@ relic_sub_affix_config = f"{base_data_url}ExcelOutput/RelicSubAffixConfig.json"
 avatar_player_icon_url = f"{base_data_url}ExcelOutput/AvatarPlayerIcon.json"
 player_icon_url = f"{base_data_url}ExcelOutput/PlayerIcon.json"
 item_player_card_url = f"{base_data_url}ExcelOutput/ItemPlayerCard.json"
+phone_theme_url = f"{base_data_url}ExcelOutput/PhoneThemeConfig.json"
 
 
 base_station_url = "https://starrailstation.com"
@@ -27,4 +28,11 @@ light_cone_yatta_url = f"{base_yatta_url}/hsr/v2/cn/equipment"
 material_yatta_url = f"{base_yatta_url}/hsr/v2/cn/item"
 relic_yatta_url = f"{base_yatta_url}/hsr/v2/cn/relic"
 
+
 base_enka_url = "https://enka.network/ui/hsr/"
+
+
+base_hoyoverse_url = "https://act-webstatic.hoyoverse.com/"
+hoyoverse_game_url = f"{base_hoyoverse_url}game_record/hkrpg/"
+base_mihoyo_url = "https://act-webstatic.mihoyo.com/"
+mihoyo_game_url = f"{base_mihoyo_url}game_record/hkrpg/"
