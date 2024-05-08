@@ -73,7 +73,11 @@ async def load_icons(path: Path) -> List[AvatarIcon]:
 
 
 async def fetch_station_ktz(tasks, datas, player_avatars: List[Tag]):
-    data_map = {"开拓者·毁灭": (8001, 8002), "开拓者·存护": (8003, 8004)}
+    data_map = {
+        "开拓者·毁灭": (8001, 8002),
+        "开拓者·存护": (8003, 8004),
+        "开拓者·同谐": (8005, 8006),
+    }
     idx = 0
     for key, value in data_map.items():
         tasks.append(parse_station(datas, key, player_avatars[idx], value[0]))
