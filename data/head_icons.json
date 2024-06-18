@@ -1,0 +1,1091 @@
+[
+    {
+        "id": 200001,
+        "name": "无",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": null,
+        "icons": [
+            "",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/UI_Message_Contacts_Anonymous.png"
+        ]
+    },
+    {
+        "id": 200101,
+        "name": "三月七•迎新",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加列车组新人团建的三月七。\\n\\n<i>「全场最好吃的甜甜圈，就交给你来吃掉！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/012dd6329e0ada2034b16197b278988e15660851cf488b09e8bfec35c5cf9387.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200101.png"
+        ]
+    },
+    {
+        "id": 200102,
+        "name": "丹恒•迎新",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加列车组新人团建的丹恒。\\n\\n<i>「说话累了多喝水。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/76772558c1bb151a487c0e3a9a454411a07259631229d0606fbe1b457a7560ef.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200102.png"
+        ]
+    },
+    {
+        "id": 200103,
+        "name": "姬子•迎新",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加列车组新人团建的姬子。\\n\\n<i>「新人老规矩哦，不喝完三杯咖啡不许走。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/4d3f48d0314259a1618343be4b78fa85ee517a6b5f9442182a4ad5f79cfba459.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200103.png"
+        ]
+    },
+    {
+        "id": 200104,
+        "name": "瓦尔特•迎新",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加列车组新人团建的瓦尔特。\\n\\n<i>「希望蛋糕的成品，能让你忘记厨房的战况。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7449d5c13e40745226cd4ed63e58ec8db93d30dec57dde729145801a333503ff.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200104.png"
+        ]
+    },
+    {
+        "id": 200105,
+        "name": "开拓者•迎新",
+        "desc": "预约活动解锁的奖励头像。",
+        "bg_desc": "参加列车组新人团建的{NICKNAME}。\\n\\n<i>「大家好，我是参加列车组新人团建的新人{NICKNAME}。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/70bb4be7eb05fb2f4b328ab2b98d2edf128945787403ee3615e155101c4f0598.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200105.png"
+        ]
+    },
+    {
+        "id": 200106,
+        "name": "开拓者•迎新",
+        "desc": "预约活动解锁的奖励头像。",
+        "bg_desc": "参加列车组新人团建的{NICKNAME}。\\n\\n<i>「大家好，我是参加列车组新人团建的新人{NICKNAME}。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/70bb4be7eb05fb2f4b328ab2b98d2edf128945787403ee3615e155101c4f0598.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200106.png"
+        ]
+    },
+    {
+        "id": 200107,
+        "name": "卡芙卡•夜宴",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "执行特殊任务的卡芙卡。\\n\\n<i>「答应我，忘记今晚的一切。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/4440d81177ff9c85b8403c20de2ffbb2d5795e44b66e9c57dc17cd686158a552.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200107.png"
+        ]
+    },
+    {
+        "id": 200108,
+        "name": "刃•夜宴",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "执行特殊任务的刃。\\n\\n<i>「剧本要求的，我没兴趣。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7702d0271821898f9754dda638d824704909c0156a4956f4e225c17b225ce070.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200108.png"
+        ]
+    },
+    {
+        "id": 200109,
+        "name": "景元•适暇",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "公务闲暇之余游玩赏乐的景元。\\n\\n<i>「暖意融洽，午后应当小憩片刻。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8daabbc0673d05392ba0ac2036963aa3e73b7420dd3bdb6ba4f5ebec2710d30c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200109.png"
+        ]
+    },
+    {
+        "id": 200110,
+        "name": "符玄•适暇",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "公务闲暇之余游玩赏乐的符玄。\\n\\n<i>「卦象说，本座今日适宜散心赏玩，公务稍后再议。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f570b0868a5e26b458c8a6bc204f7cb40a494cf5c64eae2cb0e2ea4fa662c94c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200110.png"
+        ]
+    },
+    {
+        "id": 200111,
+        "name": "布洛妮娅•庆典",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加节日庆典的布洛妮娅。\\n\\n<i>「每当此时这座城市都会焕发出无限的活力与生机，就像雪下绽开的一朵花。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/88bbc1ed74ec2b6602f095f8656487c31d9198620079ea7814b1b03e78a47381.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200111.png"
+        ]
+    },
+    {
+        "id": 200112,
+        "name": "杰帕德•庆典",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "参加节日庆典的杰帕德。\\n\\n<i>「庆典期间我会负责大家的安…咳，不好意思说习惯了，总之，希望诸位能够尽兴。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/facc50152de51946066865c6b111b3edf31a42d7ffa45c4119b2c90a9029ae56.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200112.png"
+        ]
+    },
+    {
+        "id": 200113,
+        "name": "镜流•远行",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "在外云游修行的镜流。\\n\\n<i>「水色山光之间，亦不乏领悟剑道的蹊径。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1dd8a94968c6475e08ac7e4db09e21d7fa3beafcacb7b4d9eb98339455c1f952.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200113.png"
+        ]
+    },
+    {
+        "id": 200114,
+        "name": "彦卿•远行",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "在外云游修行的彦卿。\\n\\n<i>「此番周游出行，能见着不少绝伦武艺吧！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9524025a8d99005e059691bb47876f962fc44fc0ec8ae857c6739cdc17552732.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200114.png"
+        ]
+    },
+    {
+        "id": 200115,
+        "name": "阮•梅•教研",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "督导研究课题的阮•梅。\\n\\n<i>「生命的绽放方式虽然不同，但结局却始终如一。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6a8c45cf483a781b81ad3f3a98d9fe3a83f78239abdfb5fe72269ff19e3d5d4a.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200115.png"
+        ]
+    },
+    {
+        "id": 200116,
+        "name": "真理医生•教研",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "督导研究课题的真理医生。\\n\\n<i>「这样独到的见解确实不多见了，勉强<unbreak>10<\/unbreak>分吧。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e489cfa77ced0e41c934f4cefef8042d5029d3af1ba0e9cad6cfa1c36b11a337.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200116.png"
+        ]
+    },
+    {
+        "id": 200117,
+        "name": "花火•幻象",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "在舞台上展现幻象的花火。\\n\\n<i>「亲爱的观众，来，选一张牌，然后盯紧它，千万别眨眼哦~」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1bd2a8bc1939345abe5e62e8393202ec1d4f099d389825516aecb58e48f9b1fa.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200117.png"
+        ]
+    },
+    {
+        "id": 200118,
+        "name": "桑博•幻象",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "在舞台上展现幻象的桑博。\\n\\n<i>「唉~这可是最后的底牌了。我的朋友，要不要亲自上台看看？」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ebde0a87c513995a7328187e757251bc5b6b4b1ff27457b63f7ca8847c255f93.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200118.png"
+        ]
+    },
+    {
+        "id": 200119,
+        "name": "托帕•命中",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "正在进行射击练习的托帕。\\n\\n<i>「呼~又一个满环。练习很奏效，下个项目也要这么顺利才行！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3733df5732e15a0257886e9e8769c4b2282e66b6050d1de15ce439e7a833c7fb.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200119.png"
+        ]
+    },
+    {
+        "id": 200120,
+        "name": "砂金•命中",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "正在进行射击练习的砂金。\\n\\n<i>「射击与买卖同理，一锤定音，才能一举拿下。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1a8388686c6e0bdca47b98e863f87df4ac381b23c82ebca47d90d2a1657cf7c7.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200120.png"
+        ]
+    },
+    {
+        "id": 200121,
+        "name": "黄泉•暗袭",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "特殊行动中的黄泉。\\n\\n<i>「放弃无谓的挣扎吧，你没有退路。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d9206e705b833542e3b40199cac740a11a7c2f13101c0322831c5118475a5c32.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200121.png"
+        ]
+    },
+    {
+        "id": 200122,
+        "name": "波提欧•暗袭",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "特殊行动中的波提欧。\\n\\n<i>「还等什么呢？一起上吧，小可爱们！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/67f2d82c05639d65a43be930964720b96aa9ea9eedaa4dbeea669780e325d368.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/200122.png"
+        ]
+    },
+    {
+        "id": 200123,
+        "name": "流萤•愿景",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "迈向未来的流萤。\\n\\n<i>「命运只有一种，但我还有选择的权利。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/871a40b22e1b2bf724f74c26a36d212bd1802ef8e9adef4e239df8edbcd1821a.webp",
+            ""
+        ]
+    },
+    {
+        "id": 200124,
+        "name": "装甲「萨姆」•愿景",
+        "desc": "解锁无名勋礼可获得的奖励头像。",
+        "bg_desc": "迈向未来的装甲「萨姆」。\\n\\n<i>「我会完成「萨姆」的使命，也将看见全新的未来。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b1ee6b79f2c3855d032c0a56e88b92369527f3b26bd0ba14903c4b1e8a93e454.webp",
+            ""
+        ]
+    },
+    {
+        "id": 201001,
+        "name": "三月七",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1001,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/31e5bd2c75c38d8e3f7213424f84b2ea503d370a83afc699ce859b74f58ca292.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1001.png"
+        ]
+    },
+    {
+        "id": 201002,
+        "name": "丹恒",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1002,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1e20ec9c1410e0da273e52c2824c9f4bb9f9f4120e1d7ea059e6bd64599d411e.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1002.png"
+        ]
+    },
+    {
+        "id": 201003,
+        "name": "姬子",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1003,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f40907e56e3f64bf9ebe0bc58d541deedc68f36cde45e44e49bdbd3115f7deff.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1003.png"
+        ]
+    },
+    {
+        "id": 201004,
+        "name": "瓦尔特",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1004,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1c518edbc6e9c8208bc19f613850a34f2404aad9fbda98ca2246adf345c5f0ed.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1004.png"
+        ]
+    },
+    {
+        "id": 201005,
+        "name": "卡芙卡",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1005,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e0f2088ef889a2e21bb51c4713d4f40c3fe8e972d831673637eaa399fbdd3f7e.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1005.png"
+        ]
+    },
+    {
+        "id": 201006,
+        "name": "银狼",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1006,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f9e94b47e43f817043ba1b5f113fe26d6c6becd357c986450aac60beca9a88fc.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1006.png"
+        ]
+    },
+    {
+        "id": 201008,
+        "name": "阿兰",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1008,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/60192b79da0cfb770d131b5f1fc5a6eb5a0569efed004dc907f202f890192517.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1008.png"
+        ]
+    },
+    {
+        "id": 201009,
+        "name": "艾丝妲",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1009,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9079872e79ebb5ebf304f05a4a0844567b4d1d09557cf94743069550610d82b3.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1009.png"
+        ]
+    },
+    {
+        "id": 201013,
+        "name": "黑塔",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1013,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3c0ea3016f84e6f900be7b1eb4a9a84958ec21499b0245cfb117be2ef7e14f2b.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1013.png"
+        ]
+    },
+    {
+        "id": 201101,
+        "name": "布洛妮娅",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1101,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/feb770a868de188318ca770dddd86ac1284edeb5d575ebbb79eae65c54f01aa3.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1101.png"
+        ]
+    },
+    {
+        "id": 201102,
+        "name": "希儿",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1102,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/af5e76ca8154ed671d98f83ea2ec14e14506645eee8f28220a3f69cc882fcc60.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1102.png"
+        ]
+    },
+    {
+        "id": 201103,
+        "name": "希露瓦",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1103,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6fbec105e857e012148c9ebdb07a66145c87c7a654186c20553bdfe220d7876e.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1103.png"
+        ]
+    },
+    {
+        "id": 201104,
+        "name": "杰帕德",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1104,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ecb2c335c44c6498c3e8f2fde0234b87d0c8c5e6b25b4861d4dd8ec4b9103aae.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1104.png"
+        ]
+    },
+    {
+        "id": 201105,
+        "name": "娜塔莎",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1105,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/68731c6eef543fe8ed3a364a80f64f7c534886bdf2926b24d7115082863e87de.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1105.png"
+        ]
+    },
+    {
+        "id": 201106,
+        "name": "佩拉",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1106,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/674ad4081723290c8e7633b045c6085b50e70c53f73fa7166995d4cf765caa0a.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1106.png"
+        ]
+    },
+    {
+        "id": 201107,
+        "name": "克拉拉",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1107,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fd382e979eca6438177ab634531faee5695c15a4b57d012ac2c95dbe61a48c31.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1107.png"
+        ]
+    },
+    {
+        "id": 201108,
+        "name": "桑博",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1108,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ec827ccb4a48c56f63fbbc9b8cc376184afd5e49f8f7fddab67a6cbf48ab27b4.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1108.png"
+        ]
+    },
+    {
+        "id": 201109,
+        "name": "虎克",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1109,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/84f7eb5ac525809fc2c4d3aee11681a9878339a7feb17956d8fdb784c9935aee.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1109.png"
+        ]
+    },
+    {
+        "id": 201110,
+        "name": "玲可",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1110,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3f02d2b3456766df0c3bc624be54e323b3a1f78802d26938ef5c073153151d60.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1110.png"
+        ]
+    },
+    {
+        "id": 201111,
+        "name": "卢卡",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1111,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3a237062cc9b86bcb03f5930622f294bea42773256697bca7265d1a63e920a43.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1111.png"
+        ]
+    },
+    {
+        "id": 201112,
+        "name": "托帕&账账",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1112,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f9dd8cd6b61604f04c6932c8cf23956469a14e7b1b3c134cf5b7994795ae3c26.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1112.png"
+        ]
+    },
+    {
+        "id": 201201,
+        "name": "青雀",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1201,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9158c4aef9f2e8c887e9bb63c562f9cc8d24d9792bd66a40f45e7829ff6ff315.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1201.png"
+        ]
+    },
+    {
+        "id": 201202,
+        "name": "停云",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1202,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/402d6641a71fada912b778884c54c03550d4dedf6da232ef6e2f883c076b6abb.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1202.png"
+        ]
+    },
+    {
+        "id": 201203,
+        "name": "罗刹",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1203,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/807b558ebafd59597bdbc235ced8200c3bed8d8a7c7c70b299617e59a02c2639.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1203.png"
+        ]
+    },
+    {
+        "id": 201204,
+        "name": "景元",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1204,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/da5e32427aed990940d58ffcfaa43b3ba7afe3dd6181254a44d4ca9d26d21f40.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1204.png"
+        ]
+    },
+    {
+        "id": 201205,
+        "name": "刃",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1205,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c41af872921fa3a427485240ef3236f4ba9f20d76984ba521e6248c77d30fbea.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1205.png"
+        ]
+    },
+    {
+        "id": 201206,
+        "name": "素裳",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1206,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/75f6e5ea4b23a6c720f0eb9c72fbb253f565623efb806ea8a963ef7a374b0912.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1206.png"
+        ]
+    },
+    {
+        "id": 201207,
+        "name": "驭空",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1207,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/cfa5238f8b85e8d60f3c658045dbd630b9b8e7ef31e6fb9eaabf8b7bf61d292c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1207.png"
+        ]
+    },
+    {
+        "id": 201208,
+        "name": "符玄",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1208,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8b6f6d17e811785223d3b1a836c847552db738d79dd41b53aaa6c432a96aa45f.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1208.png"
+        ]
+    },
+    {
+        "id": 201209,
+        "name": "彦卿",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1209,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/801898646506b83890dd008358631493023eb519e2445eac2475546385d0d474.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1209.png"
+        ]
+    },
+    {
+        "id": 201210,
+        "name": "桂乃芬",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1210,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/22a3763ad66a03519a22660582c7cb9b30fba7a34b10d467e6f31134e523d12d.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1210.png"
+        ]
+    },
+    {
+        "id": 201211,
+        "name": "白露",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1211,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/0f77a75044dde0d58c331355862e9bf938be4094fc63fc6df0688ad4d0ab317c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1211.png"
+        ]
+    },
+    {
+        "id": 201212,
+        "name": "镜流",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1212,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/df4e2825876b49fe9b16d11e28caa3b8d09fef8cde13e4efd883dd346724441c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1212.png"
+        ]
+    },
+    {
+        "id": 201213,
+        "name": "丹恒•饮月",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1213,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5c4c7fdf9280758a89ede5fba134fb809306c82637961cd536faf3f8820f80fe.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1213.png"
+        ]
+    },
+    {
+        "id": 201214,
+        "name": "雪衣",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1214,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e45815ac0e53b997867fd0399ee7978d385ff93b9db24a9393e038258d2a870c.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1214.png"
+        ]
+    },
+    {
+        "id": 201215,
+        "name": "寒鸦",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1215,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/065f6379f5caf63133573c15ece1e6e9a1fba22c1d474a40586c9ca971f6fa67.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1215.png"
+        ]
+    },
+    {
+        "id": 201217,
+        "name": "藿藿",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1217,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3eecaab15c32581aacf34622f672d23994209108745a700e1757b9daf6843c16.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1217.png"
+        ]
+    },
+    {
+        "id": 201301,
+        "name": "加拉赫",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1301,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fde7f801a02bd20a611f74ee289c661b032272a05609705889aa45687ba3d529.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1301.png"
+        ]
+    },
+    {
+        "id": 201302,
+        "name": "银枝",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1302,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/281318431f3a3ae461def60c30b0071d6e3454408c86631670dbb230e48d6fd0.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1302.png"
+        ]
+    },
+    {
+        "id": 201303,
+        "name": "阮•梅",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1303,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8dfbb48cabef5b69b652c5beaff044ced6d7c58bef696d3c946ed167de155b90.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1303.png"
+        ]
+    },
+    {
+        "id": 201304,
+        "name": "砂金",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1304,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/4b43a605939d48bd0276c82d4f16f48d022c2254d823baa2ca7ae91a06d5272e.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1304.png"
+        ]
+    },
+    {
+        "id": 201305,
+        "name": "真理医生",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1305,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/dd3166790871c3d62b03de9bd5511ccb015409b44c29d46dd206113e11c2242d.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1305.png"
+        ]
+    },
+    {
+        "id": 201306,
+        "name": "花火",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1306,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bbe5211bd8e7f140f1674cc7aba16fdb323bc0e9cddd591cb4e14f9720281e2b.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1306.png"
+        ]
+    },
+    {
+        "id": 201307,
+        "name": "黑天鹅",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1307,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/4c5e9066a7164b3169ec32e09d7f7c06340746e32e6010605daacbfb3e500c57.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1307.png"
+        ]
+    },
+    {
+        "id": 201308,
+        "name": "黄泉",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1308,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6bda149859f57737da4be1eb87800c1dceff3bef5832b3d169104136c033f0ed.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1308.png"
+        ]
+    },
+    {
+        "id": 201309,
+        "name": "知更鸟",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1309,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/250ca8c4170ec4cd4472037dab4508c4736e38f63c391aa69d7b2ad1c7318a7d.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1309.png"
+        ]
+    },
+    {
+        "id": 201310,
+        "name": "流萤",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1310,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b1bbb0b902e3afa44ae1ae638ffcbe75cb207fb5beb7843dc758a5bcf33b8f50.webp",
+            ""
+        ]
+    },
+    {
+        "id": 201312,
+        "name": "米沙",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1312,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a4d6fefe8778de5636a02cebc174ddfdbaf74c00b90bbee42e043587f48bb665.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1312.png"
+        ]
+    },
+    {
+        "id": 201314,
+        "name": "翡翠",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1314,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/638422afaf4471a572dfc69af7052680aaf1c7df0493a4059f865154f96f6d47.webp",
+            ""
+        ]
+    },
+    {
+        "id": 201315,
+        "name": "波提欧",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 1315,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7ac7ea9eba59a8f6c65478f03ba547e3d6a42d2517bda6d5516f2019ab411cda.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/1315.png"
+        ]
+    },
+    {
+        "id": 202001,
+        "name": "呜呜伯",
+        "desc": "完成任务「安魂弥撒」获得的奖励头像。",
+        "bg_desc": "作为被界种科收容的星灵，要让呜呜伯学会看镜头可着实费了不少劲儿。\\n\\n<i>「来，看这边，呜呜，呜呜呜？懂了吗？」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b909f6f0e31cbdeed27ea1096f1ba28f4958076d8fcc2d8b9c7877a9873b751a.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202001.png"
+        ]
+    },
+    {
+        "id": 202002,
+        "name": "垃圾桶",
+        "desc": "在雅利洛-Ⅵ完成城镇交互事件获得的奖励头像。",
+        "bg_desc": "懂得自嘲的家伙，人缘一般都不会太差。\\n\\n<i>「你骂谁呢？」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3475c9415284a5629de1111576177578d7ff83483addb33ef20805409421a854.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202002.png"
+        ]
+    },
+    {
+        "id": 202003,
+        "name": "菌菌",
+        "desc": "完成任务「虎克的礼物」获得的奖励头像。",
+        "bg_desc": "你知道娜塔莎完全有能力把它缝制得更加精致…但要的就是这刻意破烂的感觉。\\n\\n<i>「菌菌，菌菌！我问你——谁是下层区最坏的大坏蛋呀？」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d9c217307d85c2299036d0b284b12a181002ee392c4f81e6926bf873044e284a.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202003.png"
+        ]
+    },
+    {
+        "id": 202004,
+        "name": "佩佩",
+        "desc": "完成任务「阴差阳错」获得的奖励头像。",
+        "bg_desc": "佩佩在入职空间站时所采集的工牌相片。\\n\\n<i>「嗅嗅…汪汪汪！汪！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e97e5a22287e5717bc08e2440e2a388c33e125a8d8e00729594905185dc76a59.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202004.png"
+        ]
+    },
+    {
+        "id": 202005,
+        "name": "谛听",
+        "desc": "和谛听告别获得的回礼。",
+        "bg_desc": "它只用三天便学会了分析工造司的档案库，还给自己设置了员工头像。\\n\\n<i>「工正大人，我在薪俸名册里找到了这个，它…要钱做什么？」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b07c8b7c2375c3e3c767587bfcccf01f1b9760b50724d18f2ddf5750c4a4182a.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202005.png"
+        ]
+    },
+    {
+        "id": 202006,
+        "name": "通缉令",
+        "desc": "在雅利洛-Ⅵ集齐全部通缉令获得的奖励头像。",
+        "bg_desc": "拯救了贝洛伯格的英雄画像，庄重、肃穆，还带有一丝灵性。\\n\\n<i>「冬城抽象派艺术巅峰之作。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/da77390f7904cf79b15e32546d929c03d500d1273f03b49e6a4b14975bc7c791.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202006.png"
+        ]
+    },
+    {
+        "id": 202007,
+        "name": "帕姆•美食",
+        "desc": "",
+        "bg_desc": "邀请大家品尝美食的帕姆。\\n\\n<i>「终于回来啦！这些都是给{NICKNAME}乘客、三月七乘客、丹恒乘客准备的帕！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/0e27a55401bf54933bb19be1fc2efbe526bebb246ca1f9c79eeca6eae6ef6506.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202007.png"
+        ]
+    },
+    {
+        "id": 202008,
+        "name": "「点心生命」",
+        "desc": "完成开拓续闻「天才群星闪耀时」获得的奖励头像。",
+        "bg_desc": "友好相处的点心造物。\\n\\n<i>「喵…喵喵~（大、大家…来一起玩吧~）」\\n「汪！呜汪！（哼！快来和本天才一起玩！）」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2d3dfaf760adfff205115d07d45758464b2b4491aecc9c4c20ad41e5ad325484.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202008.png"
+        ]
+    },
+    {
+        "id": 202009,
+        "name": "{NICKNAME}•星轨",
+        "desc": "网页活动「群星的寓言」可获得的奖励头像。",
+        "bg_desc": "在群星中留下轨迹的{NICKNAME}。\\n\\n<i>「鉴往而知来，开拓者前进帕！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202009.png"
+        ]
+    },
+    {
+        "id": 202010,
+        "name": "{NICKNAME}•星轨",
+        "desc": "网页活动「群星的寓言」可获得的奖励头像。",
+        "bg_desc": "在群星中留下轨迹的{NICKNAME}。\\n\\n<i>「鉴往而知来，开拓者前进帕！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202010.png"
+        ]
+    },
+    {
+        "id": 202011,
+        "name": "钟表小子",
+        "desc": "通过从黄金扭蛋机中扭出的神秘大奖开出。",
+        "bg_desc": "在终点等待的钟表小子。\\n\\n<i>「滴答！你真是我见过最聪明的朋友！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9da0c0e83db746d55582a0d919cc81cba210ccc2c55e9ed48ed92fc482da2062.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202011.png"
+        ]
+    },
+    {
+        "id": 202012,
+        "name": "哈努兄弟",
+        "desc": "完成全部小小哈努行动后获得。",
+        "bg_desc": "发起攻势的冷酷哈努兄弟。\\n\\n<i>「哼，哼！（火箭筒，就位！）」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/45ce5377041d9875bfa114c7628a9174ad0b20f4f2e7655b77b6e4d69366aaf8.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202012.png"
+        ]
+    },
+    {
+        "id": 202013,
+        "name": "折纸小鸟",
+        "desc": "累积收集<unbreak>60<\/unbreak>只折纸小鸟后，与神秘的折纸小鸟对话获得。",
+        "bg_desc": "叽叽喳喳的快乐折纸小鸟。\\n\\n<i>「啾啾啾！（快来找我吧！）啾！（被找到了！）啾，啾！（再来，再来~）」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/df5de87f12f4c89c945ea7cc087bc7c22c84decc4b4284d0e617f367814d1265.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202013.png"
+        ]
+    },
+    {
+        "id": 202014,
+        "name": "卡卡瓦夏",
+        "desc": "完成开拓任务「行过死荫之地」获得的奖励头像。",
+        "bg_desc": "过着艰苦生活的幼年砂金。\\n\\n<i>「姐姐说我们一定会迎来曙光，可曙光什么时候才能照向我们呢…」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8d715ba10b58cf6c81b70447c0e60f1bea7b7808052ad9a3767f13d0b0747afc.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202014.png"
+        ]
+    },
+    {
+        "id": 202015,
+        "name": "仓鼠球骑士",
+        "desc": "完成速度与坚果挑战获得。",
+        "bg_desc": "得意洋洋的仓鼠球骑士。\\n\\n<i>「嘿！准备好挑战了吗？我在终点等你！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/76d6e29e50d3402cefb9f1ba36e96deb01e7e6491ffc1b1998ff3b89821c8f95.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202015.png"
+        ]
+    },
+    {
+        "id": 202016,
+        "name": "一周年纪念",
+        "desc": "完成「星间旅行」活动后获得的奖励头像。",
+        "bg_desc": "拿着一周年黄金纪念奖章的帕姆。\\n\\n<i>「锵——纪念奖章送给你！未来的旅途，我们也要一起开拓下去帕！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bbee6899cb59ad4f4c34cbf85d6e30fd34b8ea6654b550be0762d83b02a53044.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/Series\/202016.png"
+        ]
+    },
+    {
+        "id": 202017,
+        "name": "花火娃娃",
+        "desc": "完成开拓任务「异乡异客」，阅读神秘短信后获得的奖励头像。",
+        "bg_desc": "花火自制的炸弹娃娃。\\n\\n<i>「嘻嘻嘻嘻，被找到了吗？那就——嘭！」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ca06babb04a68d47587a7bb0221715686d8eac881b4e35acfca598f28c6c4634.webp",
+            ""
+        ]
+    },
+    {
+        "id": 202018,
+        "name": "「嗨，来测」",
+        "desc": "「差分宇宙：人间喜剧」获得的头像。",
+        "bg_desc": "模拟宇宙中的卡通黑塔。\\n\\n<i>「大更新大更新，我在模拟宇宙等你，速速来测。」<\/i>",
+        "avatar_id": null,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9a6eb44039c84a3679405faca3e2a73d8cd64551653a2f81cb952ee872bde86f.webp",
+            ""
+        ]
+    },
+    {
+        "id": 208001,
+        "name": "开拓者·毁灭",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8001,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5e000bf967b3bac99619bb3c7f478fbcc7c6697229c4ec3bf1a8b0f1f4830192.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8001.png"
+        ]
+    },
+    {
+        "id": 208002,
+        "name": "开拓者·毁灭",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8002,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8a56f7f54e512f786c0b4e43f713011a18b25c1240a02ee56b0cc7988d7e7975.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8002.png"
+        ]
+    },
+    {
+        "id": 208003,
+        "name": "开拓者·存护",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8003,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/58cac03e53a272217af504d1ee00079110243b4dce37698fcd93f744f3e67818.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8003.png"
+        ]
+    },
+    {
+        "id": 208004,
+        "name": "开拓者·存护",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8004,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/01e52d52d55145f412a0db118ada561dde0664dc6e834fd238ad908d4966493f.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8004.png"
+        ]
+    },
+    {
+        "id": 208005,
+        "name": "开拓者·同谐",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8005,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6496967260806bd490b13b8b2761dd5f864c3a2395dc1df73abbe9ab4ad28ee8.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8005.png"
+        ]
+    },
+    {
+        "id": 208006,
+        "name": "开拓者·同谐",
+        "desc": "",
+        "bg_desc": "",
+        "avatar_id": 8006,
+        "icons": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bdae5bcd96d329ddeac614acce745183a6009b090b9d764af0b31c4bb2968667.webp",
+            "https:\/\/enka.network\/ui\/hsr\/SpriteOutput\/AvatarRoundIcon\/8006.png"
+        ]
+    }
+]

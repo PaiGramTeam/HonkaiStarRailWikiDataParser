@@ -1,0 +1,217 @@
+{
+    "200001": {
+        "ID": 200001,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/UI_Message_Contacts_Anonymous.png",
+        "IsVisible": true
+    },
+    "200101": {
+        "ID": 200101,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200101.png",
+        "IsVisible": true
+    },
+    "200102": {
+        "ID": 200102,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200102.png",
+        "IsVisible": true
+    },
+    "200103": {
+        "ID": 200103,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200103.png",
+        "IsVisible": true
+    },
+    "200104": {
+        "ID": 200104,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200104.png",
+        "IsVisible": true
+    },
+    "200105": {
+        "ID": 200105,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200105.png",
+        "IsVisible": true
+    },
+    "200106": {
+        "ID": 200106,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200106.png",
+        "IsVisible": true
+    },
+    "200107": {
+        "ID": 200107,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200107.png",
+        "IsVisible": true
+    },
+    "200108": {
+        "ID": 200108,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200108.png",
+        "IsVisible": true
+    },
+    "200109": {
+        "ID": 200109,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200109.png",
+        "IsVisible": true
+    },
+    "200110": {
+        "ID": 200110,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200110.png",
+        "IsVisible": true
+    },
+    "200111": {
+        "ID": 200111,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200111.png",
+        "IsVisible": true
+    },
+    "200112": {
+        "ID": 200112,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200112.png",
+        "IsVisible": true
+    },
+    "200113": {
+        "ID": 200113,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200113.png",
+        "IsVisible": true
+    },
+    "200114": {
+        "ID": 200114,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200114.png",
+        "IsVisible": true
+    },
+    "200115": {
+        "ID": 200115,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200115.png",
+        "IsVisible": true
+    },
+    "200116": {
+        "ID": 200116,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200116.png",
+        "IsVisible": true
+    },
+    "200117": {
+        "ID": 200117,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200117.png",
+        "IsVisible": true
+    },
+    "200118": {
+        "ID": 200118,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200118.png",
+        "IsVisible": true
+    },
+    "200119": {
+        "ID": 200119,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200119.png",
+        "IsVisible": true
+    },
+    "200120": {
+        "ID": 200120,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200120.png",
+        "IsVisible": true
+    },
+    "200121": {
+        "ID": 200121,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200121.png",
+        "IsVisible": true
+    },
+    "200122": {
+        "ID": 200122,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200122.png",
+        "IsVisible": true
+    },
+    "200123": {
+        "ID": 200123,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200123.png",
+        "IsVisible": true
+    },
+    "200124": {
+        "ID": 200124,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/200124.png",
+        "IsVisible": true
+    },
+    "202001": {
+        "ID": 202001,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202001.png",
+        "IsVisible": true
+    },
+    "202002": {
+        "ID": 202002,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202002.png",
+        "IsVisible": true
+    },
+    "202003": {
+        "ID": 202003,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202003.png",
+        "IsVisible": true
+    },
+    "202004": {
+        "ID": 202004,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202004.png",
+        "IsVisible": true
+    },
+    "202005": {
+        "ID": 202005,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202005.png",
+        "IsVisible": true
+    },
+    "202006": {
+        "ID": 202006,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202006.png",
+        "IsVisible": true
+    },
+    "202007": {
+        "ID": 202007,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202007.png",
+        "IsVisible": true
+    },
+    "202008": {
+        "ID": 202008,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202008.png",
+        "IsVisible": true
+    },
+    "202009": {
+        "ID": 202009,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202009.png",
+        "IsVisible": true
+    },
+    "202010": {
+        "ID": 202010,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202010.png",
+        "IsVisible": true
+    },
+    "202011": {
+        "ID": 202011,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202011.png",
+        "IsVisible": true
+    },
+    "202012": {
+        "ID": 202012,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202012.png",
+        "IsVisible": true
+    },
+    "202013": {
+        "ID": 202013,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202013.png",
+        "IsVisible": true
+    },
+    "202014": {
+        "ID": 202014,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202014.png",
+        "IsVisible": true
+    },
+    "202015": {
+        "ID": 202015,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202015.png",
+        "IsVisible": true
+    },
+    "202016": {
+        "ID": 202016,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202016.png",
+        "IsVisible": true
+    },
+    "202017": {
+        "ID": 202017,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202017.png",
+        "IsVisible": true
+    },
+    "202018": {
+        "ID": 202018,
+        "ImagePath": "SpriteOutput\/AvatarRoundIcon\/Series\/202018.png",
+        "IsVisible": true
+    }
+}
