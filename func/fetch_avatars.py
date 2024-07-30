@@ -40,7 +40,12 @@ async def get_all_avatar() -> List[str]:
 
 
 async def fix_avatar_icon(content: Content):
-    avatar = all_avatars_name.get(content.title.replace("·", "•"))
+    key = content.title.replace("·", "•")
+    key_map = {"三月七": 1001, "仙舟三月七": 1224}
+    if key in key_map:
+        avatar = all_avatars_map.get(key_map[key])
+    else:
+        avatar = all_avatars_name.get(key)
     if not avatar:
         return
     avatar.icon = content.icon

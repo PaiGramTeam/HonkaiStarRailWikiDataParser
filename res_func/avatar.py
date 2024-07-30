@@ -1,7 +1,7 @@
 import asyncio
 import re
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import aiofiles
 import ujson
@@ -22,7 +22,7 @@ async def fetch_config() -> List[AvatarConfig]:
     text_map_data = await get_base_data(text_map)
     data = await get_base_data(avatar_config)
     datas = []
-    for i in data.values():
+    for i in data:
         a = AvatarConfig(**i)
         a.name = text_map_data[str(a.AvatarName.Hash)]
         datas.append(a)
@@ -110,15 +110,26 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
 
 
 async def fix_avatar_config_ktz():
-    data_map = {"开拓者·毁灭": (8001, 8002), "开拓者·存护": (8003, 8004)}
+    data_map = {
+        "开拓者·毁灭": (8001, 8002),
+        "开拓者·存护": (8003, 8004),
+        "开拓者·同谐": (8005, 8006),
+    }
     for key, value in data_map.items():
         for i in value:
             all_avatars_map[i].name = key
 
 
+async def fix_mult_avatar_config(configs_map: Dict[str, Optional[AvatarConfig]]):
+    configs_map["三月七"] = None
+
+
 async def fix_avatar_config():
     configs = await fetch_config()
-    configs_map: Dict[str, AvatarConfig] = {config.name: config for config in configs}
+    configs_map: Dict[str, Optional[AvatarConfig]] = {
+        config.name: config for config in configs
+    }
+    await fix_mult_avatar_config(configs_map)
     print(f"读取到原始数据：{list(configs_map.keys())}")
     data_path = Path("data")
     await read_avatars()

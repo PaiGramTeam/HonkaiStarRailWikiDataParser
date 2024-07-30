@@ -7,7 +7,6 @@ import ujson
 from models.enums import RelicAffix, RelicPosition
 from models.relic_affix import RelicAffixAll, SingleRelicAffix
 from res_func.base_data import get_base_data
-from res_func.client import client
 from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config
 
 final_datas: List[RelicAffixAll] = []
@@ -17,7 +16,8 @@ final_datas_map: Dict[str, RelicAffixAll] = {}
 async def fetch_all_relic():
     print("开始获取遗器配置")
     relic_data = await get_base_data(relic_config)
-    for key, value in relic_data.items():
+    for value in relic_data:
+        key = value["ID"]
         relic_affix_all = RelicAffixAll(
             id=int(key),
             set_id=value["SetID"],
@@ -38,16 +38,20 @@ async def fetch_main_affix():
     print("开始获取遗器主词条配置")
     main_affix_data = await get_base_data(relic_main_affix_config)
     main_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
-    for key, value in main_affix_data.items():
-        data: Dict[str, SingleRelicAffix] = {}
-        for key2, value2 in value.items():
-            data[key2] = SingleRelicAffix(
-                id=value2["AffixID"],
-                property=RelicAffix(value2["Property"]),
-                base_value=value2["BaseValue"]["Value"],
-                level_value=value2["LevelAdd"]["Value"],
-                is_main=True,
-            )
+    for value in main_affix_data:
+        key = str(value["GroupID"])
+        data: Dict[str, SingleRelicAffix] = main_affix_groups_map.get(key, {})
+
+        value2 = value
+        key2 = str(value2["AffixID"])
+        data[key2] = SingleRelicAffix(
+            id=value2["AffixID"],
+            property=RelicAffix(value2["Property"]),
+            base_value=value2["BaseValue"]["Value"],
+            level_value=value2["LevelAdd"]["Value"],
+            is_main=True,
+        )
+
         main_affix_groups_map[key] = data
     for final_data in final_datas:
         final_data.main_affix = main_affix_groups_map[str(final_data.main_affix_group)]
@@ -58,17 +62,21 @@ async def fetch_sub_affix():
     print("开始获取遗器副词条配置")
     sub_affix_data = await get_base_data(relic_sub_affix_config)
     sub_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
-    for key, value in sub_affix_data.items():
-        data: Dict[str, SingleRelicAffix] = {}
-        for key2, value2 in value.items():
-            data[key2] = SingleRelicAffix(
-                id=value2["AffixID"],
-                property=RelicAffix(value2["Property"]),
-                base_value=value2["BaseValue"]["Value"],
-                step_value=value2["StepValue"]["Value"],
-                is_main=False,
-                max_step=value2["StepNum"],
-            )
+    for value in sub_affix_data:
+        key = str(value["GroupID"])
+        data: Dict[str, SingleRelicAffix] = sub_affix_groups_map.get(key, {})
+
+        value2 = value
+        key2 = str(value2["AffixID"])
+        data[key2] = SingleRelicAffix(
+            id=value2["AffixID"],
+            property=RelicAffix(value2["Property"]),
+            base_value=value2["BaseValue"]["Value"],
+            step_value=value2["StepValue"]["Value"],
+            is_main=False,
+            max_step=value2["StepNum"],
+        )
+
         sub_affix_groups_map[key] = data
     for final_data in final_datas:
         final_data.sub_affix = sub_affix_groups_map[str(final_data.sub_affix_group)]

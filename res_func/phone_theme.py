@@ -17,7 +17,7 @@ data_path = Path("data")
 async def get_phone_theme() -> List[PhoneThemeConfig]:
     data = await get_base_data(phone_theme_url)
     datas = []
-    for i in data.values():
+    for i in data:
         datas.append(PhoneThemeConfig(**i))
     return datas
 

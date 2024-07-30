@@ -29,7 +29,7 @@ async def get_text_map() -> dict[str, str]:
 async def get_avatar_player_icon() -> List[AvatarPlayerIcon]:
     data = await get_base_data(avatar_player_icon_url)
     datas = []
-    for i in data.values():
+    for i in data:
         datas.append(AvatarPlayerIcon(**i))
     return datas
 
@@ -37,7 +37,7 @@ async def get_avatar_player_icon() -> List[AvatarPlayerIcon]:
 async def get_player_icon() -> List[PlayerIcon]:
     data = await get_base_data(player_icon_url)
     datas = []
-    for i in data.values():
+    for i in data:
         datas.append(PlayerIcon(**i))
     return datas
 
@@ -45,7 +45,7 @@ async def get_player_icon() -> List[PlayerIcon]:
 async def get_item_player_card() -> List[ItemPlayerCard]:
     data = await get_base_data(item_player_card_url)
     datas = []
-    for i in data.values():
+    for i in data:
         datas.append(ItemPlayerCard(**i))
     return datas
 
