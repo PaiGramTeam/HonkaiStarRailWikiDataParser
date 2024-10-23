@@ -1,7 +1,7 @@
 import base64
 
 base_data_url = base64.b64decode(
-    "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpbWJyZWF0aC9TdGFyUmFpbERhdGEvbWFzdGVyLw=="
+    "aHR0cHM6Ly9naXRsYWIuY29tL0RpbWJyZWF0aC90dXJuYmFzZWRnYW1lZGF0YS8tL3Jhdy9tYWluLw=="
 ).decode("utf-8")
 avatar_config = f"{base_data_url}ExcelOutput/AvatarConfig.json"
 text_map = f"{base_data_url}TextMap/TextMapCHS.json"
