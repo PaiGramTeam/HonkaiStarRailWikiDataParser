@@ -94,5 +94,6 @@ async def fetch_relic_config():
     await fetch_all_relic()
     await fetch_main_affix()
     await fetch_sub_affix()
-    data_path = Path("data")
+    data_path = Path("data") / "mihomo_map"
+    data_path.mkdir(exist_ok=True, parents=True)
     await dump_relic_config(data_path / "relic_config.json")
