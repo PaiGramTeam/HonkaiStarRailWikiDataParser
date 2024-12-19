@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class HeadIcon(BaseModel):
@@ -24,6 +24,8 @@ class HeadIcon(BaseModel):
 
 
 class ForHash(BaseModel):
+    model_config = ConfigDict(coerce_numbers_to_str=True, arbitrary_types_allowed=True)
+
     Hash: str
 
 
