@@ -23,16 +23,16 @@ class YattaAvatarCV(BaseModel):
 
 
 class YattaAvatarFetter(BaseModel):
-    faction: Optional[str]
-    description: Optional[str]
-    cv: Optional[YattaAvatarCV]
+    faction: Optional[str] = None
+    description: Optional[str] = None
+    cv: Optional[YattaAvatarCV] = None
 
 
 class YattaAvatarEidolon(BaseModel):
     id: int
     rank: int
-    name: Optional[str]
-    description: Optional[str]
+    name: Optional[str] = None
+    description: Optional[str] = None
     icon: str
 
     @property

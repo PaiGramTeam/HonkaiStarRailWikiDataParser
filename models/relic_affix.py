@@ -1,7 +1,7 @@
 from decimal import Decimal
 from typing import Optional, Dict
 
-from pydantic import BaseModel, root_validator
+from pydantic import model_validator, BaseModel
 
 from .enums import RelicAffix, RelicPosition
 
@@ -38,7 +38,8 @@ class RelicAffixAll(BaseModel):
     sub_affix: Dict[str, SingleRelicAffix]
     """ 副词条 """
 
-    @root_validator(pre=True)
+    @model_validator(mode="before")
+    @classmethod
     def transform_dicts(cls, values):
         for data in ["main_affix", "sub_affix"]:
             affix = values.get(data)
