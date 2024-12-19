@@ -6,6 +6,7 @@ from func.fetch_light_cones import fetch_light_cones
 from func.fetch_materials import fetch_materials
 from func.fetch_relics import fetch_relics
 from func.fetch_src import move_files
+from func.fetch_mihomo_map import fetch_files
 
 
 async def wiki():
@@ -23,6 +24,7 @@ async def bbs_photos():
 async def main():
     await wiki()
     await bbs_photos()
+    await fetch_files()
 
 
 if __name__ == "__main__":
