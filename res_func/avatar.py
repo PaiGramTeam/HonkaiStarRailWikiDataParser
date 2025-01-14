@@ -13,6 +13,13 @@ from .base_data import get_base_data
 from .client import client
 from .url import avatar_config, text_map, base_station_url, avatar_url
 
+TRAVER_DATA_MAP = {
+    "开拓者·毁灭": (8001, 8002),
+    "开拓者·存护": (8003, 8004),
+    "开拓者·同谐": (8005, 8006),
+    "开拓者·记忆": (8007, 8008),
+}
+
 
 async def fetch_text_map() -> Dict[str, str]:
     return await get_base_data(text_map)
@@ -30,7 +37,7 @@ async def fetch_config() -> List[AvatarConfig]:
 
 
 async def parse_station(datas, name: str, tag: Tag, cid: int):
-    html = await client.get(f'{base_station_url}{tag.get("href")}')
+    html = await client.get(f"{base_station_url}{tag.get('href')}")
     if not cid:
         reg = r'skillTreePoints":\[{"id":(\d+),'
         cid = int(re.findall(reg, html.text)[0][:-3])
@@ -44,12 +51,12 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
     def get_third_pic():
         _tag = tag.find("div", {"class": "a69d1"})
         style = _tag.get("style")
-        return f'{style[style.find("(") + 1:style.find(")")]}'
+        return f"{style[style.find('(') + 1 : style.find(')')]}"
 
     third_pic = get_third_pic()
     text = soup.find_all("div", {"class": "a4af5"})[1].get("style")
-    four_pic = f'{text[text.find("(") + 2:text.find(")") - 1]}' if text else ""
-    first_pic = f'{soup.find("img", {"class": "ac39b a6602"}).get("src")}'
+    four_pic = f"{text[text.find('(') + 2 : text.find(')') - 1]}" if text else ""
+    first_pic = f"{soup.find('img', {'class': 'ac39b a6602'}).get('src')}"
     datas.append(
         AvatarIcon(
             id=cid,
@@ -73,13 +80,8 @@ async def load_icons(path: Path) -> List[AvatarIcon]:
 
 
 async def fetch_station_ktz(tasks, datas, player_avatars: List[Tag]):
-    data_map = {
-        "开拓者·毁灭": (8001, 8002),
-        "开拓者·存护": (8003, 8004),
-        "开拓者·同谐": (8005, 8006),
-    }
     idx = 0
-    for key, value in data_map.items():
+    for key, value in TRAVER_DATA_MAP.items():
         tasks.append(parse_station(datas, key, player_avatars[idx], value[0]))
         tasks.append(parse_station(datas, key, player_avatars[idx + 1], value[1]))
         idx += 2
@@ -110,12 +112,7 @@ async def fetch_station(configs_map: Dict[str, AvatarConfig]) -> List[AvatarIcon
 
 
 async def fix_avatar_config_ktz():
-    data_map = {
-        "开拓者·毁灭": (8001, 8002),
-        "开拓者·存护": (8003, 8004),
-        "开拓者·同谐": (8005, 8006),
-    }
-    for key, value in data_map.items():
+    for key, value in TRAVER_DATA_MAP.items():
         for i in value:
             all_avatars_map[i].name = key
 

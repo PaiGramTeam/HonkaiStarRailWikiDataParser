@@ -9,6 +9,7 @@ import ujson
 from func.client import retry
 from func.data import all_avatars
 from models.avatar import YattaAvatar
+from res_func.avatar import TRAVER_DATA_MAP
 from res_func.client import client
 from res_func.url import avatar_skill_url
 
@@ -28,14 +29,11 @@ async def get_single_avatar_skill_icon(url: str, real_path: str) -> None:
         raise e
     async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
         await f.write(req.content)
-    if "8001" in real_path:
-        real_path = real_path.replace("8001", "8002")
-        async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
-            await f.write(req.content)
-    elif "8003" in real_path:
-        real_path = real_path.replace("8003", "8004")
-        async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
-            await f.write(req.content)
+    for k, v in TRAVER_DATA_MAP.values():
+        if str(k) in real_path:
+            real_path = real_path.replace(str(k), str(v))
+            async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
+                await f.write(req.content)
 
 
 async def dump_icons():
@@ -59,11 +57,12 @@ async def get_all_avatars() -> None:
 
 
 async def get_all_avatars_skills_icons(avatars: List[YattaAvatar]):
+    traver_ids = [i[1] for i in TRAVER_DATA_MAP.values()]
     remote_path = ["Normal", "BP", "Passive", "Maze", "Ultra"]
     local_path = ["basic_atk", "skill", "talent", "technique", "ultimate"]
     tasks = []
     for avatar in avatars:
-        if avatar.id in [8002, 8004, 1311]:
+        if avatar.id in traver_ids + [1311]:
             continue
         for i in range(len(remote_path)):
             tasks.append(

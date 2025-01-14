@@ -13,11 +13,11 @@ from .url import base_station_url, light_cone_url
 
 
 async def parse_station(icon: LightConeIcon, tag: Tag):
-    html = await client.get(f'{base_station_url}{tag.get("href")}')
+    html = await client.get(f"{base_station_url}{tag.get('href')}")
     soup = BeautifulSoup(html.text, "lxml")
-    first_pic = f'{soup.find("img", {"class": "standard-icon a6602"}).get("src")}'
+    first_pic = f"{soup.find('img', {'class': 'standard-icon a6602'}).get('src')}"
     second_pic = (
-        f'{soup.find("img", {"class": "a2b16 mobile-only-elem ab8c3"}).get("src")}'
+        f"{soup.find('img', {'class': 'a2b16 mobile-only-elem ab8c3'}).get('src')}"
     )
     icon.icon = [first_pic, second_pic]
     if light_cone_model := all_light_cones_map.get(icon.id):
