@@ -33,8 +33,8 @@ class ItemPlayerCard(BaseModel):
     ID: int
     ItemSubType: str
     ItemName: ForHash
-    ItemDesc: ForHash
-    ItemBGDesc: ForHash
+    ItemDesc: Optional[ForHash] = None
+    ItemBGDesc: Optional[ForHash] = None
 
 
 class PlayerIcon(BaseModel):

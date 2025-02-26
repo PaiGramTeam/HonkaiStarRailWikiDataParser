@@ -82,8 +82,8 @@ async def extra_head_icons(
             continue
         id_ = item.ID
         name = text_map_[item.ItemName.Hash]
-        desc = text_map_.get(item.ItemDesc.Hash, "")
-        bg_desc = text_map_.get(item.ItemBGDesc.Hash, "")
+        desc = text_map_.get(item.ItemDesc.Hash, "") if item.ItemDesc else ""
+        bg_desc = text_map_.get(item.ItemBGDesc.Hash, "") if item.ItemBGDesc else ""
         icon = player_icon_map[id_].ImagePath
         station_url = station_urls.get(name, "")
         enka_url = await test_enka_url(icon)
