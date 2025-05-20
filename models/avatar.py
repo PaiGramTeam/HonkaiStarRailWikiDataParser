@@ -16,10 +16,10 @@ class YattaAvatarTypes(BaseModel):
 
 
 class YattaAvatarCV(BaseModel):
-    CV_CN: str
-    CV_JP: str
-    CV_KR: str
-    CV_EN: str
+    CV_CN: Optional[str] = None
+    CV_JP: Optional[str] = None
+    CV_KR: Optional[str] = None
+    CV_EN: Optional[str] = None
 
 
 class YattaAvatarFetter(BaseModel):
