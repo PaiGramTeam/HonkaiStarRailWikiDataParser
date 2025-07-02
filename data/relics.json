@@ -1,0 +1,534 @@
+[
+    {
+        "id": 101,
+        "name": "云无留迹的过客",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/3874c777f4c1395074693991f924ff730ae62ae4dc3778eed56d4cc473ae05c9.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d800b9321213c645e61cb50fef8ab40beacd1686b92b0c75a0daae45efbc3320.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/789f7b6e067a2df7961e88219b3acfc65a71c247df7c4aebb682f8b9301f2fba.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d5ce922d95b154a2d9d4ab3ba8f6803f546af57d259de7fb74134c12d18a64e0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/321de6bb0f170f1a77ab980614e7762e0ffe8715d3d522a972d2b338ddd64968.webp"
+        ],
+        "route": "Passerby of Wandering Cloud"
+    },
+    {
+        "id": 102,
+        "name": "野穗伴行的快枪手",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/05a1a74a9070b44c2e4a11b31d4fa97ba27d43cd6db72a0f8ff9cb713b7392a2.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9ea42e674bef8bf6744bccc510f8bc90eff5a46510fbdcac7b737d9e71604b79.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/77ab7de043e61bcfb9124f4b238c9bae44dde7045b023f8941f9def7f994078e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ae72432face6bb679732806b349b7d223bc9fc628e278355aa267fc7acfc0325.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/81eeb0a52b0e72c5409e84e1ec56391777c3071a37e7e578326aa19c05ebf15f.webp"
+        ],
+        "route": "Musketeer of Wild Wheat"
+    },
+    {
+        "id": 103,
+        "name": "净庭教宗的圣骑士",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e4bcfca0bb74305ef9109f0ef26967d0c40adfec8bebf67836a9a8b070c99e29.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e1ce8ec1ba918af3791e1a9999ac2af975571cbec06de64fbf0507b2086c2c0f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e7776171a3b0733b51324452bbc3914297618d4c6cd770f3b84251b82ef99179.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/27896af3042d2f3877f08c85fd8a890109fa8bfa582601df17617fb836f69e0b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f25df0ada2d41dfe7cdbeb7b96d763d623b838175c7a6cef986a971484273714.webp"
+        ],
+        "route": "Knight of Purity Palace"
+    },
+    {
+        "id": 104,
+        "name": "密林卧雪的猎人",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/33fe6b9916b0396a59627d6448c6192a1170664ed54d40bf0e4166051fe5ee67.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a70b351490b393bbf05383ddba358b7e544319f5c0b04abb7854bdb304b54c8f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4311e06e2693b6127c8a6f83af7272b5c5df3a804d19ea24adfb552559c0fa77.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/fdaf69a9ec6ec72dd01a2041e4243308f9efa1a77a10490616bdb5d201aed460.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3d1d87a6f3979799207fffe2350d27d543f3bfbe6aed858820e7320304968ffa.webp"
+        ],
+        "route": "Hunter of Glacial Forest"
+    },
+    {
+        "id": 105,
+        "name": "街头出身的拳王",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/bc73556e673c4bd633889622bc419b6d74ed902dba459a9578e7890ebab01918.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1c6d930293c3eec5459d5b43f190e615aa4b6ba6dd455bfa68b94223ad31d0c0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c6217d32ff6dc84ec22bed13243f4eab9ef55d60ec095b4259ddf99f0fed62a2.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d3e113ec987f8fb9a6e68cdce128e970670f890f3d0be093af6733a491eac9c6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/97823624b4195afc36e31ea1f7b3b2c0fff7e18bc2785e99fd873cd5c67a1400.webp"
+        ],
+        "route": "Champion of Streetwise Boxing"
+    },
+    {
+        "id": 106,
+        "name": "戍卫风雪的铁卫",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/29593d227d0f085df2ad7460102cab22e3999452452b7011d8e0e14275152458.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d53fa367dfbaa07cd094f476adbbafa1f9846841ea01e93adadf1bdad92470c0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/aea91b98f94c42569bc671bbe1586ab17f2f3e2431e55bca364383f102b52b35.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/eccf263f7e3c9b517f548bdb36d7500db2382d78f7b1a702cd68415df21d33ee.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ef075eb6499de4900abef7d51d9b30573954348429e95d04df436ee77d3646f9.webp"
+        ],
+        "route": "Guard of Wuthering Snow"
+    },
+    {
+        "id": 107,
+        "name": "熔岩锻铸的火匠",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/834d481fce926aa859ed52070c162fd509eb22c848024feb8e102bc47e2ed2e9.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/44e6ce7f6c29727055d8789199510e2e180ce2f1560605420f9b5f9cac902407.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/edb5e666d1da659fbfdf217c2eab9b755131ad2c551caf26252a4441e7d3d0a2.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/93ae8d6474fd27f13fd41b3feade2665f9f33a76ed16263c5eaf956a41a11a05.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/08f3d81075976510d87af0dd0dfbbe2b0a50c6ec2a17e1cdbeb4459629d91cbd.webp"
+        ],
+        "route": "Firesmith of Lava-Forging"
+    },
+    {
+        "id": 108,
+        "name": "繁星璀璨的天才",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/d7fad9ed358027eb91bcf72cc3e8d679542407cb2f819f4472a998daaa66cb08.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ca622d243d42b895fff20919cb37e23f4a13b5d8e97ee5ffc266479861f6cd29.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0de320bc576de329a817b4d55be3f033934871d5ce694a432263334ce83fa885.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6ad296268a9f694ce9b90c9373245a2239e387239c16a0b151028d1d2e461874.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/da4f169e8efa15146dab93943d626f8876f995b35a606d7d234b8e0a9de56d15.webp"
+        ],
+        "route": "Genius of Brilliant Stars"
+    },
+    {
+        "id": 109,
+        "name": "激奏雷电的乐队",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/69c44f2a48a9a64c38ff7d33ce1023d3d4cc372a79c0bde27cd8b228c38e5770.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1964224f71e46d45a4c81f4e4fb6ab87483f754810a668cbbadbc15cb3c9ce43.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d400e95b50edb83571bfd4462558947b388f7b0e8cfff83c50efec1134c96f34.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3e2bd3e3f3ec1a7a7cafaac4ba2ba25b8363c017f2ce3102d24767f719854ba7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5c34fdb29b662b199264a02227024f01538e18b0169cff110d33168aa095e250.webp"
+        ],
+        "route": "Band of Sizzling Thunder"
+    },
+    {
+        "id": 110,
+        "name": "晨昏交界的翔鹰",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/b50d07cce8940db6b1a495d7918f6bf33e5345c5f4513cb2ce8bedf1e1749b78.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fbea7fd5d8df6d2999e0f24946d76f5daa22e9c5eb8edcc168c6f5f86df90317.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4e63eaacf959571f27f8362429204659edc158472fb45c68ee377f291eee021c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d21a0e8e79e2eea0aceb4898b2fff6541a0f4ddd19a4589d2a99208ad8b470d0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5a0f0aaaace2c99ad164fa6aa0f99c1c20f485d1f5307e3afe5d9e60915028ec.webp"
+        ],
+        "route": "Eagle of Twilight Line"
+    },
+    {
+        "id": 111,
+        "name": "流星追迹的怪盗",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/167d2804ceb28e0f33d94a60d3cd1d026adf530cceeeaaaa7897f83573ce0745.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/885b8f2b0f9eb1659edb8dc74afb2b5f46a065b0531a030a19a21b1a5523f50a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/7283f5d488b49c02d9233a573ffdb310d8a49c367f60ee4f00a71c119ce03b8b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/967d40bfca123c246190a30b880f11bd8f30fa034d905dea8dbd12569b7dd69f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6c37f8662da72bb17a935ea63e6bfd5d7321e82d9731b94cf10d083a7817f720.webp"
+        ],
+        "route": "Thief of Shooting Meteor"
+    },
+    {
+        "id": 112,
+        "name": "盗匪荒漠的废土客",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/37b4a444ac1e2e81ae7d166d6b99cf2c534808480dc1b7ff381039333bff2fca.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2f983673efd9e2c86d6406d26d44a650750af4f043472b445b974853cbd82c94.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d87bd97abb281c0c24d6a158e118a0a3f36ee135d2cb9599c039fb73c10d14f9.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f4d8e335b34b0478a6852b20553b1aa0adff7943e3c56e5802eab25fb19aeb39.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f5b1802c67ade18eed90cb05f946de9f376c846564a7504319349a5d5f3e5dd8.webp"
+        ],
+        "route": "Wastelander of Banditry Desert"
+    },
+    {
+        "id": 113,
+        "name": "宝命长存的莳者",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/464ebde376f99b43e825bf68497794dbff531e112dcf545e87e96032e43dad12.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a79af56736a31903e64c34f5b82d4ce8dfd6a2a19b1deb5ff48c490eb7d77e44.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5998ae1812ce2a711bf068aaa81b9b28aa99521e95c8b548c66b23ad2b81c1fd.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6f827c45faa6d92bf7e08472eed58c3cb3dbe518d425c44382172442821b6ac1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/16fea092435ed91b6b7c94fe41cb676ff9cdaf46084dbcc2efa55ff8b1f94bc9.webp"
+        ],
+        "route": "Longevous Disciple"
+    },
+    {
+        "id": 114,
+        "name": "骇域漫游的信使",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a70e3398a4e6a8ed09452944e355ce5813431a4ff252f6d0ccc19965d5482f9e.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/681c7655958ba7418f14802eb4a0a72c2edc01ce9ae3a172bcd9f38544a18ae0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4b52e8393fa17776e4e4b42c8b4d9deaf95602dfefb86cd0e57fee37971191e8.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8f9d74d2b4715718333c1c5c5bd869fa76bdffed8ba8779a2eebdab5340d8403.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/a6493c404bb763be2c17466ba7c8a46ccdc16481775a5f8fdac677db1d89167b.webp"
+        ],
+        "route": "Messenger Traversing Hackerspace"
+    },
+    {
+        "id": 115,
+        "name": "毁烬焚骨的大公",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/5f23334ada152a0b4f3942ef8cf645e67bf5c96fe27f211926406e96d7cba013.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/4f92ff700fde6384fb080d826f72b11387094aefa3b1154cc8ddc2b6afb97317.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/be07b83f0bb48c51ec67fb190be8511ca8ebf94242f5d6a49151db58fa1042ca.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6e8d630b993576d6d729a1620aaa34545d663cb861800884b9e8f63719ad65bb.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c93e1c93c8580358d535e3558b97f78ffbd542c5de9f4c81f860e2c1b7f530ef.webp"
+        ],
+        "route": "The Ashblazing Grand Duke"
+    },
+    {
+        "id": 116,
+        "name": "幽锁深牢的系囚",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/b96878a09884e37958a32f7f404b82eeb726239d2f91e7720bd5ec70ae85c780.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/22747c5acaadb9c2eec1462be2f311e29e17486048d3fea61dfc053ea174862e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4ddd42683070c9e411d4566b1ee5e148de29f77e062fb54e5f48471035bca47b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f6d8226eb058a25e6377d152edd2822d5d67c93ae9fe85c339528e88f17ef0d9.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5fee7c545ca8018250a58d7f676fc6d4113e4f3bc7025020bc33255416e7544b.webp"
+        ],
+        "route": "Prisoner in Deep Confinement"
+    },
+    {
+        "id": 117,
+        "name": "死水深潜的先驱",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/30759bca77283eb206637564bdbeca0203649360e63338323026e88c2d4aa286.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/15e51f18153b000839702a028c11cacd68efb555c0ef3e173f4f2e3e0ae0f0d4.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/254d699e174f527d40e2483e42751563d2079512581dbfa5837df3c993be0cd3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/806d426169b357e52b1ab54cf54b27c757f3a0b1edca16e0a96d54a82a5de00a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f143ce8c03c1181c2c92d073fbc28677978ca84a5df4ac5a9ed511006040f912.webp"
+        ],
+        "route": "Pioneer Diver of Dead Waters"
+    },
+    {
+        "id": 118,
+        "name": "机心戏梦的钟表匠",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/e665540524d010fd7d25bcc511e49ea5ed8a36dbbeab700e92f631a21dea4b80.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ecbf92172b51e83113d19748b73231e2e9b0837cb020fca9a08d323e6ec5dd83.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/11a9324626f10ffee5dd68e5ba43cfee09cc6e6daaaa868a4653d0feaaeec8eb.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f2151c0fed1bd846669ba15fc02f23b9e93a8604bb697f72b68bb822079a9d59.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/52beeb1241a545b328c3ff46a3a450cdfd80ba188aadab782d50ea5b66db2a6c.webp"
+        ],
+        "route": "Watchmaker, Master of Dream Machinations"
+    },
+    {
+        "id": 119,
+        "name": "荡除蠹灾的铁骑",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/8555696a7a48506c0ae76e8b2616d89773a5e548bff9cfc795481aafab52dddd.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bef77ebdbecdf4a4ebc1555070f146d6b25a33c7867384d3f138b46bc9c53c8e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2712e3d489d4f2ac4e670acfb94bac79e218bad6953a3fef66640de6dffa507e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0d40a811d6d2e12933638bc8cd889ace0c191ef762fdfad2491c95009880a3a1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4675393e1eb80a56c2298f0a9fabcf2e90dea561c99f6b316b29840a83acdafe.webp"
+        ],
+        "route": "Iron Cavalry Against the Scourge"
+    },
+    {
+        "id": 120,
+        "name": "风举云飞的勇烈",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/31f26c4ad8d4cca252d870623942cd00b13e57c5e0cf5ebd1aaf02835e0bb6ca.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/12cdc1b4ca869d4c8ba3f3b3ecd656b677631a8b31e66e7ed3b57e3893bdc775.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/9f57ba00efed1d9c4a2dead967601148902f724129a629f5614882b2800aa8b4.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/7d93d16a0c6d80c09f42c1426b31ef273271918ac3837cb1b7db1a158913e53e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ce87bd0aecfb623ec5c2faf3f0da80edd45e7e6e188f628f113c4da850a01d9c.webp"
+        ],
+        "route": "The Wind-Soaring Valorous"
+    },
+    {
+        "id": 121,
+        "name": "重循苦旅的司铎",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/4be010d0c22a3d6b5fefaf35af3718f3e1b281e1974953928195c9d1bd77a520.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d417178e0e24cfd3e36a6b27b0710bf103c6ce84bae6bf420d773ad8a2317474.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/77beca0b637538730fddf61fc7b740f2d807b6db0c911901b16e7685af764d28.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/a2be90a28dc94b0c23babd579cdc631b2d4f30ccc9daee374b19a35e8eff7304.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/65fcf8e012c5632fe93c2960c7eefc89eb7dc7a456efdc86655b7b86817d7949.webp"
+        ],
+        "route": "Sacerdos' Relived Ordeal"
+    },
+    {
+        "id": 122,
+        "name": "识海迷坠的学者",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/64c017eb10bf12c2f8aa2dd75172d8ee4dd400e503ea59e81bb7cb40aec03d2f.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/65951893404f65267ae16b4c21000430c1cafac766cfcd473899c44bb19c12f7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b106f194178554c9fd8b5ace9991bf34d45a8cd90f278a893e2960a94fdefd6e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/812755f90e3fddf69c04816bf02476c78aae557164b84125bea70d234b95f4b2.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c6638cc460b5c6ea4367849190f30e6dd313edb330b12c5023f9d5a3fbd9d4f5.webp"
+        ],
+        "route": "Scholar Lost in Erudition"
+    },
+    {
+        "id": 123,
+        "name": "凯歌祝捷的英豪",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ac1f35238b1b3d81afc152cb98c5db5b395180db3e01204a21a736a7eb5cc0cf.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8f15e7a9fc356396b4fa862a41b6bb5ed47ca3be348e0df3d348923a1656de25.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f26118268d726ecbb00a48934b7eea947c82215386804d17267e5cb2cc887535.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/9802b2ca44463014012eae3eb277dc60149c4016a9501bfcd49b87d19072c82e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f2883f157d1fe02f07ef39af5e4e1dfe9dcf7309ae91dea765cf9621dd00b941.webp"
+        ],
+        "route": "Hero of Triumphant Song"
+    },
+    {
+        "id": 124,
+        "name": "哀歌覆国的诗人",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/9e4fa5462b9020100e251443dc967280b667b1ef9345fe5c973af3b6c23d2cc8.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/82d3f3780b41ba8945901f9cd1c2e99c950e6c9e41e012f94ef45a53c347ad9c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/10bc75faad7dd71e13334c8c2a829da5c28b331dc7e77b39ead021a741c4658b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/eb7907565ad13473c44c62b6339639ded2e99eb0fd23bff3e2e59dad32542c19.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5b0e6a82dbd9e61c7fe1f7831d908d5ffaf84b39a9d1410488bd74c58e77603a.webp"
+        ],
+        "route": "Poet of Mourning Collapse"
+    },
+    {
+        "id": 125,
+        "name": "烈阳惊雷的女武神",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/5ea8fcc79ca2beff14e5b07bf41529b2a34e9b4c1db2f4c78ec772f4b55481ad.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3a466e83b94116d601e7748ca15b0069e5d466e31be24be09ecc524c52a383ee.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3a0bfae21be7e9a6895814f6768ab7452fdc50ec585ce2e388cbef4bb02300d8.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/311103bb6a36ba5bb8c84fb48a7221b9aab19939a844def8b487c750c370d880.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/bbd5a6e70bfc9df42840f1210f9e2222f45b699fb956487889a704fe902c1a81.webp"
+        ],
+        "route": "Warrior Goddess of Sun and Thunder"
+    },
+    {
+        "id": 126,
+        "name": "恶海逐波的船长",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/fbb10ee28c266fe95faa355cf420cb73f4cc972c1393004f4f1b060d95abc714.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/18c53a10cc9a0d7d85a91b611bd26f2f664fe2bb216264a41bbbc79415173414.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ec97ce4d73c39eb03dcf9b301e4c9566844c6ca0abb97b9a35228c219e54a4ac.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8dea67f306ceb12a230f715c09ae35cd41cb9e5839af904180039963da99fc7c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/dd58ffafc6a674135615141eb04656d5a30b047f35a0da448693d887bc494d6a.webp"
+        ],
+        "route": "Wavestrider Captain"
+    },
+    {
+        "id": 301,
+        "name": "太空封印站",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/99912cd3a07b1f91bb5e9162fbbe62ad861d2159d41e22201263d03cf5e7ea2b.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/27c64dde1f2f9f9eb008ea83d302d7a2652cf1974987211310e1df4095608c46.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/a3433c7773f6e326c4f05064a9cb3396d65b4b31173d76c4acf50c4ad7a5aece.webp"
+        ],
+        "route": "Space Sealing Station"
+    },
+    {
+        "id": 302,
+        "name": "不老者的仙舟",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/71089e4f257d91d2bc4283fcaeb4fd7f28efd09cb709f39b23fbb23e6d29624b.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3b215296b6e64715ede97519e56f4b6ae492c86139d0035c19df86db55ab7d05.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b2a9114794fea7c945e7459e99a06fac173bd1fd584b5101b256dab78a2fee19.webp"
+        ],
+        "route": "Fleet of the Ageless"
+    },
+    {
+        "id": 303,
+        "name": "泛银河商业公司",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a0960d5af6cf1132823fd310bb121f93ef987f2b763835967ce1f89a200b1af1.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/71c420a0ea7d9db3246781bb6b0f54fe196a51376f2d77e4157cbc8f7f60af45.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/637bdd6aba909b1d0e3c3c9f91254bdc6e0531bd20afaa6f57b4616b210c7295.webp"
+        ],
+        "route": "Pan-Cosmic Commercial Enterprise"
+    },
+    {
+        "id": 304,
+        "name": "筑城者的贝洛伯格",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/ccf3625e8d598d1cc45f06c00997fc04bdcfc0ed694bc1e096ec6fea3d9c0e10.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9f46f4033a6ad1e4248417797a4a59cc491bc140daa54fdd30e7232765c1576e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5bb42ca4b88825e865a012a831d17d51927d38a0a449ffde9863dee55fb4630b.webp"
+        ],
+        "route": "Belobog of the Architects"
+    },
+    {
+        "id": 305,
+        "name": "星体差分机",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/6a531031eac68aa3ba68a5b0946ff833d5bdfb76fecaee9552bb1901b3ed36dd.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9dc8efa9b714065545635db7354f9c6ac865bc84d7d25f9e920937ac1477c513.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3112ca58c4ba319750bfb9551426fec40c43f2394569b09bce25bc9141b4a719.webp"
+        ],
+        "route": "Celestial Differentiator"
+    },
+    {
+        "id": 306,
+        "name": "停转的萨尔索图",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a1ff8e89beab438d0e28880e8c7dcc50529b31baefcd50f674ce10b62d06c6e3.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/93e7beab7117614ab118d73309d21da076099de1c36a2c55761500c7769d4832.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3f6363b4413f3ee26145f28b36910cba298642fa11d14b86b21a354bacb94957.webp"
+        ],
+        "route": "Inert Salsotto"
+    },
+    {
+        "id": 307,
+        "name": "盗贼公国塔利亚",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/1101a5e1255ad695ea565980c13708e326b20847d8adb1294c97cba00d26216f.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bf292e639f7bc2acba6d10d2e1a0b90722145f8f33bddbf9a99e42ec4a7624b0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/bc5f75af992db8d695bdab1d181ce2033b8cbad73c79bc57228055637e19b4ea.webp"
+        ],
+        "route": "Talia: Kingdom of Banditry"
+    },
+    {
+        "id": 308,
+        "name": "生命的翁瓦克",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/608d379165c464ce1b001a1378bc47cab4909e8b295bc08a80279d2610e7d50b.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b8cfccdcc96d469e74c14260c9367f26211d4d5332fa093684506c16b911c6af.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b6b6ded25ed722cc47fab270146c57af13b411fa01652f32fcce37e4bee23818.webp"
+        ],
+        "route": "Sprightly Vonwacq"
+    },
+    {
+        "id": 309,
+        "name": "繁星竞技场",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/c92449d218f61e942b89fe12b1ef326a58bdea7dac6f733548e8f9b9edd35241.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/63c76eb3addd7c3c4e4706ea184392d01f1db85670544b84069ccae304db9ac0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3b438ea33367e1fb6962eb591dbfc66321ff191f4e2d781770a07fa3b9db4d5b.webp"
+        ],
+        "route": "Rutilant Arena"
+    },
+    {
+        "id": 310,
+        "name": "折断的龙骨",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/29da902d09f455c932598d18f5e8c024a0f24ebfb6f4e471f91f0a2fe190cb4f.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b8a33ec2ff70ad09c0e8169ea74bde9c4ba101a02d1edb97b89765be456719ba.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/101eed1ed718d8a193090341f9927fb72087bdc1fb61fe5453f429329b75bd17.webp"
+        ],
+        "route": "Broken Keel"
+    },
+    {
+        "id": 311,
+        "name": "苍穹战线格拉默",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/a51572d5673c6f3c9b2a22c51b8bc691de64e1b7660e6d7c331967f558f3c273.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8ee19510973091cfd7dfc26fa783fd37afbbb85087de1ed011a6e0f9cca43a96.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/53428d986d7c3ad387d15f0b3b4843ee75c558f21513ad3682502a81bac5cbfe.webp"
+        ],
+        "route": "Firmament Frontline: Glamoth"
+    },
+    {
+        "id": 312,
+        "name": "梦想之地匹诺康尼",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/11393ad3ab73e17fc64cbd8fca0bf79a5d94f795d1395d9dc1f801e377b812ff.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fa99e694645cd623814a19bd16522f33c93506e3992183a7ef682b373cf2bc26.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/59c338af10f367039005917d35cc5517a2386d8b47a6a7983688824b8c92ae5d.webp"
+        ],
+        "route": "Penacony, Land of the Dreams"
+    },
+    {
+        "id": 313,
+        "name": "无主荒星茨冈尼亚",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/8060c5d2bebc6e384f294fbdf9378d664b8fbbda7b2845ed45cb9db904cbf891.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/333ad2b9b9043776bcc523380941e6d2815be71a09611cf0577c1cffe493f9f3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0a985daa758ab694a9c1160de25121776d4e95edbbae1f8b9eab9548d4d0456f.webp"
+        ],
+        "route": "Sigonia, the Unclaimed Desolation"
+    },
+    {
+        "id": 314,
+        "name": "出云显世与高天神国",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/62671982ae2153e565dcf1d56619927bef1492ab24d46703fec7c218d004f77a.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bea740f98a150073422d9360260943f0c053985043aff72ec5ed729e01905880.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e9ff240b2710f328cc5c18f5966d58c55e7cb558dd790544c3a9a64ad0f70302.webp"
+        ],
+        "route": "Izumo Gensei and Takama Divine Realm"
+    },
+    {
+        "id": 315,
+        "name": "奔狼的都蓝王朝",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/08c0b8e33ce81fb3e61c799f0414409cc840f44d16c531f583b824d3279b3438.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/78cc3e1b16d5b56431dc5f9685409c504f1b2197984e8590abd02cfe07b41d34.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f3217f32e4327a5adb4266e1793c0466548e9704d27253b98f717a79de40e48f.webp"
+        ],
+        "route": "Duran, Dynasty of Running Wolves"
+    },
+    {
+        "id": 316,
+        "name": "劫火莲灯铸炼宫",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/9174d9c7e5b5f79d0b0a654340f9e6d9bc36676975acc6c67867838542292bbb.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/cc0cd4d8191b190c3abfe2b1ba1366bae4c42ddce275d56f2477a8c578784cd8.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f95774c292550de0da685d5ab7fb155da1a7aa24dea71c8beb851ba9b921040d.webp"
+        ],
+        "route": "Forge of the Kalpagni Lantern"
+    },
+    {
+        "id": 317,
+        "name": "沉陆海域露莎卡",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/db674fd0f1b97c0f64587340330da41ac1b55330822443c6452be5f5c072ab21.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/578f5eff8a5d3a74a9ea975384dd9892535d2a631b3d9e20053c7dce4cf9c816.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/9b4094a67173dde538914ec3b28985d584ce0e08b07fb889affa6a9a50272b14.webp"
+        ],
+        "route": "Lushaka, the Sunken Seas"
+    },
+    {
+        "id": 318,
+        "name": "奇想蕉乐园",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/0c0574252d0c6ee5d929dbf72867de3b17b00c4fa19be6848aa792c80402fcbe.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f7a8a446e6fa584ad7b8192b99d02aaf85bf1dd12d4766b34e6668b6f3a79810.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/bb4bc06a47d472c31bb5150358a8814495e0d210ba2d6ee018918935449bffcd.webp"
+        ],
+        "route": "The Wondrous BananAmusement Park"
+    },
+    {
+        "id": 319,
+        "name": "谧宁拾骨地",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/2b3dbad5a68886b78d83309923db74e058edf4e90869c9035339b973c49ee06d.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c7fa96579d9a7202740bc145c8958ec5a60faf8243cc65b03bc00b76f2bf2fb9.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/aa5ac84a7b72ad3875c46a6b4651057c3faa96877529500fc7677e692b40512f.webp"
+        ],
+        "route": "Bone Collection's Serene Demesne"
+    },
+    {
+        "id": 320,
+        "name": "渊思寂虑的巨树",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/82c198e9a2015d9aa051924b41917647680e457e0a84fe2b861d7974f21e9a09.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b14286a0fb427a3e386c3bd18ec48f27e67cbd35f6c42e5c9f1ce3d3315b5dac.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/46130ede53991b462f4186049feb98dfa45662fc1d30058b8c1ac57d6505bc62.webp"
+        ],
+        "route": "Giant Tree of Rapt Brooding"
+    },
+    {
+        "id": 321,
+        "name": "妖精织梦的乐园",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/81f14744caa67cdd30a874af1e2f6d65a3ea75d4c3394cae47c482388de229d5.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/694957b7cc78f134e39ad8b6e5981c5721d51dd57def87f1d092a27614f01342.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/07749f340d0de6bc7b685ce686e8cb5c52d3cd08fdc360075d3ec9c62fcb7dde.webp"
+        ],
+        "route": "Arcadia of Woven Dreams"
+    },
+    {
+        "id": 322,
+        "name": "沉欢醉饮的海隅",
+        "icon": "https:\/\/cdn.starrailstation.com\/assets\/503b74206fe539db20f5c5253ec0cac46e69cd46e1a40f82a3f5a0dcacc7202e.webp",
+        "image_list": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2fe2d28fd9808e992e148c997ef185fca56e90c386671c2f510a1daa38f01386.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/43714ca31bf6a3808a8424c0223e4a7244e8d1edf8b4d797e9a0c58a2d0b38aa.webp"
+        ],
+        "route": "Revelry by the Sea"
+    }
+]

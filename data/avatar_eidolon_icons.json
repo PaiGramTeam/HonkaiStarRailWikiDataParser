@@ -1,0 +1,626 @@
+{
+    "1001": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1001_Rank6.png"
+    ],
+    "1002": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1002_Rank6.png"
+    ],
+    "1003": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1003_Rank6.png"
+    ],
+    "1004": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1004_Rank6.png"
+    ],
+    "1005": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1005_Rank6.png"
+    ],
+    "1006": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1006_Rank6.png"
+    ],
+    "1008": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1008_Rank6.png"
+    ],
+    "1009": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1009_Rank6.png"
+    ],
+    "1013": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1013_Rank6.png"
+    ],
+    "1014": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1014_Rank6.png"
+    ],
+    "1015": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1015_Rank6.png"
+    ],
+    "1101": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1101_Rank6.png"
+    ],
+    "1102": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1102_Rank6.png"
+    ],
+    "1103": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1103_Rank6.png"
+    ],
+    "1104": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1104_Rank6.png"
+    ],
+    "1105": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1105_Rank6.png"
+    ],
+    "1106": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1106_Rank6.png"
+    ],
+    "1107": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1107_Rank6.png"
+    ],
+    "1108": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1108_Rank6.png"
+    ],
+    "1109": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1109_Rank6.png"
+    ],
+    "1110": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1110_Rank6.png"
+    ],
+    "1111": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1111_Rank6.png"
+    ],
+    "1112": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1112_Rank6.png"
+    ],
+    "1201": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1201_Rank6.png"
+    ],
+    "1202": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1202_Rank6.png"
+    ],
+    "1203": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1203_Rank6.png"
+    ],
+    "1204": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1204_Rank6.png"
+    ],
+    "1205": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1205_Rank6.png"
+    ],
+    "1206": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1206_Rank6.png"
+    ],
+    "1207": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1207_Rank6.png"
+    ],
+    "1208": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1208_Rank6.png"
+    ],
+    "1209": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1209_Rank6.png"
+    ],
+    "1210": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1210_Rank6.png"
+    ],
+    "1211": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1211_Rank6.png"
+    ],
+    "1212": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1212_Rank6.png"
+    ],
+    "1213": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1213_Rank6.png"
+    ],
+    "1214": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1214_Rank6.png"
+    ],
+    "1215": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1215_Rank6.png"
+    ],
+    "1217": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1217_Rank6.png"
+    ],
+    "1218": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1218_Rank6.png"
+    ],
+    "1220": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1220_Rank6.png"
+    ],
+    "1221": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1221_Rank6.png"
+    ],
+    "1222": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1222_Rank6.png"
+    ],
+    "1223": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1223_Rank6.png"
+    ],
+    "1224": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1224_Rank6.png"
+    ],
+    "1225": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1225_Rank6.png"
+    ],
+    "1301": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1301_Rank6.png"
+    ],
+    "1302": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1302_Rank6.png"
+    ],
+    "1303": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1303_Rank6.png"
+    ],
+    "1304": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1304_Rank6.png"
+    ],
+    "1305": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1305_Rank6.png"
+    ],
+    "1306": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1306_Rank6.png"
+    ],
+    "1307": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1307_Rank6.png"
+    ],
+    "1308": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1308_Rank6.png"
+    ],
+    "1309": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_Normal.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1309_Rank6.png"
+    ],
+    "1310": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1310_Rank6.png"
+    ],
+    "1312": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1312_Rank6.png"
+    ],
+    "1313": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1313_Rank6.png"
+    ],
+    "1314": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1314_Rank6.png"
+    ],
+    "1315": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1315_Rank6.png"
+    ],
+    "1317": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1317_Rank6.png"
+    ],
+    "1401": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1401_Rank6.png"
+    ],
+    "1402": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1402_Rank6.png"
+    ],
+    "1403": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1403_Rank6.png"
+    ],
+    "1404": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1404_Rank6.png"
+    ],
+    "1405": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1405_Rank6.png"
+    ],
+    "1406": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1406_Rank6.png"
+    ],
+    "1407": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1407_Rank6.png"
+    ],
+    "1408": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1408_Rank6.png"
+    ],
+    "1409": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_1409_Rank6.png"
+    ],
+    "8001": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank6.png"
+    ],
+    "8002": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8001_Rank6.png"
+    ],
+    "8003": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank6.png"
+    ],
+    "8004": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8003_Rank6.png"
+    ],
+    "8005": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank6.png"
+    ],
+    "8006": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8005_Rank6.png"
+    ],
+    "8007": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank6.png"
+    ],
+    "8008": [
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank1.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank2.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_BP.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank4.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Ultra.png",
+        "https:\/\/api.yatta.top\/hsr\/assets\/UI\/skill\/SkillIcon_8007_Rank6.png"
+    ]
+}

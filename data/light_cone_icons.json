@@ -1,0 +1,1138 @@
+[
+    {
+        "id": 20000,
+        "name": "锋镝",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/aac5926462937480ea5c6a82983ccc56646a938c3d4cb5fb75fd168d5344f588.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/897f4fcda05417ebf63219c88ab7b5f11a6ccd2a5f85fa2a6ed085e751624990.webp"
+        ]
+    },
+    {
+        "id": 20001,
+        "name": "物穰",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2638098f9040e6a35a25482b89a32e532e2b39179a7456d81a70dbc14e1fdb50.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/39fc7ea3d7f5143b55f844ae5391695f09feb95e31a396bb7531d0d1cb7576c3.webp"
+        ]
+    },
+    {
+        "id": 20002,
+        "name": "天倾",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f0e8c81cb4eb0624a4ce206ba3374c94cca51ec483a331f7122ece8bbe77ad06.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/318cb4c3e4a3592817f70eecdd574ec5444b2670c99798a44d98c20044422f01.webp"
+        ]
+    },
+    {
+        "id": 20003,
+        "name": "琥珀",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/18b732908edf210d43bd4afa74d21cce5cb72022a53a2b8fc133434fc2a59437.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0e07a844dc294b53f33b16b49068b3e9072ca162ed516aebbd1ce980a3773e3e.webp"
+        ]
+    },
+    {
+        "id": 20004,
+        "name": "幽邃",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/df9925ed96ed0f7f71fb98ca9a19df19418a8dbb863f0c410984f6b734985bf1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/bb36b6d0215d17da129d82c49f0201bd1f0d542594ac6357ee6feef8fd5541dc.webp"
+        ]
+    },
+    {
+        "id": 20005,
+        "name": "齐颂",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c613875a533b6f600c4006bd468b13f1354586a4720eb2484ee6d226bde5f95d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ae21fc32cb9dce7d9ed25c96c95cd167ca8641bbd9036f1b231f2358ed5f2f99.webp"
+        ]
+    },
+    {
+        "id": 20006,
+        "name": "智库",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7f4bac91b5a81128d6adac913b71a084d7d642dd7ccdba502b0a5206ce428410.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/cae37c4d74eba0742f2b7e271b11081419511e56216cc3da211c9d39f8f4336e.webp"
+        ]
+    },
+    {
+        "id": 20007,
+        "name": "离弦",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7dcf640d7ef0622acf7cfec9c430f3360e07d4b52024f621370b82e10f434f2d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/a2143f498c24b2ea2c3943a34ca72a1d854822e992ad4f036716af4c9b8a4556.webp"
+        ]
+    },
+    {
+        "id": 20008,
+        "name": "嘉果",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f2a0772a4e5259ef317a0aa89c4e5afc55f8534cb19dc94f1b36abdb663599a4.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e0d2a416e5f62df070a50af8c674b96344a9bcb694459f47b742eabc75973eca.webp"
+        ]
+    },
+    {
+        "id": 20009,
+        "name": "乐圮",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8f3f47b0e8f40ee251f954e586b501f3df23776d59729e309fffdf68ed97b091.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/1dc5c469994bbe656bba48f8283ec1396835d95b239785958e4dbca12035d8c3.webp"
+        ]
+    },
+    {
+        "id": 20010,
+        "name": "戍御",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c39c2c2b6d56e0b39fc709ca9ca107fdbccd031489921addeb3736b93756101b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/00a6004ecf46c2b0b6878fb97c812d2d2cd933cbc8d3837f3e431f881d19ab54.webp"
+        ]
+    },
+    {
+        "id": 20011,
+        "name": "渊环",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/da16d17a41f18899445736b84c53850d05a69eab850d290b2638beb7c0485248.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c8e42ab1ce4fa08ea39a1b0e3c16118a5bc12cb9526db2b0ae546be5cddf7816.webp"
+        ]
+    },
+    {
+        "id": 20012,
+        "name": "轮契",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e4152cc08df5e44217fe21fc5725092ad29b8ff345a2eb598efad77e81b6c228.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3d11c76385dfd10113fab3d2fbe19c5c85f1493588aca5480e0ed95fd9199a8f.webp"
+        ]
+    },
+    {
+        "id": 20013,
+        "name": "灵钥",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/59976d250f61fb09a1aacef79486a32a63123b90d0708036f66b9675035920a3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8e98787e47f779bb52c64f320a1b0bb96f7418636bbe18b16bb9686aa5d59661.webp"
+        ]
+    },
+    {
+        "id": 20014,
+        "name": "相抗",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c1bc8881b0c132ce7be1a097a5f0177b133ae7c8a863decd5a09486de44a71a6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/03a4bbd95cbc19e6855f71741c9d6a56280b81bcdae6accca2eefce8938386ab.webp"
+        ]
+    },
+    {
+        "id": 20015,
+        "name": "蕃息",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/25a7e3da3090ea4afa7d2ccf76334a80ac77194ba69469ebd11bed538eafd434.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/77d8e427e3c423472845dd5d7ee5dd4fd34a7ee3678921bdff5e40529d2285ef.webp"
+        ]
+    },
+    {
+        "id": 20016,
+        "name": "俱殁",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a5859b69d1537a44ece2e42d8abe636fbcd9797c3bf21b902476cddc52a2ed1e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/600e1792aeb2ecf19921898bc8b85b9238b4a2b08bb734854d34f2cbc7d7bbff.webp"
+        ]
+    },
+    {
+        "id": 20017,
+        "name": "开疆",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1931413e9b4d7d8f39a1d8b64bc3106c52981b89ac4e6c4b3fde2f642a2d3087.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/db45a85771b6e02d83e64f252097b22971d2063bbdfcab0483db2aaf3911d53c.webp"
+        ]
+    },
+    {
+        "id": 20018,
+        "name": "匿影",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/918350fc7e90d38ef41faa410d89c5e66d3153d132c5c92dfca337b691d95b8a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0a06d13a9280922bf1096759665ece57c1c6337e0653c44dba1c4b6813769d15.webp"
+        ]
+    },
+    {
+        "id": 20019,
+        "name": "调和",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fed0df316f6d3ca79d8db494a5cb06c20a9562ece36313be7f9233c0c714cfd0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/fa49ed3c5a4ec116a3476a3e50095c6b4ab8bdf7d1126ab993846ff5111c8b48.webp"
+        ]
+    },
+    {
+        "id": 20020,
+        "name": "睿见",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b531b4c7d182f204bfd5ae78245a2ef394b8477fe2f7a616a9b47831cfd8ba30.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c3c958846f8824a8a3fa84a73c66b36754b258c3eba1ea28df13f013d2113dde.webp"
+        ]
+    },
+    {
+        "id": 20021,
+        "name": "焚影",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b51bd754b510d54568e9c156476f454a3273696104df99a0644c6bb784e8d120.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/599481d640d6a1a00d9d163172642667c46ec0d316b3e0899e92853b5f18a55b.webp"
+        ]
+    },
+    {
+        "id": 20022,
+        "name": "溯忆",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/96963358e64501c9600cda1c4fa77ec789e4b1f5330ab3590f0494fc341c8246.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4ccc9a3dff75b279e885e2b9bcc9c21446c57ff039ca680fc8ede2011e0734f2.webp"
+        ]
+    },
+    {
+        "id": 21000,
+        "name": "一场术后对话",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6346ea603160e21f8aa2603419634e338963102de55e3ac90bd54cb1b63cb1b5.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/83b6ce11d23caabf77539679d73b7920836fb602376947cd5f31cafb25a0400e.webp"
+        ]
+    },
+    {
+        "id": 21001,
+        "name": "晚安与睡颜",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/04d8a835e2c0580f6325fcc27c3e74b957699cd264a2a971798de52158841d18.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/bb5276ec6799dfa3d5a0723bb3b3496e76d1d29c16b702bfa9d6699d55de21db.webp"
+        ]
+    },
+    {
+        "id": 21002,
+        "name": "余生的第一天",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e51ab7baefb00e34598b4680d1d9312327d73bb419854ff829e22903d01228b8.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/1289eed93a68aec48e00f759c1b598c290b54e902ef7d8bbb1c4320a934654f0.webp"
+        ]
+    },
+    {
+        "id": 21003,
+        "name": "唯有沉默",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e3049a98ae9618ccb77bd682b5878292d5eab06e262bfaa1214140bacd93e005.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/cae08def74c0e69061b85396b28635bc4dd2ab3eecfa108beaf33eb495570937.webp"
+        ]
+    },
+    {
+        "id": 21004,
+        "name": "记忆中的模样",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/0912cbf0eeaa5be80e77881420bd9516c5339d0b54cf8de7690294cf98719809.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0070e68c8403f241e6327fed400cbd0f826459e105f34baef1ba3c395ef5155f.webp"
+        ]
+    },
+    {
+        "id": 21005,
+        "name": "鼹鼠党欢迎你",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b93235942e3a90f42c24185a8514f2966e46cbf50bf9f6f8499b29747f5c21ef.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6220a15850bfe75a0b64b480f2c9b45062b5a29d2d07228cede969c919d145d0.webp"
+        ]
+    },
+    {
+        "id": 21006,
+        "name": "「我」的诞生",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7937c15038ae7ed1bac8e8ff847a3d97594ac73e520cb9fd739fb5d315df3222.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c296e473612780c9d8857f6db1abb542d8f8a54eedc88242d4807ede3d06c409.webp"
+        ]
+    },
+    {
+        "id": 21007,
+        "name": "同一种心情",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d0a2a06f44e9cb1fff6f3915129774dfeeef5177a1b9e7fae6edfa32d27a46a1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/1df21a3e481b957736743a9bb949430ccb930efa9bc8761135df197a33857bc5.webp"
+        ]
+    },
+    {
+        "id": 21008,
+        "name": "猎物的视线",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/cfd071e1203be400a2dd5b04848efbc07987ac845b1f4befd9acb2809659e47c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/13a9674ffffed8a627e43c0b4277c44f34d23e57d48d869fa86f5277d0eb1a54.webp"
+        ]
+    },
+    {
+        "id": 21009,
+        "name": "朗道的选择",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/eb4157d911e570787a7caac9a7ad6d5581de2dcc138483689541001e20c9c2e7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/7689e4d92f2880daeccbb7b7c23ab1313db41d849b2159159e7f3ba22232e6ff.webp"
+        ]
+    },
+    {
+        "id": 21010,
+        "name": "论剑",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f95e552ca8555cb420088a889de486206484e8f31192a6d00d11a91652d9b62e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/7754a0c48be3fd150ff89cae23ed94b36121e5bdff5966b94f84d33a691188a3.webp"
+        ]
+    },
+    {
+        "id": 21011,
+        "name": "与行星相会",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9ec1b4d05d4369abe61104f44d46425aacbb9a959101511cdeaec363db734aeb.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f6d9ac17f10c57b8fdfa01943d646cfc15862f5aaf4b3f5fa33fbcb1c66e04b6.webp"
+        ]
+    },
+    {
+        "id": 21012,
+        "name": "秘密誓心",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6cf3c9473cf1cb3f066bdc027714ddaa3fb98cb8171357daefc311812525bca5.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/48fb468b45ad58f926935cbc2f9c58bd17d9021795b261aab28a60f441d88e51.webp"
+        ]
+    },
+    {
+        "id": 21013,
+        "name": "别让世界静下来",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/575aba0641ab9e5396bea798e3e2dc5b6f1410d0e636e6f580d6877182ace687.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5c528a775618dfbeda998edde6cceb76e45b6798d49cadc3cbf26bb09df32a16.webp"
+        ]
+    },
+    {
+        "id": 21014,
+        "name": "此时恰好",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c31388ef21de6893900ffa0517330a0cc843ae05f997edf3c666613d3e0cfcbc.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e7e006a3b85f2c5f2b8ba75bcf55e3154c26808d544b7583909e81184e671355.webp"
+        ]
+    },
+    {
+        "id": 21015,
+        "name": "决心如汗珠般闪耀",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2cfce5155b6ce9e6204b6c1014f2bffa524d4adda518df3ee88d0363905cc194.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/687d0dca8bb18d9fe37b6a77d3c23b464b916ae9f21e23917d3d8cbab1804825.webp"
+        ]
+    },
+    {
+        "id": 21016,
+        "name": "宇宙市场趋势",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/95c9d7d1f346b532821f1334aadd66b09a4f1f82b4f1013488d9c654bdb9cbc9.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/32e1bd228c72afd50a0e676bf8941469c6547be546290bfd53d4c455025b73fb.webp"
+        ]
+    },
+    {
+        "id": 21017,
+        "name": "点个关注吧！",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bbe43612ebd4b64dc1d63e225051032b9a5d012b0945e9b3834456e556962916.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ca126b2c1293a9fd371fc1f096b046157399472e4cee8d8ab5122bca8e3f6878.webp"
+        ]
+    },
+    {
+        "id": 21018,
+        "name": "舞！舞！舞！",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1adcbcc1447465b477b499f9d46a2afab3930f919817b60f6160d569f4c140ac.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6441c45b9d4a949d78cae9d47959e27732f0fd7871bbeae9521b4a42a4206d94.webp"
+        ]
+    },
+    {
+        "id": 21019,
+        "name": "在蓝天下",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/9db3bb5a157fee984f94b801ff9784ac89970195bd872b7aa961164f0cc99c95.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/9bcfad53df2262ce3379a942ddb42d0c9c84fb63f765f69f8daeda727e09c304.webp"
+        ]
+    },
+    {
+        "id": 21020,
+        "name": "天才们的休憩",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bb33fe31fe8f6bf7deacbf805b3da3cfb4652f4f511d69efd59af77cbbe08473.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d4ba2be8819d9a15c520011129610bd03e08be235821899ea6adc0a9c3eaed1d.webp"
+        ]
+    },
+    {
+        "id": 21021,
+        "name": "等价交换",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/23346b5c7f17bbffab3e03e3f45b9bfab401966aef120e7820fc31e12a911328.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4dc8a4a3f8bf388293403a62b282de8645165fbc40d84784742fd3ab708cd819.webp"
+        ]
+    },
+    {
+        "id": 21022,
+        "name": "延长记号",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5e6a1baf2562d427c1d9a78340cff572e9b7263a56e03d2b42a830a9bb648e6e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/603e0d39bac9b69b6ef6d1725bc172c99d818dc1392bd72bec116e80a0c6fc0e.webp"
+        ]
+    },
+    {
+        "id": 21023,
+        "name": "我们是地火",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/17eb5291326cdbcc5c59f3b8812004cf7646fabfdefa1629bf4e94e6133761f3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b72c89e3bc8e580d2f21bdd233bff975b4c33dcc06890d604180752c6b6c6f03.webp"
+        ]
+    },
+    {
+        "id": 21024,
+        "name": "春水初生",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/54ee85a0aacb660ab131083ad2fb48dfe7923939c753fd37105e4d50bd554f83.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/db52428f6188fecbebef1cecc16113df3d305a0533f9bc04a984e27bbf63636c.webp"
+        ]
+    },
+    {
+        "id": 21025,
+        "name": "过往未来",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e17f169931c749ad4e7508e9b90eed174e03170afd930245c04189a8b6b5a6fd.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/65929418585b71d25649ed83bbb02e7dc245f776a9f39671b0612674d2db0f36.webp"
+        ]
+    },
+    {
+        "id": 21026,
+        "name": "汪！散步时间！",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5b174014e60a4fec89cd314e8734ee4b1e42cd1ad37425863f36bf23d77873d6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8355c89a7d3ce4b9425f9a2d0974bbd12ed6225cd3915bbff7d8166225ef7c3d.webp"
+        ]
+    },
+    {
+        "id": 21027,
+        "name": "早餐的仪式感",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2c41af31341c92142f7eb330bf417cd487ca4f263aaed9fead597936c60b5ee9.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e5b835b38eb21b2b5827cf7a44a3ebb3e536fa859f0723eb2d02531581fd2e63.webp"
+        ]
+    },
+    {
+        "id": 21028,
+        "name": "暖夜不会漫长",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/76ef4acafbd141e053ff3cd21e6403d63b7a2762417c9b0d598dee9bbd849548.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/537719d9404aaeb969d78c41caa22e1edac4a120c7c1b3ca59a52a3b8670140b.webp"
+        ]
+    },
+    {
+        "id": 21029,
+        "name": "后会有期",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5f3715ad7e6d3d43225b87b332df4cde53bb4b7b2eb6a95263989ee52360932a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/366e5acb321745c3c25c98abd9b59bbb4f5f596cba25b8fd8e87ce89e8728170.webp"
+        ]
+    },
+    {
+        "id": 21030,
+        "name": "这就是我啦！",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3f3203ea6baa50bdb176fb543964f9140f4b4115c48d9af4b937d1369e09f3ee.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/85ee234245f9b5a6b7a28b73801a3ec6137a95d7f99c084396fb20ea536ec8b1.webp"
+        ]
+    },
+    {
+        "id": 21031,
+        "name": "重返幽冥",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/fa4c439c47e0043817bbca0a730bab4e2e8f9bb3cebcf4981bc31fcc12dfd972.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b96fd1a5ac6c207a7073d12aad50fa9d90f59098eb1cab836f5b08086b367a0c.webp"
+        ]
+    },
+    {
+        "id": 21032,
+        "name": "镂月裁云之意",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/62a5a9c8d0a3c6ed8078aa518925c2b4381ac115ca261fdfd51d90b250176624.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/42ca734d1db1245eb9dd85a4c186243faab63eda695f5999d70bcd9a3907183d.webp"
+        ]
+    },
+    {
+        "id": 21033,
+        "name": "无处可逃",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/055692dbc1dfbf5943e7f511a1349a1635edcd2531bc791ff880f7bffebe6e2f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ed687ccc90b66a6e1c8cf5e0caf330fa5856877f2b05cc16c00499d40243104e.webp"
+        ]
+    },
+    {
+        "id": 21034,
+        "name": "今日亦是和平的一日",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/27fdb8df9fe0996608e5b549ff5829442521f9e9b539512a4f822b64436ad9b6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e94b2ab4891a8f6e291a3005dc12eacce5bc7d8cac0a35ddbe5ff53755238d1f.webp"
+        ]
+    },
+    {
+        "id": 21035,
+        "name": "何物为真",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/60b52181f469f1188fca9a9f74e8b9f3011847a476e8a30dc303adb7ecffc3b3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/35c6626985798c3418a68f267c288f7a2f5584d7e04b4c5d43d20d59dcfad3e1.webp"
+        ]
+    },
+    {
+        "id": 21036,
+        "name": "美梦小镇大冒险",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5c6d0d3dd076a4fc5a615b4dc75026689e84ed714ea94f167db2d1fe962bfe74.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3b2bc0efea83a319557ae93979de5c14b361c53d3ee73c6a32015073d2a9ee6e.webp"
+        ]
+    },
+    {
+        "id": 21037,
+        "name": "最后的赢家",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/26134ea544c08a924c461d960724b7a637194d6ae58fa8caa07e9052e75992ea.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/aea02009975d86457b873bc11b748cb311ed147081bab28b2bc7aeb548e8108f.webp"
+        ]
+    },
+    {
+        "id": 21038,
+        "name": "在火的远处",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/96c512774a3ab45298b9b2020e1982d5d6dfafb250f830b73f45c8d30e8b2bf0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/724cf9d08553425207433aa6014812e4988e0a4f924bcd9ea5ff61fb987a31be.webp"
+        ]
+    },
+    {
+        "id": 21039,
+        "name": "织造命运之线",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/40533d0aae4b6d7cb6ac1a769f0d8d01b7426a49cbaae08f451b228de7fb1b70.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/cf1144beef274f4da99830f089e5acc4d50d608d0527daa1377543c3ef2ed60c.webp"
+        ]
+    },
+    {
+        "id": 21040,
+        "name": "银河沦陷日",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d84f03aea93de599a61e50012a8b7d38d0f4b8421770a47e78860370d00f334b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3be056e82720dfb308ae3303503b54b5887663b65932fa0001d90c4e21009a65.webp"
+        ]
+    },
+    {
+        "id": 21041,
+        "name": "好戏开演",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/bb10cdad740fa632957186ac70c15c49cf7f3290557fa2702ce23aba6eacb7e4.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ab1574f09b3f261033f8ada1989374e4aa98612ca3a10540278a351f309e7627.webp"
+        ]
+    },
+    {
+        "id": 21042,
+        "name": "铭记于心的约定",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/dd8f054bd94cd20193f37ae9ccedc543f4708022c1bf51e4d3425abbd128ca07.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4920a281f660610898e7da7f7451e35fed81e6567d8c3c2fa1c399fe8d2e8237.webp"
+        ]
+    },
+    {
+        "id": 21043,
+        "name": "两个人的演唱会",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a6874c17ff27f6af1d0003cb87537b3bd88f0c2128f2a6b8eb39d5fd5542b903.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/aedf2929966061b201f084c467e8e70632cc7701307bd0ddb01f0e0ca265a78d.webp"
+        ]
+    },
+    {
+        "id": 21044,
+        "name": "无边曼舞",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c232103e6cde31140efd7db3aeed0a7a9bb63e51a2db2720531b65a12f088712.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d5bdc977a4c7c59049f5a40e52422da7b02ded8089347650a2597e2131e1e8c0.webp"
+        ]
+    },
+    {
+        "id": 21045,
+        "name": "谐乐静默之后",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/f22f36c870b3891d8bb70bcacf525f8428a3bb23d444cf743e59daf6337bf4e7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/44326570b8cad980d83e454aeba5395d36cfc402b9dc85072def873a9f5b1ea1.webp"
+        ]
+    },
+    {
+        "id": 21046,
+        "name": "芳华待灼",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/41a6d48e5fe43c3067dcfb80e17cffefd5b010e37002bab4a9bd17810a853982.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2dea9ec60a8a4ec55a0474ecaa224b63ba6aa7fc9c4e2671e721436fc2ad46d6.webp"
+        ]
+    },
+    {
+        "id": 21047,
+        "name": "黑夜如影随行",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/705b8c1901669ff6c7cb50e23e91f027c3b0e363c6c48aa94e604776263c7e61.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/727e050ce1e4be9642ed6246007bfaf6bb3d3e1e7ebcad2ff1d9b3f3dc4231f9.webp"
+        ]
+    },
+    {
+        "id": 21048,
+        "name": "梦的蒙太奇",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c0592b7aa9f3cbbf19d910139dae39a3ea54250a85a383518f63b32f3489c054.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/98ac930f3b0037ad7ea1bb559d367bc3c64b4f4ac606348b2dce5caa9c3f20a1.webp"
+        ]
+    },
+    {
+        "id": 21050,
+        "name": "胜利只在朝夕间",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/01ad7612272835baaebc0dbb2c9d9e0678255282447c0adcf493c753bba51b9c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/694e5b44b4475f51ad8f8e5ebcc4cbd82d8db0d682ee9ea3858f95bee338af81.webp"
+        ]
+    },
+    {
+        "id": 21051,
+        "name": "天才们的问候",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b04c7ae348d8676a69a26185b8f4a2ae360791b2ee6c5660319843888b401e99.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4733e629fbcff713ad79276db9c30319b9ce6f153df2b3c7037da686da26f15f.webp"
+        ]
+    },
+    {
+        "id": 21052,
+        "name": "多流汗，少流泪",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/35c6a776c6976bb4bfcebc72b16685e1e6900b2cb3b39b6963c9fa0c64542ff0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/84aa9dff54dbd7264506e0b983a86ff1c5ab21fb9a5c72a1297b6d48681fa838.webp"
+        ]
+    },
+    {
+        "id": 21053,
+        "name": "愿旅途永远坦然",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b96fdb816c7f6b6899fdb06e799064d354d9a1bd82e900a010773505b8a2f060.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/38b99f393f62305c03d081c1e0ee209cf78c984b0720e451082b8f87cbe4de88.webp"
+        ]
+    },
+    {
+        "id": 21054,
+        "name": "故事的下一页",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/69e9e4350ddc2c0b1b07565ead848a085462e032cc1ea4c029ef05bd302ad058.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/66a35753e4d4a7d898f6f64034db8eb588f92610ee3fe95c84af4a8eba0ca3f3.webp"
+        ]
+    },
+    {
+        "id": 21055,
+        "name": "直到明天的明天",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/810cefc9bb50b3b993426e3582d3d57972e2dd68f372492a69d9ee786fb88e15.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/0d67df1f3329412301930b3ab0aad3ff157ef2505e92476165bb3b2e0d2e6c7e.webp"
+        ]
+    },
+    {
+        "id": 21056,
+        "name": "追逐风的时候",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b4d9f8c1a980f3c97cf97820f09813b20b80e5bbb2b5d895cac3d927c1146779.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/205dc08761f2e442bc7b7860d7a83fe34582542179c18f8c09e9f6ce0cc0c272.webp"
+        ]
+    },
+    {
+        "id": 21057,
+        "name": "花儿不会忘记",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/78f2c4f45fcf04b8663abe3e88c7b4e917ececf3d9e34a5d61014b932bbea358.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d274555261f1c4856855dbd9f8068528f12b104083afd716a2d0e0ca0f3a8bfe.webp"
+        ]
+    },
+    {
+        "id": 21058,
+        "name": "一行往日的血",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/73bc07e443bffc33400a76e4d06121800b05d138746d3b0279128941479d9a50.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/94ea5255cb9c8b4a5a283f1a6df34cc6a0097f98627ebafca2013501dbd37864.webp"
+        ]
+    },
+    {
+        "id": 21060,
+        "name": "氤氲麦香的梦",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5de946093ad9da4f6bac2962d4957eb78f8678ec055bd4d9314ed2270efd0553.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/99bc935e8aad1345824ca24a1a293df4e3c44d424aff0d9254fa6c05f31db3a4.webp"
+        ]
+    },
+    {
+        "id": 21061,
+        "name": "假日浴场大冒险",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c6798a9da165aae76aaeb7bd534a8187dd44f720ea7c9153bf4d38c788b8a890.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/480081f748714af1f47c62f492603d083a69ffca9c32e2a319abc37f5c335d31.webp"
+        ]
+    },
+    {
+        "id": 21062,
+        "name": "于那终点再见",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5db5995002943893eefa0829b927870177def85ff5f13f52279f700575348149.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/fa5771eacd8e7c5c8f4b46c2194de20c9c15cf3be42e9685b3d41503f1afe158.webp"
+        ]
+    },
+    {
+        "id": 22000,
+        "name": "新手任务开始前",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/70932a12f9efb06347ce9752b4660b10c69c880d61043bc6433099d73a56d51b.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/82b26a411da434181e5522eb184905c7ea66e7e242261f5ba6361c72dc8ad022.webp"
+        ]
+    },
+    {
+        "id": 22001,
+        "name": "嘿，我在这儿",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2e752945613758816e9fcc9e49bc05e7541278eeaec6e8554f19826647a92c54.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5fc80dba5418721ef18cb45cd9b3c1a25c469253cb5c392fe225027f2ddca8a4.webp"
+        ]
+    },
+    {
+        "id": 22002,
+        "name": "为了明日的旅途",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7fba5f986c771c6b24ff1bcc2b94dc4654c375aa692d59f7f402ae8b34023df3.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/11a735a8641a8e6cbe62ea4b0d8c83e3ae90afc04f0b0ce98b357e6f1a139c31.webp"
+        ]
+    },
+    {
+        "id": 22003,
+        "name": "忍事录•音律狩猎",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e7f6d63a7a3694b19b2154d40d9451770de20ab5ea69a31cc31247159bc0ea74.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e43afbee32be5965b1ac1b911ac5d5ee232a5063cae2d80e23369e11c1c99b45.webp"
+        ]
+    },
+    {
+        "id": 22004,
+        "name": "宇宙大生意",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/acb87374e019956aa5d6706f55b78b905448a72b8b2b3f9c7e3068ce1da3698a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/25cdd8c8b46c4469ac5090d8ac38c9e6ccaebdad72021cf9509c8c355c20a263.webp"
+        ]
+    },
+    {
+        "id": 23000,
+        "name": "银河铁道之夜",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a8956c72a368e6b644e378e69bcd407c106c98ade45b9818a2f7ab2d722f1992.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2b5e2dab4b1ccc3d4ee7c3898b9ae4f3a8cea7a6b4f938cf85a5f730d6497dc0.webp"
+        ]
+    },
+    {
+        "id": 23001,
+        "name": "于夜色中",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/50ffd34128bd34ed767c1625c058960ff012b81dc2439ea435a2d3209a727d15.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4f0cb2335ef0c12b6cd42d5306b55b0ef61b16a8858aaac26142ea034ce7e5a7.webp"
+        ]
+    },
+    {
+        "id": 23002,
+        "name": "无可取代的东西",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/dc31f47d56fcb44ecfd261febd0f36ed204284121886f24c7684a2f6e7e57f1f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/33bc9a4c2f8282f58891efc0c35bec5cffdedd33d7d60abc646065d163137c7d.webp"
+        ]
+    },
+    {
+        "id": 23003,
+        "name": "但战斗还未结束",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a5cd7afce53b83d447afc0386a06fc64d7ae604557f0db30c7675610ef8e7439.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5729deb072e0352c9b828bd8ce8c88184a22abc4a664b1e3d830781f1563a1de.webp"
+        ]
+    },
+    {
+        "id": 23004,
+        "name": "以世界之名",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/68a31e12fd0d0a56d41e5500f89945ccaea0656f63d0342a87dab62600997460.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8c00aee02ee3cb7ceb25b4365e77ea0a2ecbd4bcd60c0193acf5b1a008c7d6e0.webp"
+        ]
+    },
+    {
+        "id": 23005,
+        "name": "制胜的瞬间",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/a0b35e47fbae00587ef1e36393b1fe59c6432aaac9496feeeda10fd9965fd9f7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6a949979739ea309cea20d0599ce4bc53b5c1b93e716c29cb1647dcc899f32d1.webp"
+        ]
+    },
+    {
+        "id": 23006,
+        "name": "只需等待",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e4e41e1c77b12d839b1631c8dd3b6315c91b145ab79254e2d9fb0a2bca7a4fa0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3cefbfd9417900f8a8df1f8339ecad03c9820ad85109e060bdee2821e2e2229b.webp"
+        ]
+    },
+    {
+        "id": 23007,
+        "name": "雨一直下",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7ae6132e250fb8aba22f7fb78844354744cbf1666756b4cf75f89f8f46500794.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/be6bf8fb38e7bf7a27232355ab77cba52f87bda1f5679d80c6a9d6e5d5a24283.webp"
+        ]
+    },
+    {
+        "id": 23008,
+        "name": "棺的回响",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/22d2cc53e591c9a6207335cdf3c45574ae7f44993e767bf5750c536d7b5978ec.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/5217c32c3009570b6989bd5e6fe4fd72f23ed6a67e64e196c94554a49bd8a6e8.webp"
+        ]
+    },
+    {
+        "id": 23009,
+        "name": "到不了的彼岸",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1569af9df587dae50a497c8cde68fa73e9a2bdf45bc8a37edafec4654f7d286f.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/908cebe8e640a8c25c22093cf80ee7dfc4f0478b8ab6b273af5617f592a991a6.webp"
+        ]
+    },
+    {
+        "id": 23010,
+        "name": "拂晓之前",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5e60aa5fcf82f986d886d0022395f4de205df67eedb68229ab22b98b7b9e7632.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/c9e7320c0bb4f0bc1eca6691d1cbd235e75cea2c02898727cc86adb4b9c8baf2.webp"
+        ]
+    },
+    {
+        "id": 23011,
+        "name": "她已闭上双眼",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/c679f6773cc3ee11fdac3145808ecf550a6b477c88dd0f25d389aac2a45f15f1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/6e4deed12aa0815e14daa8c2f6087a3cf8828fc6bc26c0dae3599e9943020983.webp"
+        ]
+    },
+    {
+        "id": 23012,
+        "name": "如泥酣眠",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/83a60c40c737d4865c555bd006932275d62be1387eb75bd2478130c8e81e3112.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ac393397bcdfe050ac6eb1e619185c4bdfeef67c6c8ec61827aaefd3606bbde3.webp"
+        ]
+    },
+    {
+        "id": 23013,
+        "name": "时节不居",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1fb107a75dc4bfe8c6bab24778244eea8a8934e05da37cffdd0e94c892baca98.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d68bd776eac92a44174170f4b309ca1259a06007ba2d150adb7e6e3a020a2123.webp"
+        ]
+    },
+    {
+        "id": 23014,
+        "name": "此身为剑",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d17fc198ba45fa792042726992af464b2b72ec210a1ae5493036a87db6f4746a.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/49888368926fdadc67154553488b3d8440a1ceab826616e0abd963db3b51ead3.webp"
+        ]
+    },
+    {
+        "id": 23015,
+        "name": "比阳光更明亮的",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/38825d49040f2fc224e985ca6e9ecf9fe7aedda350f586e95f3964fd7fcca0d1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ad876614df6e7aa199e93498b5442f668d18ef8c0836be616a7fc166b507edc3.webp"
+        ]
+    },
+    {
+        "id": 23016,
+        "name": "烦恼着，幸福着",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/08badd63a9ec8a8657a089bdaf655cdd692b552def966f82babe161fa0f881ed.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/51a973d1262ee6067c8709a925e8d7c6ea2ee1ee076a03617d5ce4411de48471.webp"
+        ]
+    },
+    {
+        "id": 23017,
+        "name": "惊魂夜",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6ffdd906e1f169891165bd32e232c0eb87fd37f3534df24b93b5b93edc5ff3c5.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/a0901728d0fe9d7d1b485e6f285fff940f5995204a47132de2bc29a601f37da9.webp"
+        ]
+    },
+    {
+        "id": 23018,
+        "name": "片刻，留在眼底",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/536544c59fe5d0f8716b8e6881c2bf28d964456402ca399301a1dbf98d187a11.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e5f92946c4c2a77afea1e45fd3cce157ad7e31d1b42f8c7ede9d064899d6b727.webp"
+        ]
+    },
+    {
+        "id": 23019,
+        "name": "镜中故我",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5f8ae1b789360fbb503dc2f06d4551bdc4636794e0075b51253678c4ff024233.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8631163c4e3d458f1f08326cc4529e630a8caf4964cdab5b790ae714c9ba8553.webp"
+        ]
+    },
+    {
+        "id": 23020,
+        "name": "纯粹思维的洗礼",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/da72cf6464a6ef29f3a6e7d70f8734b2df8392bed55c9bb473dde86e52dcc6dd.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3c854976b63578bb89bf1d884c65285ae4515f1c744c34462e73e43f45bc01a6.webp"
+        ]
+    },
+    {
+        "id": 23021,
+        "name": "游戏尘寰",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/28fa9fce987500c01ae55c5f243e9d3c8f177b172a4d3ab67c4d6cc4f15a2eb6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f23ec2724e63726881d4cd271e31f533e84118a3896ec7f0c952ec19b99df8c3.webp"
+        ]
+    },
+    {
+        "id": 23022,
+        "name": "重塑时光之忆",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d443a611a22217e8cec30ad7c1e4e3ceded49303a9602129fbe574a96107ab30.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/87ffe0c397bdeb2d4567bd2dfbe4bd7c8fdcbc0fab4d53c491a9f440d6bdaa6f.webp"
+        ]
+    },
+    {
+        "id": 23023,
+        "name": "命运从未公平",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8a6d0d0673299a9b302a2e6b4ff5c761d378f5cc22606b1ef7f184a53fa51040.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/264415c9e136cdb4335eef830200c8c2c9847bc93d332ab2f1af3d1302fea8c0.webp"
+        ]
+    },
+    {
+        "id": 23024,
+        "name": "行于流逝的岸",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/56abcc03d09f740379e532a606ea8b175e4c9d17d441c34c7db03cace1887f5d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e1e5ff6e575baf260639dec6fab0a33e1c95ff1138216a4dcd3b8c88513d45c5.webp"
+        ]
+    },
+    {
+        "id": 23025,
+        "name": "梦应归于何处",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/0de0809d42b1f64afc8690da6ae6286ad90f05ca231a75d9c4e78225cdc498e1.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/b44f836a1f43697d08b570fb6fb1b890166b90c60e8087dda131e36bfe40793d.webp"
+        ]
+    },
+    {
+        "id": 23026,
+        "name": "夜色流光溢彩",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ef2d97cc73625af717458b043229ca148901c9af5dce93d7faa2c82beb085779.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/60e699196d6b2a9ac6c75418d130a26549de041affc36a63c2d3e11cdc00227c.webp"
+        ]
+    },
+    {
+        "id": 23027,
+        "name": "驶向第二次生命",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3081dc1cac2bea0ae7da498e41f4ab022188f1e4ab961147d6b8cb90f07682cc.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2a0ba9ef4778836822b8ed92954ced3ba1f51e42fdccbd3c162f1ceef6f6383f.webp"
+        ]
+    },
+    {
+        "id": 23028,
+        "name": "偏偏希望无价",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/09041d49dfd3f7868b1290b2de398b244319c9169d53afdbfb7c59ff6b7556f4.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/fba56c88d40f89b77d791624531dbbaf9cef51c53399eae35714b779f88d1cfc.webp"
+        ]
+    },
+    {
+        "id": 23029,
+        "name": "那无数个春天",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d417ebd9bfef75f054f03db7c3abf82182d14e3ff2ba1749df8c6d519bf572f0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8a0ac4fefafcd4b3efade161cb5a9ba931e0a142e433cc5414cb8dc17777fc9e.webp"
+        ]
+    },
+    {
+        "id": 23030,
+        "name": "落日时起舞",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/981c70eb19ae52188526d1cdf2d8cfde2ecfe4293ef77e0d302366b98235a958.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/3b2600a81b73b9a2a7d5de716e0cb069a1a1192cd8594d9eb975043e8f11fa88.webp"
+        ]
+    },
+    {
+        "id": 23031,
+        "name": "我将，巡征追猎",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d4e16b89b429a4a5a72078496568acde4d0dca736a1d8541c5af9fc2ac8f630d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/64eca284ec84773da84a4bb3c2d46fec614c70c3331b8bdf393943a4a66fb41c.webp"
+        ]
+    },
+    {
+        "id": 23032,
+        "name": "唯有香如故",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/eb83a378c12adabb7e1128275732c7f9f508dc27756b44c7440c7a156aefab43.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/f4058d62adb4b0100f84d21c221b752a0f0f2c01017d217346b7cebc987ae2bb.webp"
+        ]
+    },
+    {
+        "id": 23033,
+        "name": "忍法帖•缭乱破魔",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b80daa00ead7b9587af1fc547fe53c18afc3477f56f32bcf537abdc212e999b7.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/1c9e4f0845b48a7f7da750862fcb2a8c5962c7938d81d62cff2630113229c8b4.webp"
+        ]
+    },
+    {
+        "id": 23034,
+        "name": "回到大地的飞行",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/3a85a5339e586c586433ba95cfe011324c1d58cc62fee0831c670a015470f39c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2a842f2365aee23d4ac57db6de80eacdca6aa8d43c78e2ba65139d15ab01d3ca.webp"
+        ]
+    },
+    {
+        "id": 23035,
+        "name": "长路终有归途",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/40fa4a179ad381ed238d6da0d06be474d9fcc44c7de6f9758ae92ca06f086c67.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/d1337e768f7aefa573e1b22bffc3e706e368f62e861f9581cec9eb50b52921aa.webp"
+        ]
+    },
+    {
+        "id": 23036,
+        "name": "将光阴织成黄金",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/b71bf0e2e8c9ea7b021283ca78ef0d1b74bd3ce6dbbda02c4033f9bc570a3b3e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2686dbb80c6df21914239950ea414fcd6b0f85da3cab9d8abfc13eb73c44d932.webp"
+        ]
+    },
+    {
+        "id": 23037,
+        "name": "向着不可追问处",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/7b76ba27f2e41ae22860289e0a9a8ab4f0cf7fc2b0388a7544ec216363a75303.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8479d8cd20663a018e742682cd40742872f521744e2f2e817cce1ddeb5ca4a86.webp"
+        ]
+    },
+    {
+        "id": 23038,
+        "name": "如果时间是一朵花",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/287cd3c326d0fc8163157dbe47d1d253e60917be01321dc6237c7f3b53c9555d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/41eb9c35605c5a62877af4ea6bf868961c1423c5cfbea140c2fc527620b0df48.webp"
+        ]
+    },
+    {
+        "id": 23039,
+        "name": "血火啊，燃烧前路",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5bffdcf33abc58f6c3259ae14eb621b2e0980c451fad8dd86267865b2ef1a553.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2a9003a0e07f0d2bd07abb72c7d403d86e7099c272bfd45c595856f3932dd9f7.webp"
+        ]
+    },
+    {
+        "id": 23040,
+        "name": "让告别，更美一些",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/220ea6d5e8342336b6e419410f8697d37cc6fef51f66e313669efc8e68dd46e0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/654d58bc8324e3572c81e8f2b2b5afcd4dd294b8ca75543854edcc3308250ce3.webp"
+        ]
+    },
+    {
+        "id": 23041,
+        "name": "生命当付之一炬",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/79148009a8bc6360ec184f9e2c2bc1106dd9073694d00e3dbfbb4bc5a1f7490e.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/ffc9c8eeecec3334f2dca047181a3090094e5327650f628cb0c85a8b146463ef.webp"
+        ]
+    },
+    {
+        "id": 23042,
+        "name": "愿虹光永驻天空",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d9995352f5b67a6d317bcfe9c0ae3c730e8a415eb60f990649eecba47b3abb5d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/1afa821d94601cdca25b1cf506562483e1b41a4e219d2913efa53a04bbe3fd37.webp"
+        ]
+    },
+    {
+        "id": 23043,
+        "name": "谎言在风中飘扬",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/6858d59142d1febd90a9a68f0f1922366ff327418b3ebfbdf807cf09aa289626.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/8a8bd8e0f621b321e2abd62f71a00d497bd76d77b6155ac062429cfea19819a5.webp"
+        ]
+    },
+    {
+        "id": 23044,
+        "name": "黎明恰如此燃烧",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1b3f8ff34cb38317186463bc59e405a90115b99d6bef2a1b597bb127b35f5f70.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/26d7c242b75126b4d851e0ef7fccbbcc6bbc34868943326b2abf4d53b174b415.webp"
+        ]
+    },
+    {
+        "id": 23045,
+        "name": "没有回报的加冕",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/8dd9de3d89fee7ab1c083b7865d510ae4bde6de767732e01e7b067cc00a1f93d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/9df504c72b610a35d1d8671395967a87cffefb602d82a2e9198f5ed81f18263a.webp"
+        ]
+    },
+    {
+        "id": 23046,
+        "name": "理想燃烧的地狱",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/d564a9f14357573b6d6953ef35a8ec68e139a0d6a45b17959fc485cceaf9ddec.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/e38418a01406395c7e2a2a0cb3a121cfa6dfba4e5d24bc9499d79924d3e06c8c.webp"
+        ]
+    },
+    {
+        "id": 24000,
+        "name": "记一位星神的陨落",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/2a9760b615c3e0cd0b794546bfcb04b5bfa5daa5ae981bbe71b77e50a63fee8c.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2ac1ffedee81dbc4512d3bccfd6d5bac2f009c7ed80fe352b5ecbe4d67adb929.webp"
+        ]
+    },
+    {
+        "id": 24001,
+        "name": "星海巡航",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/5adeb8a80addd58e45199c0947c7e6c41de9362186ddbfd4b9bc6565b02eeb49.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/7d733fd1237642206f808754846bbdc01c90f200bddb1f2cda5e069ef80cd078.webp"
+        ]
+    },
+    {
+        "id": 24002,
+        "name": "记忆的质料",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/ee28020cb51db86216fd47ec80fc8302f7787959c48d18a40bc9f7d3df9e3118.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/2baaff4ccc2908ba5453520bc9188a6b6a3e8ac3e4f5f7a9a61bc9f43e7b4785.webp"
+        ]
+    },
+    {
+        "id": 24003,
+        "name": "孤独的疗愈",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/1eb3e9b156fb68f729e4f9e5a99a49f8a00bbb2b56a2605d899de218c05c71c0.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4eb6a71fd1c30aaea569289c722a5389042b774c729275c02b00d4692f07f054.webp"
+        ]
+    },
+    {
+        "id": 24004,
+        "name": "不息的演算",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/555cd23a3bd0efa26211e74c8145759324ecac2e66828a808b65965098d3e6f6.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/4404c7b1dc126fad3958c10dfd3f26e8e683a60ab840e3b064cd1418bd465a68.webp"
+        ]
+    },
+    {
+        "id": 24005,
+        "name": "记忆永不落幕",
+        "icon": [
+            "https:\/\/cdn.starrailstation.com\/assets\/e3c1d832eff900268da93c210c61aba5c2d1495b8c5839e188ea435685854a8d.webp",
+            "https:\/\/cdn.starrailstation.com\/assets\/541e9eae96db4e9c6309f963a17f24be071346d64de8af86df81115808ab2d87.webp"
+        ]
+    }
+]
