@@ -21,6 +21,7 @@ class Destiny(str, Enum):
     FengRao = "丰饶"
     TongXie = "同谐"
     XuWu = "虚无"
+    HuanYu = "欢愉"
 
 
 class Element(str, Enum):
