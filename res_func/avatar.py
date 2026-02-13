@@ -42,11 +42,9 @@ async def parse_station(datas, name: str, tag: Tag, cid: int):
         reg = r'skillTreePoints":\[{"id":(\d+),'
         cid = int(re.findall(reg, html.text)[0][:-3])
     soup = BeautifulSoup(html.text, "lxml")
-    second_pic = ""
-    if avatar_model := all_avatars_map.get(cid):
-        second_pic = avatar_model.icon
-    elif avatar_model := all_avatars_name.get(name):
-        second_pic = avatar_model.icon
+    avatar_model = all_avatars_map.get(cid) or all_avatars_name.get(name)
+    second_pic = avatar_model.icon if avatar_model else ""
+    name = avatar_model.name if avatar_model else name
 
     def get_third_pic():
         _tag = tag.find("div", {"class": "a69d1"})
