@@ -21,12 +21,12 @@ relic_url = f"{base_station_url}/cn/relics"
 icons_url = f"{base_station_url}/cn/icons"
 
 
-base_yatta_url = "https://api.yatta.top"
-avatar_yatta_url = f"{base_yatta_url}/hsr/v2/cn/avatar"
+base_yatta_url = "https://sr.yatta.moe/"
+avatar_yatta_url = f"{base_yatta_url}/api/v2/cn/avatar"
 avatar_skill_url = f"{base_yatta_url}/hsr/assets/UI/skill/"
-light_cone_yatta_url = f"{base_yatta_url}/hsr/v2/cn/equipment"
-material_yatta_url = f"{base_yatta_url}/hsr/v2/cn/item"
-relic_yatta_url = f"{base_yatta_url}/hsr/v2/cn/relic"
+light_cone_yatta_url = f"{base_yatta_url}/api/v2/cn/equipment"
+material_yatta_url = f"{base_yatta_url}/api/v2/cn/item"
+relic_yatta_url = f"{base_yatta_url}/api/v2/cn/relic"
 
 
 base_enka_url = "https://enka.network/ui/hsr/"
