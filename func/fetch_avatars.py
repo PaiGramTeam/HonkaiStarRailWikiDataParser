@@ -20,11 +20,25 @@ def fix_avatar_eidolons(values: Dict) -> Dict:
     return values
 
 
+def fix_avatar_name(values: Dict) -> Dict:
+    name = values["name"]
+    if "<unbreak>" in name:
+        name = name.replace("<unbreak>", "").replace("</unbreak>", "")
+        values["name"] = name
+    return values
+
+
+def fix_avatar_data(values: Dict) -> Dict:
+    values = fix_avatar_eidolons(values)
+    values = fix_avatar_name(values)
+    return values
+
+
 @retry
 async def get_single_avatar(url: str) -> None:
     req = await client.get(url)
     try:
-        avatar = YattaAvatar(**fix_avatar_eidolons(req.json()["data"]))
+        avatar = YattaAvatar(**fix_avatar_data(req.json()["data"]))
     except Exception as e:
         print(f"{url} 获取角色数据失败")
         raise e
