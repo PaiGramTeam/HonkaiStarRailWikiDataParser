@@ -37,7 +37,7 @@ class YattaAvatarEidolon(BaseModel):
 
     @property
     def icon_url(self) -> str:
-        return f"https://api.yatta.top/hsr/assets/UI/skill/{self.icon}.png"
+        return f"https://sr.yatta.moe/hsr/assets/UI/skill/{self.icon}.png"
 
 
 class YattaAvatar(BaseModel):

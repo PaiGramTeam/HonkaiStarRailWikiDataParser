@@ -32,4 +32,4 @@ class YattaMaterial(BaseModel):
 
     @property
     def icon(self) -> str:
-        return f"https://api.yatta.top/hsr/assets/UI/item/{self.id}.png"
+        return f"https://sr.yatta.moe/hsr/assets/UI/item/{self.id}.png"
