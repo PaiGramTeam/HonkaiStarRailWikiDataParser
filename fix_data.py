@@ -8,6 +8,10 @@ from res_func.yatta.avatar import get_all_avatars
 from res_func.head_icon import get_head_icons
 from res_func.phone_theme import get_phone_themes
 
+from rich.traceback import install
+
+install(show_locals=True)
+
 
 async def main():
     await fix_avatar_config()

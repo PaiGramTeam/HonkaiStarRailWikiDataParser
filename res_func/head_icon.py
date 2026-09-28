@@ -107,6 +107,9 @@ async def avatar_head_icons(avatar_player_icon: List[AvatarPlayerIcon]):
     datas = []
     for i in avatar_player_icon:
         avatar = avatar_icons_map.get(i.AvatarID)
+        if not avatar:
+            print(f"{i.model_dump()} 没有找到对应的头像")
+            continue
         name = avatar.name
         station_url = avatar.icon_ or ""
         enka_url = await test_enka_url(i.ImagePath)

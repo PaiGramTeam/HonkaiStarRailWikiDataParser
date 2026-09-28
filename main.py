@@ -8,6 +8,10 @@ from func.fetch_relics import fetch_relics
 from func.fetch_src import move_files
 from func.fetch_mihomo_map import fetch_files
 
+from rich.traceback import install
+
+install(show_locals=True)
+
 
 async def wiki():
     main_data = await get_list()
