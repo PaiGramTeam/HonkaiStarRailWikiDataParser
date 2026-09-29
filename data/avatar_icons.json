@@ -1,0 +1,982 @@
+[
+    {
+        "id": 1001,
+        "name": "三月七",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1001.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/4f1814b5eccf0e0f608b8d296612e9ae_8335663287599795754.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1001.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1001.sm.png"
+        ]
+    },
+    {
+        "id": 1002,
+        "name": "丹恒",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1002.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/fbbf2eb95b147d51394f11b5230ac96a_5777838199567532071.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1002.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1002.sm.png"
+        ]
+    },
+    {
+        "id": 1003,
+        "name": "姬子",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1003.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/2f2a190effafbf7f87d99238bfddcf87_5736252689476159758.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1003.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1003.sm.png"
+        ]
+    },
+    {
+        "id": 1004,
+        "name": "瓦尔特",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1004.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/7876a85200a90efef241e953c21a3d31_6126296474937130602.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1004.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1004.sm.png"
+        ]
+    },
+    {
+        "id": 1005,
+        "name": "卡芙卡",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1005.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/8dae73a6087f176d079f9e67a7475739_5544120706980318006.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1005.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1005.sm.png"
+        ]
+    },
+    {
+        "id": 1006,
+        "name": "银狼",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1006.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/0ea246ed5d9bcdbe57b52e1ab0f44c55_1924410239499595845.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1006.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1006.sm.png"
+        ]
+    },
+    {
+        "id": 1008,
+        "name": "阿兰",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1008.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/990185d26fcb31f6a9f5a95f13d716e5_8050569333121274381.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1008.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1008.sm.png"
+        ]
+    },
+    {
+        "id": 1009,
+        "name": "艾丝妲",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1009.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/326abd4bc90b194d542a358f3713684c_7020687177488591971.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1009.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1009.sm.png"
+        ]
+    },
+    {
+        "id": 1013,
+        "name": "黑塔",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1013.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/d7a02904c72c65964c085b7cbb1ce115_6121853106930222341.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1013.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1013.sm.png"
+        ]
+    },
+    {
+        "id": 1014,
+        "name": "Saber",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1014.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/deb5a515e1acb8bbff9fa0b142698bfa_1227070409858232042.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1014.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1014.sm.png"
+        ]
+    },
+    {
+        "id": 1015,
+        "name": "Archer",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1015.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/e7c9aebf492c1ed26183afb6888f0516_4771869183919996024.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1015.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1015.sm.png"
+        ]
+    },
+    {
+        "id": 1101,
+        "name": "布洛妮娅",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1101.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/1400437bcdf653e38897e9eb91f68453_7290780151168971335.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1101.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1101.sm.png"
+        ]
+    },
+    {
+        "id": 1102,
+        "name": "希儿",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1102.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/1189f0012b47b380991c5f1963bec770_606902876354387333.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1102.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1102.sm.png"
+        ]
+    },
+    {
+        "id": 1103,
+        "name": "希露瓦",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1103.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/953ecd13b4064cd1d04b5f620d736ad4_5632868602082918696.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1103.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1103.sm.png"
+        ]
+    },
+    {
+        "id": 1104,
+        "name": "杰帕德",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1104.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/5abd3ea9a89ab57be1f52a9c3056e0fc_7175612953149507458.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1104.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1104.sm.png"
+        ]
+    },
+    {
+        "id": 1105,
+        "name": "娜塔莎",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1105.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/e4f5bda40e521d5090d1dbd63b1f3827_4810299615609471053.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1105.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1105.sm.png"
+        ]
+    },
+    {
+        "id": 1106,
+        "name": "佩拉",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1106.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/c1e32cc4bb8700e22c9cfb23f449de6e_3340087305036993021.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1106.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1106.sm.png"
+        ]
+    },
+    {
+        "id": 1107,
+        "name": "克拉拉",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1107.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/01f9d57802fc1b0f9113860a9497ccf6_6419734283202298730.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1107.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1107.sm.png"
+        ]
+    },
+    {
+        "id": 1108,
+        "name": "桑博",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1108.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/144b380f8d9859dddf3a3c8c1e1907a4_6323725522694637604.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1108.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1108.sm.png"
+        ]
+    },
+    {
+        "id": 1109,
+        "name": "虎克",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1109.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/a8f147a175ba68bf8ba7496a22cfc9d8_7683189195267268008.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1109.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1109.sm.png"
+        ]
+    },
+    {
+        "id": 1110,
+        "name": "玲可",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1110.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/aba77baf97041d67aa47da9e388c388b_5297229665480717281.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1110.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1110.sm.png"
+        ]
+    },
+    {
+        "id": 1111,
+        "name": "卢卡",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1111.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b92d1c54d28740fbcb01e88ffb77be17_7661184070610938370.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1111.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1111.sm.png"
+        ]
+    },
+    {
+        "id": 1112,
+        "name": "托帕&账账",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1112.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/dd464bac20e8e0dac96b4329afafe52d_343083618670543601.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1112.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1112.sm.png"
+        ]
+    },
+    {
+        "id": 1201,
+        "name": "青雀",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1201.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/a927a215863b86cccca20450f0023fb2_6798206180991410226.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1201.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1201.sm.png"
+        ]
+    },
+    {
+        "id": 1202,
+        "name": "停云",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1202.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/39501e4b3a9196c0fca042a345dc3093_3713371115832222644.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1202.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1202.sm.png"
+        ]
+    },
+    {
+        "id": 1203,
+        "name": "罗刹",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1203.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/c4dffd3e17d31757ba5cc0c156b129d2_5810929769560552241.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1203.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1203.sm.png"
+        ]
+    },
+    {
+        "id": 1204,
+        "name": "景元",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1204.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/da4b06d98d96b3b73cb9560bb4b82ccb_2272231158292841277.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1204.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1204.sm.png"
+        ]
+    },
+    {
+        "id": 1205,
+        "name": "刃",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1205.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/65693d14ec8067e276a9e7a454e8f7d4_9203424539193390471.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1205.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1205.sm.png"
+        ]
+    },
+    {
+        "id": 1206,
+        "name": "素裳",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1206.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b7d6cef3b95387fd6651717fea75fecc_604107541199084753.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1206.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1206.sm.png"
+        ]
+    },
+    {
+        "id": 1207,
+        "name": "驭空",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1207.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b2c31bee632f937f233ed00ff486f53e_4964898377307229465.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1207.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1207.sm.png"
+        ]
+    },
+    {
+        "id": 1208,
+        "name": "符玄",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1208.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/8b02e35ce1ef04ba026dcc8edccc20df_7730649138871733652.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1208.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1208.sm.png"
+        ]
+    },
+    {
+        "id": 1209,
+        "name": "彦卿",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1209.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/5519404b617e1823d6afb1e5e083e397_203664969238161947.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1209.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1209.sm.png"
+        ]
+    },
+    {
+        "id": 1210,
+        "name": "桂乃芬",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1210.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/6fcc18fdb8e6d49932ae1b466afc0670_8726448455960654597.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1210.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1210.sm.png"
+        ]
+    },
+    {
+        "id": 1211,
+        "name": "白露",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1211.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/f697137404857d5a09d87eebc5b732ca_7537532264207582713.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1211.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1211.sm.png"
+        ]
+    },
+    {
+        "id": 1212,
+        "name": "镜流",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1212.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/e46be92dcce33d2ecc4570bfa1527d5f_6602827820289543636.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1212.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1212.sm.png"
+        ]
+    },
+    {
+        "id": 1213,
+        "name": "丹恒•饮月",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1213.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/37a93d577488dc74789af16a1fb9ae11_2915344767214656161.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1213.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1213.sm.png"
+        ]
+    },
+    {
+        "id": 1214,
+        "name": "雪衣",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1214.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/8b8e50756e3755445facc6839d476b35_6736193734361553071.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1214.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1214.sm.png"
+        ]
+    },
+    {
+        "id": 1215,
+        "name": "寒鸦",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1215.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/5fe564e2244cea484b233734a77c0216_5175214625373410645.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1215.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1215.sm.png"
+        ]
+    },
+    {
+        "id": 1217,
+        "name": "藿藿",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1217.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/0b55aff42296af2086812d86d99bb481_8515080342830529421.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1217.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1217.sm.png"
+        ]
+    },
+    {
+        "id": 1218,
+        "name": "椒丘",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1218.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/c54578ab60e544e161cd4b800e5e273a_1904618167113400548.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1218.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1218.sm.png"
+        ]
+    },
+    {
+        "id": 1220,
+        "name": "飞霄",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1220.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/d3a547b49ae7f1a6b89ca930eea0d05f_3826973416359973391.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1220.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1220.sm.png"
+        ]
+    },
+    {
+        "id": 1221,
+        "name": "云璃",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1221.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b9b656849262d852cbe864cbede1c3f4_3571266396213989211.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1221.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1221.sm.png"
+        ]
+    },
+    {
+        "id": 1222,
+        "name": "灵砂",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1222.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b844408375431eee1837e17e9ae89ab1_3530598392208659602.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1222.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1222.sm.png"
+        ]
+    },
+    {
+        "id": 1223,
+        "name": "貊泽",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1223.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/271645e921724d4372a898ce18d783ff_7242908034071017922.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1223.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1223.sm.png"
+        ]
+    },
+    {
+        "id": 1224,
+        "name": "三月七",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1224.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/72a4515990438f6fcca79204831ebd0f_2642506094289206250.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1224.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1224.sm.png"
+        ]
+    },
+    {
+        "id": 1225,
+        "name": "忘归人",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1225.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/5a7ecd7426be3f206d924f5ac4c39679_7954576528650547027.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1225.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1225.sm.png"
+        ]
+    },
+    {
+        "id": 1301,
+        "name": "加拉赫",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1301.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/2f3661986d05e147ea179a7cfb55cac5_2896031885016283323.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1301.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1301.sm.png"
+        ]
+    },
+    {
+        "id": 1302,
+        "name": "银枝",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1302.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/fc83fc4a985dd73e24327bcfa9e1e34a_3653760887079871888.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1302.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1302.sm.png"
+        ]
+    },
+    {
+        "id": 1303,
+        "name": "阮•梅",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1303.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/1092fa065907fa1cd87c9d783ac5dff9_5783604912882066564.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1303.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1303.sm.png"
+        ]
+    },
+    {
+        "id": 1304,
+        "name": "砂金",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1304.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/fa3ed88dbe2ac5dd9fa4ad10c73249a0_9126079395451066606.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1304.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1304.sm.png"
+        ]
+    },
+    {
+        "id": 1305,
+        "name": "真理医生",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1305.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/c6fcf2a97d4df66af965045c7438871b_8944881835133211780.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1305.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1305.sm.png"
+        ]
+    },
+    {
+        "id": 1306,
+        "name": "花火",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1306.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/70135004890b0e158ed40a914bb93678_7684551424766783801.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1306.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1306.sm.png"
+        ]
+    },
+    {
+        "id": 1307,
+        "name": "黑天鹅",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1307.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b1ff092942f330dff93feea210e5cabd_7119370203099676338.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1307.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1307.sm.png"
+        ]
+    },
+    {
+        "id": 1308,
+        "name": "黄泉",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1308.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/da9c48deac6347eea414d97719246d05_6091035812357016498.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1308.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1308.sm.png"
+        ]
+    },
+    {
+        "id": 1309,
+        "name": "知更鸟",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1309.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/ea65cd1afc2fb43540861c38db8cc8d3_8531761368252282661.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1309.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1309.sm.png"
+        ]
+    },
+    {
+        "id": 1310,
+        "name": "流萤",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1310.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/992adc29ece9ebadab04edac7239a5c0_519267570926039166.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1310.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1310.sm.png"
+        ]
+    },
+    {
+        "id": 1312,
+        "name": "米沙",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1312.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/ee5f375eacbee98b90467e14597b4ad4_8898033914676607690.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1312.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1312.sm.png"
+        ]
+    },
+    {
+        "id": 1313,
+        "name": "星期日",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1313.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/e763e4ff36268f3e7c2f2f7ebdc273ec_8725136671792619733.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1313.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1313.sm.png"
+        ]
+    },
+    {
+        "id": 1314,
+        "name": "翡翠",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1314.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/f6b44be85d796a0696932d4955a6d937_1505719562319036846.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1314.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1314.sm.png"
+        ]
+    },
+    {
+        "id": 1315,
+        "name": "波提欧",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1315.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/5fb7bce666d37355e40e0f48a3186634_6087053411494749815.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1315.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1315.sm.png"
+        ]
+    },
+    {
+        "id": 1317,
+        "name": "乱破",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1317.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/0ea4b79d1f9de163de9e52e90f708a50_5858034052553707158.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1317.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1317.sm.png"
+        ]
+    },
+    {
+        "id": 1321,
+        "name": "大丽花",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1321.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/10\/22\/276833758\/be9277457c73dbe82025b507378cb3f9_2479522683326441904.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1321.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1321.sm.png"
+        ]
+    },
+    {
+        "id": 1401,
+        "name": "大黑塔",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1401.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/acd5836a7f7e3626c918e3373ca7b358_642146691220409403.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1401.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1401.sm.png"
+        ]
+    },
+    {
+        "id": 1402,
+        "name": "阿格莱雅",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1402.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/3a8d5fe67f660f4a4f2a3a8e32b99879_1974796237695623042.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1402.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1402.sm.png"
+        ]
+    },
+    {
+        "id": 1403,
+        "name": "缇宝",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1403.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/2d7f5f3b14e3c8c8f27a603997b3148f_1693173018687202251.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1403.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1403.sm.png"
+        ]
+    },
+    {
+        "id": 1404,
+        "name": "万敌",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1404.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/6a277bb4ddbec710d203ca1f46cb96bb_6502244593517333023.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1404.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1404.sm.png"
+        ]
+    },
+    {
+        "id": 1405,
+        "name": "那刻夏",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1405.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/097c90c1d32bb1c00379bf571113a728_6231797367616293068.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1405.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1405.sm.png"
+        ]
+    },
+    {
+        "id": 1406,
+        "name": "赛飞儿",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1406.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/4cb746e0e30649ac10075dcc02504291_1178724090146395174.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1406.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1406.sm.png"
+        ]
+    },
+    {
+        "id": 1407,
+        "name": "遐蝶",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1407.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/c12e7c9c7f960e8217448ec3d72160ff_5234699864893306674.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1407.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1407.sm.png"
+        ]
+    },
+    {
+        "id": 1408,
+        "name": "白厄",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1408.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b9058718efc9735f014c777e0447ce97_8893619200052817963.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1408.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1408.sm.png"
+        ]
+    },
+    {
+        "id": 1409,
+        "name": "风堇",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1409.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/545c790035b3d76a07366c8d1a81e911_5537129695370226572.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1409.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1409.sm.png"
+        ]
+    },
+    {
+        "id": 1410,
+        "name": "海瑟音",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1410.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/885032aa4f3cbdffb6a84209f26fd0bf_2386144716869472728.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1410.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1410.sm.png"
+        ]
+    },
+    {
+        "id": 1412,
+        "name": "刻律德菈",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1412.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/a4d99f2175288b4c17b62afa91d02155_5912334653064721792.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1412.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1412.sm.png"
+        ]
+    },
+    {
+        "id": 1413,
+        "name": "长夜月",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1413.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/18ba8af91c0bcdae902b991d00e4a061_3384352487023497797.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1413.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1413.sm.png"
+        ]
+    },
+    {
+        "id": 1414,
+        "name": "丹恒•腾荒",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1414.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/09\/20\/159300832\/b9fa558c0ef9b06875d1c8657614cec7_1558019627032473362.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1414.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1414.sm.png"
+        ]
+    },
+    {
+        "id": 1415,
+        "name": "昔涟",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1415.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2025\/11\/05\/276833758\/6e558e2bc44ae6ed652b43e5c203da1a_7105918530439173264.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1415.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1415.sm.png"
+        ]
+    },
+    {
+        "id": 1501,
+        "name": "火花",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1501.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/01\/02\/276833758\/689ac58f7bc47f487dd9139276e4a826_5077367114093647811.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1501.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1501.sm.png"
+        ]
+    },
+    {
+        "id": 1502,
+        "name": "爻光",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1502.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/01\/02\/276833758\/2a1311351f8eee50b73df0baf495461c_8336179883999891591.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1502.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1502.sm.png"
+        ]
+    },
+    {
+        "id": 1503,
+        "name": "真珠",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1503.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/09\/20\/276833758\/960b14943e619d938e2edaaad4b88603_5619752529735310456.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1503.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1503.sm.png"
+        ]
+    },
+    {
+        "id": 1504,
+        "name": "不死途",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1504.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/02\/07\/276833758\/72a5e9c401c0ac49d4818704e30b50be_5408854750319529183.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1504.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1504.sm.png"
+        ]
+    },
+    {
+        "id": 1505,
+        "name": "绯英",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1505.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/03\/12\/276833758\/163eba256fa0841317907a9a988fb81e_3696879567499397282.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1505.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1505.sm.png"
+        ]
+    },
+    {
+        "id": 1506,
+        "name": "银狼LV.999",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1506.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/03\/10\/276833758\/7e9a1edb090c9628f7bab4e2ea36f0a0_4923693619078594680.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1506.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1506.sm.png"
+        ]
+    },
+    {
+        "id": 1507,
+        "name": "千冶•刃",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1507.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/04\/07\/276833758\/1772b39a61cb74d29336fcd3d14e530e_7449467186276986111.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1507.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1507.sm.png"
+        ]
+    },
+    {
+        "id": 1508,
+        "name": "远坂凛",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1508.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/05\/22\/276833758\/479d91f4abf5500736bd7eb2d6fd969e_7364513735168931666.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1508.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1508.sm.png"
+        ]
+    },
+    {
+        "id": 1509,
+        "name": "吉尔伽美什",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1509.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/05\/22\/276833758\/34ad4badd27ce4e6d1f9ac2a038f92f4_8014401071461097469.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1509.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1509.sm.png"
+        ]
+    },
+    {
+        "id": 1510,
+        "name": "姬子•启行",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1510.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/05\/20\/276833758\/42dc5bd95bfa7f0584b6e7c61d4462e3_850192482016235296.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1510.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1510.sm.png"
+        ]
+    },
+    {
+        "id": 1512,
+        "name": "知更鸟•晴歌",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1512.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/06\/30\/276833758\/038a8366f292b57bd71f0be764dea1c0_5167103770492526055.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1512.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1512.sm.png"
+        ]
+    },
+    {
+        "id": 1513,
+        "name": "砂金•戏浪",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/1513.png",
+            "https:\/\/act-upload.mihoyo.com\/sr-wiki\/2026\/06\/30\/276833758\/0d25cad8508a1692232838acb5fd45fe_8731785532410161342.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/1513.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/1513.sm.png"
+        ]
+    },
+    {
+        "id": 8001,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8001.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8001.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8001.sm.png"
+        ]
+    },
+    {
+        "id": 8002,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8002.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8002.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8002.sm.png"
+        ]
+    },
+    {
+        "id": 8003,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8003.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8003.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8003.sm.png"
+        ]
+    },
+    {
+        "id": 8004,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8004.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8004.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8004.sm.png"
+        ]
+    },
+    {
+        "id": 8005,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8005.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8005.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8005.sm.png"
+        ]
+    },
+    {
+        "id": 8006,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8006.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8006.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8006.sm.png"
+        ]
+    },
+    {
+        "id": 8007,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8007.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8007.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8007.sm.png"
+        ]
+    },
+    {
+        "id": 8008,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8008.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8008.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8008.sm.png"
+        ]
+    },
+    {
+        "id": 8009,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8009.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8009.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8009.sm.png"
+        ]
+    },
+    {
+        "id": 8010,
+        "name": "开拓者",
+        "icon": [
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/round\/8010.png",
+            "",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/medium\/8010.png",
+            "https:\/\/sr.yatta.moe\/\/hsr\/assets\/UI\/avatar\/large\/8010.sm.png"
+        ]
+    }
+]
