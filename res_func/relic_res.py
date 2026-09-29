@@ -22,11 +22,15 @@ async def fix_set_image():
             continue
         sid = int(url.split("/")[-1])
         images = div.find_all("img")
-        images = [f"{i.get('src')}" for i in images]
-        if len(images) not in {3, 5}:
+        images_list = []
+        for i in images:
+            src = i.get("src")
+            if src and str(src).startswith("http"):
+                images_list.append(src)
+        if len(images_list) not in {3, 5}:
             print(f"套装 {sid} 图片数量异常")
             continue
-        data_map[sid] = (images[0], images[1:])
+        data_map[sid] = (images_list[0], images_list[1:])
     for relic in all_relics:
         if relic.id in data_map:
             relic.icon = data_map[relic.id][0]

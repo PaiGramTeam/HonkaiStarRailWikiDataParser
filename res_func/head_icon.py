@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 from models.head_icon import HeadIcon, ItemPlayerCard, PlayerIcon, AvatarPlayerIcon
 
-from .avatar import load_icons
+from .yatta.avatar_icons import load_icons
 from .base_data import get_base_data
 from .client import client
 from .url import (
@@ -58,7 +58,9 @@ async def parse_station_urls() -> Dict[str, str]:
     for a in a_s:
         img = a.find("img")
         span = a.find("span")
-        datas[span.get_text().strip()] = img.get("src")
+        src = img.get("src")
+        if src and src.startswith("http"):
+            datas[span.get_text().strip()] = src
     return datas
 
 

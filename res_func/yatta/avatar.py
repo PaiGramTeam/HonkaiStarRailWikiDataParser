@@ -9,7 +9,7 @@ import ujson
 from func.client import retry
 from func.data import all_avatars
 from models.avatar import YattaAvatar
-from res_func.avatar import TRAVER_DATA_MAP
+from res_func.yatta.avatar_icons import TRAVER_DATA_MAP
 from res_func.client import client
 from res_func.url import avatar_skill_url
 
