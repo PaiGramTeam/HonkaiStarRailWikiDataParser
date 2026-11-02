@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List, Dict
 
 import aiofiles
 import ujson
@@ -9,8 +8,8 @@ from models.relic_affix import RelicAffixAll, SingleRelicAffix
 from res_func.base_data import get_base_data
 from res_func.url import relic_config, relic_main_affix_config, relic_sub_affix_config
 
-final_datas: List[RelicAffixAll] = []
-final_datas_map: Dict[str, RelicAffixAll] = {}
+final_datas: list[RelicAffixAll] = []
+final_datas_map: dict[str, RelicAffixAll] = {}
 
 
 async def fetch_all_relic():
@@ -37,10 +36,10 @@ async def fetch_all_relic():
 async def fetch_main_affix():
     print("开始获取遗器主词条配置")
     main_affix_data = await get_base_data(relic_main_affix_config)
-    main_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
+    main_affix_groups_map: dict[str, dict[str, SingleRelicAffix]] = {}
     for value in main_affix_data:
         key = str(value["GroupID"])
-        data: Dict[str, SingleRelicAffix] = main_affix_groups_map.get(key, {})
+        data: dict[str, SingleRelicAffix] = main_affix_groups_map.get(key, {})
 
         value2 = value
         key2 = str(value2["AffixID"])
@@ -61,10 +60,10 @@ async def fetch_main_affix():
 async def fetch_sub_affix():
     print("开始获取遗器副词条配置")
     sub_affix_data = await get_base_data(relic_sub_affix_config)
-    sub_affix_groups_map: Dict[str, Dict[str, SingleRelicAffix]] = {}
+    sub_affix_groups_map: dict[str, dict[str, SingleRelicAffix]] = {}
     for value in sub_affix_data:
         key = str(value["GroupID"])
-        data: Dict[str, SingleRelicAffix] = sub_affix_groups_map.get(key, {})
+        data: dict[str, SingleRelicAffix] = sub_affix_groups_map.get(key, {})
 
         value2 = value
         key2 = str(value2["AffixID"])

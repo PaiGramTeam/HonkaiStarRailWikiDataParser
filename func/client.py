@@ -1,6 +1,6 @@
 import asyncio
 
-from httpx import AsyncClient, TimeoutException, HTTPStatusError
+from httpx import AsyncClient, HTTPStatusError, TimeoutException
 
 headers = {
     "authority": "api-static.mihoyo.com",
@@ -30,7 +30,7 @@ def retry(func):
                     print(f"重试 {func.__name__} {i + 1} 次")
                     await asyncio.sleep(1)
                 else:
-                    raise exc
+                    raise
             except TimeoutException:
                 print(f"重试 {func.__name__} {i + 1} 次")
                 await asyncio.sleep(1)

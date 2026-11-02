@@ -1,4 +1,3 @@
-from typing import List, Dict
 
 from pydantic import ValidationError
 
@@ -13,7 +12,7 @@ from models.material import YattaMaterial
 from res_func.url import material_yatta_url
 
 
-def fix_material(values: Dict) -> Dict:
+def fix_material(values: dict) -> dict:
     if values.get("source") is None:
         values["source"] = []
     return values
@@ -24,16 +23,16 @@ async def get_single_material(url: str) -> None:
     req = await client.get(url)
     try:
         material = YattaMaterial(**fix_material(req.json()["data"]))
-    except Exception as e:
+    except Exception:
         print(f"{url} 获取材料数据失败")
-        raise e
+        raise
     all_materials.append(material)
     all_materials_map[material.id] = material
     all_materials_name[material.name] = material
 
 
 @retry
-async def get_all_materials() -> List[str]:
+async def get_all_materials() -> list[str]:
     req = await client.get(material_yatta_url)
     return list(req.json()["data"]["items"].keys())
 

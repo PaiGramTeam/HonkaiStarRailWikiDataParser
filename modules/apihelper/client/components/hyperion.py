@@ -1,11 +1,10 @@
 import asyncio
 import os
 import re
-from typing import List
 
-from ..base.hyperionrequest import HyperionRequest
-from ...models.genshin.hyperion import PostInfo, ArtworkImage
+from ...models.genshin.hyperion import ArtworkImage, PostInfo
 from ...typedefs import JSON_DATA
+from ..base.hyperionrequest import HyperionRequest
 
 __all__ = ("Hyperion",)
 
@@ -124,7 +123,7 @@ class Hyperion:
 
     async def get_images_by_post_id(
         self, gids: int, post_id: int
-    ) -> List[ArtworkImage]:
+    ) -> list[ArtworkImage]:
         post_info = await self.get_post_info(gids, post_id)
         art_list = []
         task_list = [

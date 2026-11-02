@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List, Dict
 
 import aiofiles
 import ujson
@@ -13,22 +12,22 @@ data_path = Path("data")
 data_path.mkdir(exist_ok=True)
 
 avatars_path = data_path / "avatars.json"
-all_avatars: List[YattaAvatar] = []
-all_avatars_map: Dict[int, YattaAvatar] = {}
-all_avatars_name: Dict[str, YattaAvatar] = {}
+all_avatars: list[YattaAvatar] = []
+all_avatars_map: dict[int, YattaAvatar] = {}
+all_avatars_name: dict[str, YattaAvatar] = {}
 
 light_cones_path = data_path / "light_cones.json"
-all_light_cones: List[YattaLightCone] = []
-all_light_cones_map: Dict[int, YattaLightCone] = {}
-all_light_cones_name: Dict[str, YattaLightCone] = {}
+all_light_cones: list[YattaLightCone] = []
+all_light_cones_map: dict[int, YattaLightCone] = {}
+all_light_cones_name: dict[str, YattaLightCone] = {}
 
 materials_path = data_path / "materials.json"
-all_materials: List[YattaMaterial] = []
-all_materials_map: Dict[int, YattaMaterial] = {}
-all_materials_name: Dict[str, YattaMaterial] = {}
+all_materials: list[YattaMaterial] = []
+all_materials_map: dict[int, YattaMaterial] = {}
+all_materials_name: dict[str, YattaMaterial] = {}
 
 relics_path = data_path / "relics.json"
-all_relics: List[YattaRelic] = []
+all_relics: list[YattaRelic] = []
 
 
 async def dump_avatars():

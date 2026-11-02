@@ -1,4 +1,3 @@
-from typing import List, Dict
 
 from pydantic import ValidationError
 
@@ -9,7 +8,7 @@ from res_func.url import relic_yatta_url
 
 
 @retry
-async def get_all_relics() -> List[Dict]:
+async def get_all_relics() -> list[dict]:
     req = await client.get(relic_yatta_url)
     return list(req.json()["data"]["items"].values())
 
@@ -21,8 +20,7 @@ async def fetch_relics():
         try:
             relic_ = YattaRelic(**relic)
             all_relics.append(relic_)
-        except ValidationError as e:
-            raise e
-            print(f"{relic} 解析遗器数据失败，数据格式异常")
+        except ValidationError:
+            raise
     print("获取遗器数据完成")
     await dump_relics()

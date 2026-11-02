@@ -1,4 +1,3 @@
-from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -16,23 +15,23 @@ class YattaAvatarTypes(BaseModel):
 
 
 class YattaAvatarCV(BaseModel):
-    CV_CN: Optional[str] = None
-    CV_JP: Optional[str] = None
-    CV_KR: Optional[str] = None
-    CV_EN: Optional[str] = None
+    CV_CN: str | None = None
+    CV_JP: str | None = None
+    CV_KR: str | None = None
+    CV_EN: str | None = None
 
 
 class YattaAvatarFetter(BaseModel):
-    faction: Optional[str] = None
-    description: Optional[str] = None
-    cv: Optional[YattaAvatarCV] = None
+    faction: str | None = None
+    description: str | None = None
+    cv: YattaAvatarCV | None = None
 
 
 class YattaAvatarEidolon(BaseModel):
     id: int
     rank: int
-    name: Optional[str] = None
-    description: Optional[str] = None
+    name: str | None = None
+    description: str | None = None
     icon: str
 
     @property
@@ -55,7 +54,7 @@ class YattaAvatar(BaseModel):
     """ 上线时间 """
     route: str
     fetter: YattaAvatarFetter
-    eidolons: List[YattaAvatarEidolon]
+    eidolons: list[YattaAvatarEidolon]
 
     @property
     def destiny(self) -> Destiny:

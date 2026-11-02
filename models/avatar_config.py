@@ -1,4 +1,3 @@
-from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -19,7 +18,7 @@ class AvatarIcon(BaseModel):
     """角色ID"""
     name: str
     """名称"""
-    icon: List[str]
+    icon: list[str]
     """图标（从小到大）"""
 
     @property
@@ -31,7 +30,7 @@ class AvatarIcon(BaseModel):
         return self.icon[0]
 
     @property
-    def square(self) -> Optional[str]:
+    def square(self) -> str | None:
         return self.icon[1]
 
     @property

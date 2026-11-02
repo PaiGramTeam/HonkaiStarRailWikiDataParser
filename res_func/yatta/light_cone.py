@@ -1,15 +1,14 @@
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import ujson
 
-from func.data import all_light_cones_map, read_light_cones, dump_light_cones
+from func.data import all_light_cones_map, dump_light_cones, read_light_cones
 from models.light_cone_config import LightConeIcon
 from res_func.url import light_cone_assets_url
 
 
-async def dump_icons(path: Path, datas: List[LightConeIcon]):
+async def dump_icons(path: Path, datas: list[LightConeIcon]):
     data = [icon.dict() for icon in datas]
     data.sort(key=lambda x: x["id"])
     async with aiofiles.open(path, "w", encoding="utf-8") as f:

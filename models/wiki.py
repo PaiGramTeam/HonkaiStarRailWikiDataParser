@@ -1,4 +1,3 @@
-from typing import List, Dict
 
 import ujson
 from pydantic import BaseModel
@@ -21,7 +20,7 @@ class Content(BaseModel):
     """BBS对应地址"""
 
     @property
-    def data(self) -> Dict:
+    def data(self) -> dict:
         return ujson.loads(self.ext)
 
 
@@ -30,5 +29,5 @@ class Children(BaseModel):
     """分类ID"""
     name: str
     """分类名称"""
-    list: List[Content]
+    list: list[Content]
     """内容列表"""

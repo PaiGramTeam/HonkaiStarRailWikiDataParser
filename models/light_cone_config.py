@@ -1,4 +1,3 @@
-from typing import List
 
 from pydantic import BaseModel
 
@@ -8,7 +7,7 @@ class LightConeIcon(BaseModel):
     """光锥ID"""
     name: str
     """名称"""
-    icon: List[str]
+    icon: list[str]
     """图标（从小到大）"""
 
     @property

@@ -1,5 +1,4 @@
 # 材料
-from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -20,13 +19,13 @@ class YattaMaterial(BaseModel):
     """名称"""
     description: str
     """描述"""
-    story: Optional[str] = None
+    story: str | None = None
     """故事"""
     rank: int
     """稀有度"""
-    source: List[MaterialSource]
+    source: list[MaterialSource]
     """来源"""
-    type: Optional[MaterialMType] = None
+    type: MaterialMType | None = None
     """类型"""
     route: str
 

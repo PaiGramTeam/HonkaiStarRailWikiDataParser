@@ -5,10 +5,10 @@ import aiofiles
 import ujson
 
 from func.client import retry
-from func.data import read_avatars, dump_avatars, all_avatars_map, all_avatars_name
+from func.data import all_avatars_map, dump_avatars, read_avatars
 from models.avatar_config import AvatarIcon
 from res_func.client import client
-from res_func.url import avatar_yatta_url, avatar_assets_url
+from res_func.url import avatar_assets_url, avatar_yatta_url
 
 TRAVER_DATA_MAP = {
     "开拓者·毁灭": (8001, 8002),

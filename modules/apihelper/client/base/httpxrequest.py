@@ -1,6 +1,5 @@
 from contextlib import AbstractAsyncContextManager
 from types import TracebackType
-from typing import Optional, Type
 
 import httpx
 
@@ -24,15 +23,15 @@ class HTTPXRequest(AbstractAsyncContextManager):
         try:
             await self.initialize()
             return self
-        except Exception as exc:
+        except Exception:
             await self.shutdown()
-            raise exc
+            raise
 
     async def __aexit__(
         self,
-        exc_type: Optional[Type[BaseException]],
-        exc_val: Optional[BaseException],
-        exc_tb: Optional[TracebackType],
+        exc_type: type[BaseException] | None,
+        exc_val: BaseException | None,
+        exc_tb: TracebackType | None,
     ) -> None:
         await self.initialize()
 

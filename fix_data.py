@@ -1,14 +1,14 @@
 import asyncio
 
-from res_func.yatta.avatar_icons import fix_avatar_config
-from res_func.yatta.light_cone import fix_light_cone_config
+from rich.traceback import install
+
+from res_func.head_icon import get_head_icons
+from res_func.phone_theme import get_phone_themes
 from res_func.relic import fetch_relic_config
 from res_func.relic_res import fix_set_image
 from res_func.yatta.avatar import get_all_avatars
-from res_func.head_icon import get_head_icons
-from res_func.phone_theme import get_phone_themes
-
-from rich.traceback import install
+from res_func.yatta.avatar_icons import fix_avatar_config
+from res_func.yatta.light_cone import fix_light_cone_config
 
 install(show_locals=True)
 

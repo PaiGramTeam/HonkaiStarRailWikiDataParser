@@ -1,5 +1,5 @@
 from io import BytesIO
-from typing import Any, List, Optional
+from typing import Any
 
 from PIL import Image, UnidentifiedImageError
 from pydantic import BaseModel, PrivateAttr
@@ -11,12 +11,12 @@ class ArtworkImage(BaseModel):
     art_id: int
     page: int = 0
     data: bytes = b""
-    file_name: Optional[str] = None
-    file_extension: Optional[str] = None
+    file_name: str | None = None
+    file_extension: str | None = None
     is_error: bool = False
 
     @property
-    def format(self) -> Optional[str]:
+    def format(self) -> str | None:
         if not self.is_error:
             try:
                 with BytesIO(self.data) as stream, Image.open(stream) as im:
@@ -31,9 +31,9 @@ class PostInfo(BaseModel):
     post_id: int
     user_uid: int
     subject: str
-    image_urls: List[str]
+    image_urls: list[str]
     created_at: int
-    video_urls: List[str]
+    video_urls: list[str]
 
     def __init__(self, _data: dict, **data: Any):
         super().__init__(**data)

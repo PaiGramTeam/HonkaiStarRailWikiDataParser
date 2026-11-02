@@ -1,7 +1,6 @@
 import asyncio
 import json
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import ujson
@@ -9,9 +8,9 @@ import ujson
 from func.client import retry
 from func.data import all_avatars
 from models.avatar import YattaAvatar
-from res_func.yatta.avatar_icons import TRAVER_DATA_MAP
 from res_func.client import client
 from res_func.url import avatar_skill_url
+from res_func.yatta.avatar_icons import TRAVER_DATA_MAP
 
 avatar_data = {}
 avatars_skills_icons = {}
@@ -24,9 +23,9 @@ async def get_single_avatar_skill_icon(url: str, real_path: str) -> None:
     req = await client.get(url)
     try:
         req.raise_for_status()
-    except Exception as e:
+    except Exception:
         print(f"{url} 获取技能图片失败")
-        raise e
+        raise
     async with aiofiles.open(f"data/skill/{real_path}", "wb") as f:
         await f.write(req.content)
     for k, v in TRAVER_DATA_MAP.values():
@@ -56,7 +55,7 @@ async def get_all_avatars() -> None:
     print("获取技能图片成功")
 
 
-async def get_all_avatars_skills_icons(avatars: List[YattaAvatar]):
+async def get_all_avatars_skills_icons(avatars: list[YattaAvatar]):
     traver_ids = [i[1] for i in TRAVER_DATA_MAP.values()]
     remote_path = ["Normal", "BP", "Passive", "Maze", "Ultra"]
     local_path = ["basic_atk", "skill", "talent", "technique", "ultimate"]

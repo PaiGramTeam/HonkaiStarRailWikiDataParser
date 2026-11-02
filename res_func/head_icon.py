@@ -1,23 +1,22 @@
 from pathlib import Path
-from typing import List, Dict
 
 import aiofiles
 import ujson
 from bs4 import BeautifulSoup
 
-from models.head_icon import HeadIcon, ItemPlayerCard, PlayerIcon, AvatarPlayerIcon
+from models.head_icon import AvatarPlayerIcon, HeadIcon, ItemPlayerCard, PlayerIcon
 
-from .yatta.avatar_icons import load_icons
 from .base_data import get_base_data
 from .client import client
 from .url import (
     avatar_player_icon_url,
-    player_icon_url,
-    item_player_card_url,
-    text_map,
-    icons_url,
     base_enka_url,
+    icons_url,
+    item_player_card_url,
+    player_icon_url,
+    text_map,
 )
+from .yatta.avatar_icons import load_icons
 
 data_path = Path("data")
 
@@ -26,7 +25,7 @@ async def get_text_map() -> dict[str, str]:
     return await get_base_data(text_map)
 
 
-async def get_avatar_player_icon() -> List[AvatarPlayerIcon]:
+async def get_avatar_player_icon() -> list[AvatarPlayerIcon]:
     data = await get_base_data(avatar_player_icon_url)
     datas = []
     for i in data:
@@ -34,7 +33,7 @@ async def get_avatar_player_icon() -> List[AvatarPlayerIcon]:
     return datas
 
 
-async def get_player_icon() -> List[PlayerIcon]:
+async def get_player_icon() -> list[PlayerIcon]:
     data = await get_base_data(player_icon_url)
     datas = []
     for i in data:
@@ -42,7 +41,7 @@ async def get_player_icon() -> List[PlayerIcon]:
     return datas
 
 
-async def get_item_player_card() -> List[ItemPlayerCard]:
+async def get_item_player_card() -> list[ItemPlayerCard]:
     data = await get_base_data(item_player_card_url)
     datas = []
     for i in data:
@@ -50,7 +49,7 @@ async def get_item_player_card() -> List[ItemPlayerCard]:
     return datas
 
 
-async def parse_station_urls() -> Dict[str, str]:
+async def parse_station_urls() -> dict[str, str]:
     data = await client.get(icons_url)
     soup = BeautifulSoup(data.text, "lxml")
     a_s = soup.find_all("a", {"class": "a4041 af418 a4294"})
@@ -73,9 +72,9 @@ async def test_enka_url(path: str) -> str:
 
 
 async def extra_head_icons(
-    item_player_card: List[ItemPlayerCard], player_icon: List[PlayerIcon]
-) -> List[HeadIcon]:
-    player_icon_map: Dict[int, PlayerIcon] = {i.ID: i for i in player_icon}
+    item_player_card: list[ItemPlayerCard], player_icon: list[PlayerIcon]
+) -> list[HeadIcon]:
+    player_icon_map: dict[int, PlayerIcon] = {i.ID: i for i in player_icon}
     text_map_ = await get_text_map()
     station_urls = await parse_station_urls()
     datas = []
@@ -96,14 +95,14 @@ async def extra_head_icons(
     return datas
 
 
-async def dump_icons(path: Path, datas: List[HeadIcon]):
+async def dump_icons(path: Path, datas: list[HeadIcon]):
     data = [icon.dict() for icon in datas]
     data.sort(key=lambda x: x["id"])
     async with aiofiles.open(path, "w", encoding="utf-8") as f:
         await f.write(ujson.dumps(data, indent=4, ensure_ascii=False))
 
 
-async def avatar_head_icons(avatar_player_icon: List[AvatarPlayerIcon]):
+async def avatar_head_icons(avatar_player_icon: list[AvatarPlayerIcon]):
     avatar_icons = await load_icons(data_path / "avatar_icons.json")
     avatar_icons_map = {i.id: i for i in avatar_icons}
     datas = []

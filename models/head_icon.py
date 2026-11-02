@@ -1,4 +1,3 @@
-from typing import List, Optional
 
 from pydantic import BaseModel, ConfigDict
 
@@ -8,8 +7,8 @@ class HeadIcon(BaseModel):
     name: str
     desc: str
     bg_desc: str
-    avatar_id: Optional[int] = None
-    icons: List[str]
+    avatar_id: int | None = None
+    icons: list[str]
 
     @property
     def webp(self) -> str:
@@ -33,8 +32,8 @@ class ItemPlayerCard(BaseModel):
     ID: int
     ItemSubType: str
     ItemName: ForHash
-    ItemDesc: Optional[ForHash] = None
-    ItemBGDesc: Optional[ForHash] = None
+    ItemDesc: ForHash | None = None
+    ItemBGDesc: ForHash | None = None
 
 
 class PlayerIcon(BaseModel):

@@ -1,5 +1,4 @@
 # 遗器套装
-from typing import List
 
 from pydantic import BaseModel
 
@@ -11,6 +10,6 @@ class YattaRelic(BaseModel):
     """套装名称"""
     icon: str
     """套装图标"""
-    image_list: List[str] = []
+    image_list: list[str] = []
     """套装子图"""
     route: str

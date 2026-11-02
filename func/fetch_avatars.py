@@ -1,15 +1,14 @@
-from typing import List, Dict
 
 from pydantic import ValidationError
 
 from func.client import client, retry
 from func.data import all_avatars, all_avatars_map, all_avatars_name, dump_avatars
 from models.avatar import YattaAvatar
-from models.wiki import Content, Children
+from models.wiki import Children, Content
 from res_func.url import avatar_yatta_url
 
 
-def fix_avatar_eidolons(values: Dict) -> Dict:
+def fix_avatar_eidolons(values: dict) -> dict:
     if values.get("eidolons") is None:
         values["eidolons"] = []
     else:
@@ -20,7 +19,7 @@ def fix_avatar_eidolons(values: Dict) -> Dict:
     return values
 
 
-def fix_avatar_name(values: Dict) -> Dict:
+def fix_avatar_name(values: dict) -> dict:
     name = values["name"]
     if "<unbreak>" in name:
         name = name.replace("<unbreak>", "").replace("</unbreak>", "")
@@ -28,7 +27,7 @@ def fix_avatar_name(values: Dict) -> Dict:
     return values
 
 
-def fix_avatar_data(values: Dict) -> Dict:
+def fix_avatar_data(values: dict) -> dict:
     values = fix_avatar_eidolons(values)
     values = fix_avatar_name(values)
     return values
@@ -39,16 +38,16 @@ async def get_single_avatar(url: str) -> None:
     req = await client.get(url)
     try:
         avatar = YattaAvatar(**fix_avatar_data(req.json()["data"]))
-    except Exception as e:
+    except Exception:
         print(f"{url} 获取角色数据失败")
-        raise e
+        raise
     all_avatars.append(avatar)
     all_avatars_map[avatar.id] = avatar
     all_avatars_name[avatar.name] = avatar
 
 
 @retry
-async def get_all_avatar() -> List[str]:
+async def get_all_avatar() -> list[str]:
     req = await client.get(avatar_yatta_url)
     return list(req.json()["data"]["items"].keys())
 

@@ -1,11 +1,10 @@
-from typing import Union
 
 import httpx
 from httpx import Response
 
+from ...error import APIHelperTimedOut, NetworkException, ResponseException
+from ...typedefs import JSON_DATA, POST_DATA
 from .httpxrequest import HTTPXRequest
-from ...error import NetworkException, ResponseException, APIHelperTimedOut
-from ...typedefs import POST_DATA, JSON_DATA
 
 __all__ = ("HyperionRequest",)
 
@@ -18,14 +17,14 @@ class HyperionRequest(HTTPXRequest):
         de_json: bool = True,
         re_json_data: bool = False,
         **kwargs,
-    ) -> Union[POST_DATA, JSON_DATA, Response]:
+    ) -> POST_DATA | JSON_DATA | Response:
         try:
             response = await self._client.get(url=url, *args, **kwargs)
         except httpx.TimeoutException as err:
             raise APIHelperTimedOut from err
         except httpx.HTTPError as exc:
             raise NetworkException(
-                f"Unknown error in HTTP implementation: {repr(exc)}"
+                f"Unknown error in HTTP implementation: {exc!r}"
             ) from exc
         if response.is_error:
             raise ResponseException(
@@ -56,14 +55,14 @@ class HyperionRequest(HTTPXRequest):
         de_json: bool = True,
         re_json_data: bool = False,
         **kwargs,
-    ) -> Union[POST_DATA, JSON_DATA, Response]:
+    ) -> POST_DATA | JSON_DATA | Response:
         try:
             response = await self._client.post(url=url, *args, **kwargs)
         except httpx.TimeoutException as err:
             raise APIHelperTimedOut from err
         except httpx.HTTPError as exc:
             raise NetworkException(
-                f"Unknown error in HTTP implementation: {repr(exc)}"
+                f"Unknown error in HTTP implementation: {exc!r}"
             ) from exc
         if response.is_error:
             raise ResponseException(

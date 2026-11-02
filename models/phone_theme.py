@@ -1,4 +1,3 @@
-from typing import Optional, List
 
 from pydantic import BaseModel
 
@@ -10,9 +9,9 @@ class PhoneTheme(BaseModel):
     """名称"""
     description: str
     """描述"""
-    story: Optional[str] = None
+    story: str | None = None
     """故事"""
-    urls: List[str]
+    urls: list[str]
 
 
 # 原始数据

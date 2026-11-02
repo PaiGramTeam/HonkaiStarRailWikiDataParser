@@ -1,4 +1,3 @@
-from typing import List
 
 from pydantic import ValidationError
 
@@ -13,15 +12,15 @@ async def get_single_light_cone(url: str) -> None:
     req = await client.get(url)
     try:
         light_cone = YattaLightCone(**(req.json()["data"]))
-    except Exception as e:
+    except Exception:
         print(f"{url} 获取光锥数据失败")
-        raise e
+        raise
     all_light_cones.append(light_cone)
     all_light_cones_name[light_cone.name] = light_cone
 
 
 @retry
-async def get_all_light_cones() -> List[str]:
+async def get_all_light_cones() -> list[str]:
     req = await client.get(light_cone_yatta_url)
     return list(req.json()["data"]["items"].keys())
 

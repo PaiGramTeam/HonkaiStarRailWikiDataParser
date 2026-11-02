@@ -1,7 +1,6 @@
 from decimal import Decimal
-from typing import Optional, Dict
 
-from pydantic import model_validator, BaseModel
+from pydantic import BaseModel, model_validator
 
 from .enums import RelicAffix, RelicPosition
 
@@ -10,10 +9,10 @@ class SingleRelicAffix(BaseModel):
     id: int
     property: RelicAffix
     base_value: float
-    level_value: Optional[float] = None
-    step_value: Optional[float] = None
+    level_value: float | None = None
+    step_value: float | None = None
     is_main: bool
-    max_step: Optional[int] = None
+    max_step: int | None = None
 
     def get_value(self, level_or_step: int, cnt: int = 1) -> float:
         base_value = Decimal(self.base_value) * Decimal(cnt)
@@ -33,9 +32,9 @@ class RelicAffixAll(BaseModel):
     sub_affix_group: int
     max_level: int
     """ 最大等级 """
-    main_affix: Dict[str, SingleRelicAffix]
+    main_affix: dict[str, SingleRelicAffix]
     """ 主词条 """
-    sub_affix: Dict[str, SingleRelicAffix]
+    sub_affix: dict[str, SingleRelicAffix]
     """ 副词条 """
 
     @model_validator(mode="before")

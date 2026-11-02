@@ -1,4 +1,5 @@
-from typing import Any, Mapping, Optional
+from collections.abc import Mapping
+from typing import Any
 
 
 class APIHelperException(Exception):
@@ -19,8 +20,8 @@ class ResponseException(APIHelperException):
 
     def __init__(
         self,
-        response: Optional[Mapping[str, Any]] = None,
-        message: Optional[str] = None,
+        response: Mapping[str, Any] | None = None,
+        message: str | None = None,
     ) -> None:
         if response is None:
             self.message = message

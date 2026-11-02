@@ -1,14 +1,14 @@
 import asyncio
 
+from rich.traceback import install
+
 from func.fetch_all import get_list
 from func.fetch_avatars import fetch_avatars
 from func.fetch_light_cones import fetch_light_cones
 from func.fetch_materials import fetch_materials
+from func.fetch_mihomo_map import fetch_files
 from func.fetch_relics import fetch_relics
 from func.fetch_src import move_files
-from func.fetch_mihomo_map import fetch_files
-
-from rich.traceback import install
 
 install(show_locals=True)
 

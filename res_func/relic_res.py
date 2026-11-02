@@ -1,8 +1,7 @@
-from typing import Dict, Tuple, List
 
 from bs4 import BeautifulSoup
 
-from func.data import read_relics, all_relics, dump_relics
+from func.data import all_relics, dump_relics, read_relics
 from res_func.client import client
 from res_func.url import relic_url
 
@@ -13,7 +12,7 @@ async def fix_set_image():
     req = await client.get(relic_url)
     soup = BeautifulSoup(req.text, "lxml")
     divs = soup.find_all("a", {"class": "aff5a"})
-    data_map: Dict[int, Tuple[str, List[str]]] = {}
+    data_map: dict[int, tuple[str, list[str]]] = {}
     for div in divs:
         url = div.get("href")
         if not url:

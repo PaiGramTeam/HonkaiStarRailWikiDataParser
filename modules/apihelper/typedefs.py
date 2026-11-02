@@ -1,6 +1,6 @@
-from typing import Any, Dict
+from typing import Any
 
-__all__ = ("POST_DATA", "JSON_DATA")
+__all__ = ("JSON_DATA", "POST_DATA")
 
-POST_DATA = Dict[str, Any]
-JSON_DATA = Dict[str, Any]
+POST_DATA = dict[str, Any]
+JSON_DATA = dict[str, Any]
